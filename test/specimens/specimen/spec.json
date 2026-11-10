@@ -1,0 +1,252 @@
+{
+ "title": "Project Linden: discussion materials for the board",
+ "format": "slides-16x9",
+ "storyline": "pitch-book",
+ "decision": "approve",
+ "confid": "Strictly private and confidential",
+ "tracker": [
+  "Summary",
+  "Valuation",
+  "Precedents",
+  "Next steps"
+ ],
+ "cover": {
+  "kicker": "Discussion materials for the board of directors",
+  "title": "Project Linden: response to an indicative offer",
+  "sub": "A review of the ${offer}M proposal against the company's standalone value, and the options open to the board.",
+  "meta": "November 2026 · Fictional company and adviser, theme specimen",
+  "confid": "Strictly private and confidential"
+ },
+ "exec": {
+  "tracker": "Summary",
+  "stamp": "Preliminary draft",
+  "title": "The ${offer}M offer is above trading value and the precedent median, so we recommend engaging",
+  "kpis": [
+   {
+    "value": "${offer}M",
+    "label": "Indicative enterprise value offered",
+    "delta": "Cash, subject to diligence",
+    "dir": "flat",
+    "hl": true
+   },
+   {
+    "value": "{impl}x",
+    "label": "Implied EV / LTM EBITDA",
+    "delta": "Precedent median {pm_med}x",
+    "dir": "flat"
+   },
+   {
+    "value": "{prem}%",
+    "label": "Premium to undisturbed value",
+    "delta": "On ${undist}M before the approach",
+    "dir": "flat"
+   }
+  ],
+  "rows": [
+   {
+    "k": "What was offered",
+    "h": "A credible, full first bid",
+    "p": "The bidder offers ${offer}M in cash for the whole company, {impl}x LTM EBITDA of ${ebitda}M, with financing letters attached."
+   },
+   {
+    "k": "How it compares",
+    "h": "Above trading and the median sale",
+    "p": "The offer clears every trading-based range and the median of recent sale multiples; only the best precedents and the top of our DCF point higher."
+   },
+   {
+    "k": "Our recommendation",
+    "h": "Engage, and test the market quietly",
+    "p": "Grant four weeks of diligence on a confidential basis while we approve a short list of other credible buyers to sound out."
+   }
+  ],
+  "source": "Source: company management accounts; bidder letter; adviser analysis (all fictional)"
+ },
+ "chart": {
+  "tracker": "Valuation",
+  "stamp": "Preliminary draft",
+  "title": "The offer is above trading and LBO value and near the middle of the precedent and DCF ranges",
+  "exhibit": {
+   "no": "Exhibit 3",
+   "title": "Enterprise value by method",
+   "unit": "$ in millions"
+  },
+  "type": "football",
+  "data": {
+   "rowHeight": 66,
+   "rows": [
+    {
+     "label": "Trading range, last twelve months",
+     "low": "@lo0",
+     "high": "@hi0"
+    },
+    {
+     "label": "Trading comparables, 10.0x to 12.0x LTM EBITDA",
+     "low": "@lo1",
+     "high": "@hi1"
+    },
+    {
+     "label": "LBO analysis, 20% to 25% IRR",
+     "low": "@lo2",
+     "high": "@hi2"
+    },
+    {
+     "label": "Discounted cash flow",
+     "low": "@lo3",
+     "high": "@hi3"
+    },
+    {
+     "label": "Precedent transactions, 11.3x to 13.7x",
+     "low": "@lo4",
+     "high": "@hi4"
+    }
+   ],
+   "highlight": 4,
+   "marker": {
+    "value": "@offer",
+    "label": "Offer"
+   },
+   "fmt": {
+    "dp": 0
+   }
+  },
+  "takeaway": {
+   "h": "Reading the field",
+   "bullets": [
+    "The offer clears the top of the trading range by ${fifty}M.",
+    "Precedent sales point to as much as ${hi4}M.",
+    "A financial buyer could pay up to ${hi2}M at a {irr_lo}% return."
+   ],
+   "sowhat": "Any further price would come from a strategic buyer, not a financial one."
+  },
+  "source": "Source: market data as of 31 October 2026; adviser analysis (fictional)",
+  "note": "Note: LTM EBITDA of $70.0M; DCF at 9.0% to 10.0% WACC and 2.0% to 3.0% terminal growth."
+ },
+ "table": {
+  "tracker": "Precedents",
+  "title": "At {impl}x the offer is above the {pm_med}x median of six comparable sales since 2024",
+  "exhibit": {
+   "no": "Exhibit 4",
+   "title": "Selected precedent transactions, testing and analytical laboratories",
+   "unit": "$ in millions unless stated"
+  },
+  "columns": [
+   {
+    "h": "Announced"
+   },
+   {
+    "h": "Target"
+   },
+   {
+    "h": "Acquirer"
+   },
+   {
+    "h": "Enterprise value",
+    "num": true
+   },
+   {
+    "h": "EV / LTM EBITDA, x",
+    "num": true
+   },
+   {
+    "h": "EV / LTM revenue, x",
+    "num": true
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Sep 2026",
+     "Calloway Instruments",
+     "Northgate Capital",
+     "pev0",
+     "pm0",
+     "pr0"
+    ]
+   },
+   {
+    "cells": [
+     "Apr 2026",
+     "Verity Diagnostics",
+     "Halbrook Group",
+     "pev1",
+     "pm1",
+     "pr1"
+    ]
+   },
+   {
+    "cells": [
+     "Nov 2025",
+     "Pellham Analytical",
+     "Strand Partners",
+     "pev2",
+     "pm2",
+     "pr2"
+    ]
+   },
+   {
+    "cells": [
+     "Jun 2025",
+     "Ardent Labs",
+     "Mercer Lane",
+     "pev3",
+     "pm3",
+     "pr3"
+    ]
+   },
+   {
+    "cells": [
+     "Feb 2025",
+     "Tolland Scientific",
+     "Oakfield Holdings",
+     "pev4",
+     "pm4",
+     "pr4"
+    ]
+   },
+   {
+    "cells": [
+     "Sep 2024",
+     "Brisco Testing",
+     "Wexford Industrial",
+     "pev5",
+     "pm5",
+     "pr5"
+    ]
+   },
+   {
+    "cells": [
+     "Median",
+     "",
+     "",
+     "pev_med",
+     "pm_med",
+     "pr_med"
+    ],
+    "cls": "total"
+   },
+   {
+    "cells": [
+     "Mean",
+     "",
+     "",
+     "pev_mean",
+     "pm_mean",
+     "pr_mean"
+    ]
+   },
+   {
+    "cells": [
+     "Project Linden at the offer",
+     "",
+     "",
+     "offer_ev",
+     "impl2",
+     "implr"
+    ],
+    "cls": "hl"
+   }
+  ],
+  "source": "Source: company announcements and filings (all fictional); adviser analysis",
+  "note": "Note: Project Linden LTM revenue of $340.0M and EBITDA of $70.0M."
+ }
+}

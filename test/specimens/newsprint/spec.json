@@ -1,0 +1,248 @@
+{
+ "title": "Harrow Valve Works: equity research note",
+ "format": "report-a4",
+ "storyline": "scr-strategy",
+ "decision": "invest",
+ "confid": "For professional investors only",
+ "tracker": [
+  "Equity research · Flow control",
+  "7 November 2026"
+ ],
+ "cover": {
+  "light": true,
+  "kicker": "Equity research · Flow control · Company note",
+  "title": "Harrow Valve Works: orders turn a year before the cycle does",
+  "sub": "Third-quarter order intake rose {oi_g}% while every listed peer but one still reports declines. We lift our estimates and see the margin trough behind the company.",
+  "meta": "7 November 2026 · Fictional company and figures, theme specimen",
+  "confid": "For professional investors only"
+ },
+ "exec": {
+  "tracker": "Equity research · Flow control",
+  "title": "Orders are up {oi_g2}% while peers still fall, so we raise FY26 EPS by {eps_up}%",
+  "lead": "Harrow booked more new work in the third quarter than in any quarter since 2022. The mix is the better news: aftermarket and service orders, the highest-margin work, made up {aftermkt}% of the intake.",
+  "kpis": [
+   {
+    "value": "${oi}M",
+    "label": "Order intake, Q3",
+    "delta": "{oi_g}% year on year",
+    "hl": true
+   },
+   {
+    "value": "{btb}x",
+    "label": "Book-to-bill, Q3",
+    "delta": "Third quarter in a row above one",
+    "dir": "flat"
+   },
+   {
+    "value": "{m26}%",
+    "label": "EBITDA margin, FY26E",
+    "delta": "{m_d} pp on FY25E"
+   },
+   {
+    "value": "{ev}x",
+    "label": "EV / EBITDA, FY26E",
+    "delta": "{disc}x below the peer median",
+    "dir": "down"
+   }
+  ],
+  "rows": [
+   {
+    "k": "Our view",
+    "h": "The trough is behind Harrow",
+    "p": "Backlog now covers {backlog} months of revenue. We expect volume and price to lift margin through FY26 without new capacity."
+   },
+   {
+    "k": "What changed",
+    "h": "Estimates up, not the multiple",
+    "p": "FY26 EPS rises to $3.41 from $3.13 on higher volume. We hold the target multiple, so the upside comes from earnings alone."
+   },
+   {
+    "k": "What would prove us wrong",
+    "h": "Orders that do not convert",
+    "p": "Two large refinery orders carry customer cancellation rights until the first quarter. Losing both would remove about a third of our FY26 upgrade."
+   }
+  ],
+  "more": [
+   "Our estimates assume no change in tariff costs on imported castings and a flat steel price through FY26. Each {cast}% move in casting costs changes FY26 EPS by about {cast_eps}%, which we treat as the main swing factor after order conversion.",
+   "Management did not change its guidance at the results and still points to flat revenue for FY25. We think that is cautious: the order book already in hand covers most of the second half, and the quarter that just closed carried no unusual one-off orders. We expect guidance to move up at the full-year results in February, not before.",
+   "The shares have not yet reacted. They trade at a discount to the peer group on our FY26 estimates even though Harrow is now the only company in the group with both rising orders and rising margins."
+  ],
+  "source": "Source: Harrow Valve Works Q3 results; research desk estimates (all fictional)"
+ },
+ "chart": {
+  "tracker": "Equity research · Flow control",
+  "stamp": "Estimates",
+  "title": "Harrow wins more new work per dollar shipped than any of its five listed peers",
+  "lead": "Four of six listed valve makers booked fewer orders than they shipped in the quarter, a book-to-bill below one; the peer median was {btb_med}x. Harrow is gaining share in aftermarket work as plant owners defer new builds and repair what they have.",
+  "exhibit": {
+   "no": "Figure 2",
+   "title": "Book-to-bill, third quarter",
+   "unit": "orders received over revenue, x"
+  },
+  "type": "bar",
+  "data": {
+   "height": 370,
+   "categories": [
+    "Harrow",
+    "Corlin",
+    "Dessau",
+    "Brightmoor",
+    "Keswick",
+    "Ostrander"
+   ],
+   "values": [
+    "@g1",
+    "@g2",
+    "@g3",
+    "@g4",
+    "@g5",
+    "@g6"
+   ],
+   "highlight": 0,
+   "fmt": {
+    "dp": 2,
+    "suffix": "x"
+   }
+  },
+  "takeaway": {
+   "h": "What the ranking says",
+   "bullets": [
+    "Harrow and Corlin are the two peers with half or more of sales in aftermarket work.",
+    "The four below one sell mainly into new plant construction."
+   ],
+   "sowhat": "Aftermarket exposure, not price, explains the gap."
+  },
+  "more": [
+   "We do not think the gap closes soon. New plant approvals in the refining and chemicals end markets remain below their five-year average, while maintenance budgets have held level. That favours suppliers with a large installed base, and Harrow has the largest installed base among the listed peers."
+  ],
+  "source": "Source: company quarterly reports (all fictional); research desk analysis",
+  "note": "Note: book-to-bill is orders received divided by revenue in the quarter; peers are listed under short names."
+ },
+ "table": {
+  "tracker": "Equity research · Flow control",
+  "title": "Volume carries FY26 margin to {m26}% and the multiple to {ev}x on our new estimates",
+  "lead": "We raise FY26 EPS by {eps_up}%. The change is volume alone: we keep price and mix at our prior assumptions and add no benefit from the cost programme announced in September.",
+  "exhibit": {
+   "no": "Table 1",
+   "title": "Summary estimates and valuation",
+   "unit": "$ in millions unless stated"
+  },
+  "columns": [
+   {
+    "h": "Year to December"
+   },
+   {
+    "h": "FY24A",
+    "num": true
+   },
+   {
+    "h": "FY25E",
+    "num": true
+   },
+   {
+    "h": "FY26E",
+    "num": true
+   },
+   {
+    "h": "FY27E",
+    "num": true
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Revenue",
+     "t_0_0",
+     "t_0_1",
+     "t_0_2",
+     "t_0_3"
+    ]
+   },
+   {
+    "cells": [
+     "Growth, %",
+     "t_1_0",
+     "t_1_1",
+     "t_1_2",
+     "t_1_3"
+    ],
+    "cls": "sub"
+   },
+   {
+    "cells": [
+     "EBITDA",
+     "t_2_0",
+     "t_2_1",
+     "t_2_2",
+     "t_2_3"
+    ]
+   },
+   {
+    "cells": [
+     "EBITDA margin, %",
+     "t_3_0",
+     "t_3_1",
+     "t_3_2",
+     "t_3_3"
+    ],
+    "cls": "sub"
+   },
+   {
+    "cells": [
+     "EPS, $",
+     "t_4_0",
+     "t_4_1",
+     "t_4_2",
+     "t_4_3"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "EPS, prior estimate, $",
+     "",
+     "t_5_1",
+     "t_5_2",
+     "t_5_3"
+    ],
+    "cls": "sub"
+   },
+   {
+    "cells": [
+     "Free cash flow",
+     "t_6_0",
+     "t_6_1",
+     "t_6_2",
+     "t_6_3"
+    ]
+   },
+   {
+    "cells": [
+     "Net debt / EBITDA, x",
+     "t_7_0",
+     "t_7_1",
+     "t_7_2",
+     "t_7_3"
+    ]
+   },
+   {
+    "cells": [
+     "EV / EBITDA, x",
+     "t_8_0",
+     "t_8_1",
+     "t_8_2",
+     "t_8_3"
+    ],
+    "cls": "total"
+   }
+  ],
+  "callout": "On our new estimates Harrow trades at {ev}x FY26 EBITDA against a peer median of {peer_ev}x.",
+  "more": [
+   "Free cash flow conversion stays near {fcf_conv}% of EBITDA through FY27, which takes net debt below one turn of EBITDA by the end of FY27. We assume no buybacks and an unchanged dividend, so the balance sheet capacity is optional upside we do not count.",
+   "Valuation uses an enterprise value held at the current figure. On our FY26 estimates Harrow trades at {ev}x EBITDA, {disc}x below the median of the six listed peers, despite the strongest order book in the group.",
+   "The main risk to these estimates is timing rather than demand. If the two refinery orders slip by a quarter, FY26 revenue moves but FY27 does not, and the valuation on FY27 earnings is unchanged."
+  ],
+  "source": "Source: Harrow Valve Works filings; research desk estimates (all fictional)",
+  "note": "Note: A = actual, E = research desk estimate. Prior estimates as published on 8 August 2026."
+ }
+}

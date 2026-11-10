@@ -1,0 +1,185 @@
+{
+ "_note": "Alderbank Logistics is a fictional borrower. Every figure is invented for the theme specimen.",
+ "facts": {
+  "lev": {
+   "value": 4.6,
+   "display": "4.6x"
+  },
+  "lev_k": {
+   "value": 4.6,
+   "display": "4.6x"
+  },
+  "lev_d": {
+   "value": 0.4,
+   "display": "0.4x"
+  },
+  "ic": {
+   "value": 2.9,
+   "display": "2.9x"
+  },
+  "ic_d": {
+   "value": 0.3,
+   "display": "0.3x"
+  },
+  "ebitda": {
+   "value": 86.2,
+   "display": "$86.2M"
+  },
+  "eb_d": {
+   "value": 7.1,
+   "display": "7.1%"
+  },
+  "liq": {
+   "value": 64,
+   "display": "$64.0M"
+  },
+  "liq_d": {
+   "value": 9.5,
+   "display": "$9.5M"
+  },
+  "hr_min": {
+   "value": 14.3,
+   "display": "14.3%"
+  },
+  "tl": {
+   "value": 390,
+   "display": "$390M"
+  },
+  "rcf": {
+   "value": 50,
+   "display": "$50M"
+  },
+  "top": {
+   "value": 35,
+   "display": "35%"
+  },
+  "tl2": {
+   "value": 390,
+   "display": "$390M"
+  },
+  "thr": {
+   "value": 4,
+   "display": "4.0x"
+  },
+  "b1": {
+   "value": 5,
+   "display": "5.0x"
+  },
+  "b2": {
+   "value": 4.6,
+   "display": "4.6x"
+  },
+  "b3": {
+   "value": 4.3,
+   "display": "4.3x"
+  },
+  "b4": {
+   "value": 3.9,
+   "display": "3.9x"
+  },
+  "b5": {
+   "value": 3.5,
+   "display": "3.5x"
+  },
+  "d3": {
+   "value": 4.8,
+   "display": "4.8x"
+  },
+  "d4": {
+   "value": 4.6,
+   "display": "4.6x"
+  },
+  "d5": {
+   "value": 4.3,
+   "display": "4.3x"
+  },
+  "g": {
+   "value": 4,
+   "display": "4%"
+  },
+  "cov_lim": {
+   "value": 5.5,
+   "display": "5.5x"
+  },
+  "watch_t": {
+   "value": 15,
+   "display": "15%"
+  },
+  "cv_1_2": {
+   "value": 5.5,
+   "display": "5.5x"
+  },
+  "cv_1_4": {
+   "value": 16.4,
+   "display": "16.4%"
+  },
+  "cv_2_2": {
+   "value": 4.5,
+   "display": "4.5x"
+  },
+  "cv_2_3": {
+   "value": 4.1,
+   "display": "4.1x"
+  },
+  "cv_2_4": {
+   "value": 8.9,
+   "display": "8.9%"
+  },
+  "cv_3_2": {
+   "value": 2,
+   "display": "2.0x"
+  },
+  "cv_3_4": {
+   "value": 31,
+   "display": "31.0%"
+  },
+  "cv_4_2": {
+   "value": 1.2,
+   "display": "1.2x"
+  },
+  "cv_4_3": {
+   "value": 1.4,
+   "display": "1.4x"
+  },
+  "cv_5_2": {
+   "value": 1.5,
+   "display": "1.5x"
+  },
+  "cv_5_3": {
+   "value": 1.9,
+   "display": "1.9x"
+  },
+  "cv_5_4": {
+   "value": 21.1,
+   "display": "21.1%"
+  },
+  "cv_6_2": {
+   "value": 25,
+   "display": "$25.0M"
+  },
+  "cv_6_4": {
+   "value": 60.9,
+   "display": "60.9%"
+  },
+  "cv_7_2": {
+   "value": 40,
+   "display": "$40.0M"
+  },
+  "cv_7_3": {
+   "value": 31.5,
+   "display": "$31.5M"
+  },
+  "cv_7_4": {
+   "value": 21.3,
+   "display": "21.3%"
+  },
+  "cv_8_2": {
+   "value": 40,
+   "display": "40%"
+  },
+  "cv_8_4": {
+   "value": 12.5,
+   "display": "12.5%"
+  }
+ }
+}

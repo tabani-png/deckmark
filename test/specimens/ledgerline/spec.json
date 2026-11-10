@@ -1,0 +1,291 @@
+{
+ "title": "Corvale Transit Authority: cost review board readout",
+ "format": "slides-16x9",
+ "storyline": "board-pack",
+ "decision": "approve",
+ "confid": "Draft, pre-decisional, confidential",
+ "tracker": [
+  "Context",
+  "Savings",
+  "Initiatives",
+  "Workplan"
+ ],
+ "cover": {
+  "kicker": "Board readout · operating cost review",
+  "title": "Corvale Transit Authority: six initiatives to fund service growth",
+  "sub": "Findings of the operating cost review and the proposed workplan.",
+  "meta": "Fictional agency · theme specimen",
+  "confid": "Draft, pre-decisional, confidential"
+ },
+ "exec": {
+  "tracker": "Context",
+  "title": "The review found {rr} of run-rate savings, {pct} of operating cost, with no cut to service hours",
+  "stamp": "Details follow",
+  "rows": [
+   {
+    "k": "Context",
+    "h": "Growth outpaces funding",
+    "p": "Service hours must grow {hrs} by FY29 to meet ridership targets, while operating funding is flat in real terms. Without savings the gap reaches the size of one bus division."
+   },
+   {
+    "k": "Findings",
+    "h": "Savings sit in support costs",
+    "p": "Maintenance planning and procurement carry over half the savings; no initiative reduces service on the street. Each has a named owner and a baseline agreed with finance."
+   },
+   {
+    "k": "Ask",
+    "h": "Approve the workplan",
+    "p": "The board is asked to approve {cost} of one-time cost and a four-phase workplan, with a progress report at every second board meeting."
+   }
+  ],
+  "table": {
+   "exhibit": {
+    "no": "Exhibit 1",
+    "title": "Savings phasing",
+    "unit": "$ in millions, cumulative run-rate at phase end"
+   },
+   "columns": [
+    {
+     "h": "Phase"
+    },
+    {
+     "h": "Scope"
+    },
+    {
+     "h": "Timing",
+     "num": true
+    },
+    {
+     "h": "Run-rate savings",
+     "num": true
+    },
+    {
+     "h": "One-time cost",
+     "num": true
+    }
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Mobilise",
+      "Procurement wave one, overtime rules",
+      "ph_1_2",
+      "ph_1_3",
+      "ph_1_4"
+     ]
+    },
+    {
+     "cells": [
+      "Build",
+      "Maintenance planning system, rostering",
+      "ph_2_2",
+      "ph_2_3",
+      "ph_2_4"
+     ]
+    },
+    {
+     "cells": [
+      "Scale",
+      "Energy contracts, facilities moves",
+      "ph_3_2",
+      "ph_3_3",
+      "ph_3_4"
+     ]
+    },
+    {
+     "cells": [
+      "Sustain",
+      "Fare collection after contract end",
+      "ph_4_2",
+      "ph_4_3",
+      "ph_4_4"
+     ]
+    }
+   ]
+  },
+  "source": "Source: Corvale Transit Authority budget and operating data (fictional); review team analysis"
+ },
+ "chart": {
+  "tracker": "Savings",
+  "title": "Maintenance planning and procurement deliver half of the run-rate savings",
+  "stamp": "Non-exhaustive",
+  "exhibit": {
+   "no": "Exhibit 3",
+   "title": "Run-rate savings by initiative",
+   "unit": "$ in millions a year"
+  },
+  "type": "bar",
+  "data": {
+   "orient": "h",
+   "rowHeight": 68,
+   "categories": [
+    "Maintenance planning",
+    "Procurement",
+    "Overtime management",
+    "Energy",
+    "Facilities",
+    "Fare collection"
+   ],
+   "values": [
+    "@s1",
+    "@s2",
+    "@s3",
+    "@s4",
+    "@s5",
+    "@s6"
+   ],
+   "highlight": [
+    0,
+    1
+   ],
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "Key points",
+   "bullets": [
+    "Top two initiatives total {top2}, {top2p} of savings.",
+    "Overtime savings depend on the new rostering system.",
+    "Fare collection savings start only after the contract ends."
+   ]
+  },
+  "source": "Source: review team analysis of agency cost data (fictional)"
+ },
+ "table": {
+  "tracker": "Initiatives",
+  "title": "All six initiatives rate well on impact; energy and fare collection are hardest to deliver",
+  "stamp": "Details follow",
+  "archetype": "harvey-table",
+  "exhibit": {
+   "no": "Exhibit 4",
+   "title": "Initiative assessment",
+   "unit": "$ in millions"
+  },
+  "columns": [
+   {
+    "h": "Initiative"
+   },
+   {
+    "h": "Run-rate saving",
+    "num": true
+   },
+   {
+    "h": "One-time cost",
+    "num": true
+   },
+   {
+    "h": "Impact",
+    "hb": true
+   },
+   {
+    "h": "Ease",
+    "hb": true
+   },
+   {
+    "h": "Rider effect",
+    "hb": true
+   },
+   {
+    "h": "Owner"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Maintenance planning",
+     "s1",
+     "in_5_2",
+     "hb:4",
+     "hb:3",
+     "hb:4",
+     "Chief operating officer"
+    ]
+   },
+   {
+    "cells": [
+     "Procurement",
+     "s2",
+     "in_6_2",
+     "hb:4",
+     "hb:3",
+     "hb:4",
+     "Chief financial officer"
+    ]
+   },
+   {
+    "cells": [
+     "Overtime management",
+     "s3",
+     "in_7_2",
+     "hb:3",
+     "hb:2",
+     "hb:3",
+     "Chief operating officer"
+    ]
+   },
+   {
+    "cells": [
+     "Energy",
+     "s4",
+     "in_8_2",
+     "hb:2",
+     "hb:1",
+     "hb:4",
+     "Facilities director"
+    ]
+   },
+   {
+    "cells": [
+     "Facilities",
+     "s5",
+     "in_9_2",
+     "hb:2",
+     "hb:3",
+     "hb:3",
+     "Facilities director"
+    ]
+   },
+   {
+    "cells": [
+     "Fare collection",
+     "s6",
+     "in_10_2",
+     "hb:2",
+     "hb:1",
+     "hb:2",
+     "Revenue director"
+    ]
+   },
+   {
+    "cells": [
+     "Total",
+     "in_11_1",
+     "in_11_2",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "cls": "total"
+   }
+  ],
+  "callout": "Energy and fare collection carry {hard_cost} of the one-time cost; both need contract decisions the board takes next quarter.",
+  "legend": [
+   [
+    4,
+    "Most favourable"
+   ],
+   [
+    2,
+    "Moderate"
+   ],
+   [
+    0,
+    "Least favourable"
+   ]
+  ],
+  "source": "Source: review team analysis; interviews with agency leadership (fictional)",
+  "note": "Rider effect rates how little the initiative changes service as riders see it."
+ }
+}

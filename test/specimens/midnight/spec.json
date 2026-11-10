@@ -1,0 +1,235 @@
+{
+ "title": "Calder Reach Credit: investor day",
+ "format": "slides-16x9",
+ "storyline": "investor-day",
+ "decision": "invest",
+ "tracker": [
+  "Track record",
+  "Strategy",
+  "Fund III"
+ ],
+ "confid": "Confidential",
+ "cover": {
+  "kicker": "Investor day \u00b7 private credit",
+  "title": "Calder Reach Credit: ten years of senior lending, and Fund III",
+  "sub": "A fictional mid-market lender presenting its track record and next fund to limited partners.",
+  "meta": "Fictional manager \u00b7 theme specimen"
+ },
+ "exec": {
+  "tracker": "Track record",
+  "title": "Fund II returns {nirr2} net, ahead of target, and has paid back {dpi2} of paid-in capital",
+  "kpis": [
+   {
+    "value": "{aum}",
+    "label": "Assets under management",
+    "delta": "{aum_d} on last year"
+   },
+   {
+    "value": "{nirr2b}",
+    "label": "Fund II net IRR",
+    "delta": "{nirr_d} over target",
+    "hl": true
+   },
+   {
+    "value": "{dpi2b}",
+    "label": "Fund II distributions to paid-in",
+    "delta": "{dpi_d} on last year"
+   }
+  ],
+  "rows": [
+   {
+    "k": "Strategy",
+    "h": "Senior loans to sponsor-owned firms",
+    "p": "First-lien loans to mid-market companies owned by private equity sponsors, held to maturity. Across {loans} loans since inception the realised loss rate is {loss} of capital deployed."
+   },
+   {
+    "k": "Track record",
+    "h": "Every fund ahead of its target",
+    "p": "Each vehicle has met or beaten its target net return, and {retention} of capital from earlier funds has come back for the next one."
+   },
+   {
+    "k": "Fund III",
+    "h": "The same team and the same discipline",
+    "p": "Fund III targets {f3} of commitments with an anchor of {anchor} already signed, on terms that match Fund II."
+   }
+  ],
+  "source": "Source: Calder Reach Credit fund reports (fictional); returns net of fees and carry"
+ },
+ "chart": {
+  "tracker": "Track record",
+  "title": "Assets under management have grown every year and reached {aum} this year",
+  "stamp": "Unaudited",
+  "exhibit": {
+   "no": "Exhibit 1",
+   "title": "Assets under management, year end",
+   "unit": "$ in billions"
+  },
+  "type": "bar",
+  "data": {
+   "height": 400,
+   "categories": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "values": [
+    "@a21",
+    "@a22",
+    "@a23",
+    "@a24",
+    "@a25",
+    "@a26"
+   ],
+   "highlight": 5,
+   "cagr": "CAGR 20.4%",
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "What drove the growth",
+   "bullets": [
+    "Fund II closed above its target and is now fully invested.",
+    "Separate accounts are {sma_share} of assets, from two pension clients.",
+    "No year needed a loan sale to meet a redemption or a distribution."
+   ],
+   "sowhat": "Growth came from repeat investors, not from taking more risk per loan."
+  },
+  "source": "Source: Calder Reach Credit fund administrator reports (fictional)",
+  "note": "2026 at 30 September; earlier years at 31 December."
+ },
+ "table": {
+  "tracker": "Fund III",
+  "title": "Every vehicle has returned more than eleven percent net, and Fund II leads the flagship series",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Track record by vehicle",
+   "unit": "$ in millions unless stated"
+  },
+  "columns": [
+   {
+    "h": "Vehicle"
+   },
+   {
+    "h": "Vintage"
+   },
+   {
+    "h": "Commitments",
+    "num": true
+   },
+   {
+    "h": "Invested %",
+    "num": true
+   },
+   {
+    "h": "Net IRR %",
+    "num": true
+   },
+   {
+    "h": "Net TVPI x",
+    "num": true
+   },
+   {
+    "h": "DPI x",
+    "num": true
+   },
+   {
+    "h": "Stage"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Fund I",
+     "2016",
+     "tr_0_0",
+     "tr_0_1",
+     "tr_0_2",
+     "tr_0_3",
+     "tr_0_4",
+     "st:ok:Realising"
+    ]
+   },
+   {
+    "cells": [
+     "Fund II",
+     "2019",
+     "tr_1_0",
+     "tr_1_1",
+     "tr_1_2",
+     "tr_1_3",
+     "tr_1_4",
+     "st:ok:Harvesting"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Income SMA A",
+     "2020",
+     "tr_2_0",
+     "tr_2_1",
+     "tr_2_2",
+     "tr_2_3",
+     "tr_2_4",
+     "st:ok:Harvesting"
+    ]
+   },
+   {
+    "cells": [
+     "Income SMA B",
+     "2022",
+     "tr_3_0",
+     "tr_3_1",
+     "tr_3_2",
+     "tr_3_3",
+     "tr_3_4",
+     "st:ok:Investing"
+    ]
+   },
+   {
+    "cells": [
+     "Co-invest I",
+     "2021",
+     "tr_4_0",
+     "tr_4_1",
+     "tr_4_2",
+     "tr_4_3",
+     "tr_4_4",
+     "st:ok:Harvesting"
+    ]
+   },
+   {
+    "cells": [
+     "Co-invest II",
+     "2023",
+     "tr_5_0",
+     "tr_5_1",
+     "tr_5_2",
+     "tr_5_3",
+     "tr_5_4",
+     "st:ok:Investing"
+    ]
+   },
+   {
+    "cells": [
+     "Total",
+     "",
+     "tr_tot",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "cls": "total"
+   }
+  ],
+  "callout": "Fund III targets {f3b}, of which {anchor} is signed; first close is planned for the first quarter.",
+  "source": "Source: Calder Reach Credit quarterly reports to investors (fictional)",
+  "note": "Net of management fee, carried interest and fund expenses. TVPI: total value to paid-in."
+ }
+}

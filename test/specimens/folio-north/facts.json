@@ -1,0 +1,133 @@
+{
+ "_note": "Vestmark and its ministry are fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "tot": {
+   "value": 50.6,
+   "display": "50.6"
+  },
+  "two": {
+   "value": 61,
+   "display": "61%"
+  },
+  "rail": {
+   "value": 24,
+   "display": "24%"
+  },
+  "goal": {
+   "value": 35,
+   "display": "35%"
+  },
+  "p1": {
+   "value": 18.4,
+   "display": "18.4"
+  },
+  "p2": {
+   "value": 12.7,
+   "display": "12.7"
+  },
+  "p3": {
+   "value": 9.6,
+   "display": "9.6"
+  },
+  "p4": {
+   "value": 6.1,
+   "display": "6.1"
+  },
+  "p5": {
+   "value": 3.8,
+   "display": "3.8"
+  },
+  "pt_1_2": {
+   "value": 14.2,
+   "display": "14.2"
+  },
+  "pt_1_3": {
+   "value": 18,
+   "display": "18"
+  },
+  "pt_1_4": {
+   "value": 86,
+   "display": "86"
+  },
+  "pt_1_5": {
+   "value": 42,
+   "display": "42.0"
+  },
+  "pt_2_2": {
+   "value": 9.1,
+   "display": "9.1"
+  },
+  "pt_2_3": {
+   "value": 27,
+   "display": "27"
+  },
+  "pt_2_4": {
+   "value": 79,
+   "display": "79"
+  },
+  "pt_2_5": {
+   "value": 28.5,
+   "display": "28.5"
+  },
+  "pt_3_2": {
+   "value": -3.4,
+   "display": "(3.4)"
+  },
+  "pt_3_3": {
+   "value": 31,
+   "display": "31"
+  },
+  "pt_3_4": {
+   "value": 64,
+   "display": "64"
+  },
+  "pt_3_5": {
+   "value": 12,
+   "display": "12.0"
+  },
+  "pt_4_2": {
+   "value": 5.6,
+   "display": "5.6"
+  },
+  "pt_4_3": {
+   "value": 22,
+   "display": "22"
+  },
+  "pt_4_4": {
+   "value": 58,
+   "display": "58"
+  },
+  "pt_5_2": {
+   "value": -1.2,
+   "display": "(1.2)"
+  },
+  "pt_5_3": {
+   "value": 40,
+   "display": "40"
+  },
+  "pt_5_4": {
+   "value": 47,
+   "display": "47"
+  },
+  "pt_6_1": {
+   "value": 50.6,
+   "display": "50.6"
+  },
+  "pt_6_2": {
+   "value": 7.3,
+   "display": "7.3"
+  },
+  "pt_6_3": {
+   "value": 24,
+   "display": "24"
+  },
+  "pt_6_4": {
+   "value": 72,
+   "display": "72"
+  },
+  "pt_6_5": {
+   "value": 82.5,
+   "display": "82.5"
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "deckmark",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "description": "Deckmark engine: finance-grade decks and reports from HTML, rendered and linted in Chromium; redesigns existing decks keeping every figure.",
+  "license": "MIT",
+  "author": {
+    "name": "tabani-png",
+    "url": "https://github.com/tabani-png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tabani-png/deckmark"
+  },
+  "scripts": {
+    "test": "npm run refcheck && npm run test:unit && bash test/run.sh",
+    "test:unit": "node --test test/unit/*.test.mjs",
+    "refcheck": "node skills/deckmark/scripts/refcheck.mjs",
+    "check": "node skills/deckmark/scripts/theme.mjs check",
+    "install-skill": "node skills/deckmark/scripts/install.mjs",
+    "eval": "node eval/run-matrix.mjs",
+    "eval:dry": "node eval/run-matrix.mjs --dry-run",
+    "eval:report": "node eval/report.mjs",
+    "eval:serve": "python3 eval/serve.py",
+    "eval:test": "node --test eval/test/*.test.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.59.0"
+  },
+  "files": [
+    "skills"
+  ],
+  "skill": {
+    "entry": "skills/deckmark/SKILL.md",
+    "references": "skills/deckmark/references",
+    "harnesses": [
+      "claude-code",
+      "codex",
+      "opencode"
+    ]
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

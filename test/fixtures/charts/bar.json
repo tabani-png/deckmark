@@ -1,0 +1,1 @@
+{ "orient": "h", "width": 540, "categories": ["Northwind Freight", "Competitor A", "Competitor B", "Competitor C", "Competitor D"], "values": [96.4, 94.1, 92.8, 90.5, 88.2], "highlight": 0, "fmt": { "dp": 1, "suffix": "%" }, "src": "fixture" }

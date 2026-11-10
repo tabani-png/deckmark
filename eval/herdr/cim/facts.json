@@ -1,0 +1,250 @@
+{
+  "facts": {
+    "rev2022A": {
+      "value": 61.4,
+      "display": "$61.4M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2022 revenue"
+    },
+    "rev2023A": {
+      "value": 70.9,
+      "display": "$70.9M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2023 revenue"
+    },
+    "rev2024A": {
+      "value": 82.3,
+      "display": "$82.3M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2024 revenue (unaudited)"
+    },
+    "rev2025E": {
+      "value": 94,
+      "display": "$94.0M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2025 management forecast revenue"
+    },
+    "ebitda2022A": {
+      "value": 9.8,
+      "display": "$9.8M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2022 adjusted EBITDA"
+    },
+    "ebitda2023A": {
+      "value": 11.9,
+      "display": "$11.9M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2023 adjusted EBITDA"
+    },
+    "ebitda2024A": {
+      "value": 14.6,
+      "display": "$14.6M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2024 adjusted EBITDA (unaudited)"
+    },
+    "ebitda2025E": {
+      "value": 17.2,
+      "display": "$17.2M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2025 management forecast adjusted EBITDA"
+    },
+    "practices2022A": {
+      "value": 24,
+      "display": "24",
+      "unit": "number",
+      "source": "material.md (company management information, $M), practices 2022"
+    },
+    "practices2023A": {
+      "value": 29,
+      "display": "29",
+      "unit": "number",
+      "source": "material.md (company management information, $M), practices 2023"
+    },
+    "practices2024A": {
+      "value": 34,
+      "display": "34",
+      "unit": "number",
+      "source": "material.md (company management information, $M), practices 2024"
+    },
+    "acq2024": {
+      "value": 5,
+      "display": "5",
+      "unit": "number",
+      "source": "material.md (company management information, $M), acquisitions 2024"
+    },
+    "acqMultiple": {
+      "value": 4.8,
+      "display": "4.8x",
+      "unit": "x EBITDA",
+      "source": "material.md (company management information, $M), average acquisition multiple 2024"
+    },
+    "ssg2023A": {
+      "value": 6.1,
+      "display": "6.1%",
+      "unit": "%",
+      "source": "material.md (company management information, $M), same-practice revenue growth FY2023"
+    },
+    "ssg2024A": {
+      "value": 7.4,
+      "display": "7.4%",
+      "unit": "%",
+      "source": "material.md (company management information, $M), same-practice revenue growth FY2024"
+    },
+    "payerCom": {
+      "value": 58,
+      "display": "58%",
+      "unit": "% of FY2024 payer mix",
+      "source": "material.md (company management information, $M), payer mix FY2024"
+    },
+    "payerMed": {
+      "value": 22,
+      "display": "22%",
+      "unit": "% of FY2024 payer mix",
+      "source": "material.md (company management information, $M), payer mix FY2024"
+    },
+    "payerSelf": {
+      "value": 20,
+      "display": "20%",
+      "unit": "% of FY2024 payer mix",
+      "source": "material.md (company management information, $M), payer mix FY2024"
+    },
+    "dentists2024A": {
+      "value": 112,
+      "display": "112",
+      "unit": "number",
+      "source": "material.md (company management information, $M), dentists FY2024"
+    },
+    "dentistRet": {
+      "value": 91,
+      "display": "91%",
+      "unit": "%",
+      "source": "material.md (company management information, $M), dentist retention (period and definition not stated)"
+    },
+    "loiCount": {
+      "value": 11,
+      "display": "11",
+      "unit": "number",
+      "source": "material.md (company management information, $M), practices under LOI (pipeline)"
+    },
+    "loiRev": {
+      "value": 18.5,
+      "display": "$18.5M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), combined revenue of LOI practices (unaudited management figure)"
+    },
+    "addOwner": {
+      "value": 0.9,
+      "display": "$0.9M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2024 EBITDA adjustment: owner compensation normalization"
+    },
+    "addAcq": {
+      "value": 0.7,
+      "display": "$0.7M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2024 EBITDA adjustment: acquisition costs"
+    },
+    "addTotal": {
+      "value": 1.6,
+      "display": "$1.6M",
+      "unit": "$ in millions",
+      "source": "material.md (company management information, $M), FY2024 EBITDA adjustments total"
+    },
+    "growth2023A": {
+      "value": 15.5,
+      "display": "15.5%",
+      "unit": "%",
+      "source": "derived: 70.9 / 61.4 - 1"
+    },
+    "growth2024A": {
+      "value": 16.1,
+      "display": "16.1%",
+      "unit": "%",
+      "source": "derived: 82.3 / 70.9 - 1"
+    },
+    "growth2025E": {
+      "value": 14.2,
+      "display": "14.2%",
+      "unit": "%",
+      "source": "derived: 94.0 / 82.3 - 1"
+    },
+    "cagrRev": {
+      "value": 15.8,
+      "display": "15.8%",
+      "unit": "%",
+      "source": "derived: (82.3 / 61.4)^(1/2) - 1"
+    },
+    "ebitdaGrowth2023A": {
+      "value": 21.4,
+      "display": "21.4%",
+      "unit": "%",
+      "source": "derived: 11.9 / 9.8 - 1"
+    },
+    "ebitdaGrowth2024A": {
+      "value": 22.7,
+      "display": "22.7%",
+      "unit": "%",
+      "source": "derived: 14.6 / 11.9 - 1"
+    },
+    "ebitdaGrowth2025E": {
+      "value": 17.8,
+      "display": "17.8%",
+      "unit": "%",
+      "source": "derived: 17.2 / 14.6 - 1"
+    },
+    "margin2022A": {
+      "value": 16,
+      "display": "16.0%",
+      "unit": "%",
+      "source": "derived: 9.8 / 61.4"
+    },
+    "margin2023A": {
+      "value": 16.8,
+      "display": "16.8%",
+      "unit": "%",
+      "source": "derived: 11.9 / 70.9"
+    },
+    "margin2024A": {
+      "value": 17.7,
+      "display": "17.7%",
+      "unit": "%",
+      "source": "derived: 14.6 / 82.3"
+    },
+    "margin2025E": {
+      "value": 18.3,
+      "display": "18.3%",
+      "unit": "%",
+      "source": "derived: 17.2 / 94.0"
+    },
+    "marginChg": {
+      "value": 0.6,
+      "display": "0.6 points",
+      "unit": "percentage points",
+      "source": "derived: 18.3 - 17.7"
+    },
+    "repEbitda2024A": {
+      "value": 13,
+      "display": "$13.0M",
+      "unit": "$ in millions",
+      "source": "derived: 14.6 - 1.6 (implied; confirm against audited FY2024)"
+    },
+    "loiPctRev": {
+      "value": 22.5,
+      "display": "22.5%",
+      "unit": "%",
+      "source": "derived: 18.5 / 82.3"
+    },
+    "addPctAdj": {
+      "value": 11,
+      "display": "11.0%",
+      "unit": "%",
+      "source": "derived: 1.6 / 14.6"
+    },
+    "practicesRevChg": {
+      "value": 5,
+      "display": "5",
+      "unit": "number",
+      "source": "derived: 34 - 29"
+    }
+  }
+}

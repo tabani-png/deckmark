@@ -1,0 +1,1 @@
+{ "width": 540, "height": 300, "categories": ["FY21", "FY22", "FY23", "FY24", "FY25"], "series": [{ "name": "Northwind", "values": [10.1, 10.8, 11.2, 11.3, 12.0] }, { "name": "Peer median", "values": [9.4, 9.6, 9.9, 9.7, 9.8] }], "highlight": 0, "fmt": { "dp": 1, "suffix": "%" }, "src": "fixture" }

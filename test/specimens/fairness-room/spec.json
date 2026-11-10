@@ -1,0 +1,350 @@
+{
+ "title": "Project Larch: discussion materials",
+ "format": "slides-16x9",
+ "storyline": "pitch-book",
+ "decision": "approve",
+ "confid": "Strictly confidential",
+ "cover": {
+  "light": true,
+  "kicker": "Discussion materials for the board of directors",
+  "title": "Project Larch",
+  "sub": "Preliminary financial analysis of Brightwater Instruments",
+  "meta": "Fictional company · theme specimen",
+  "confid": "Strictly private and confidential"
+ },
+ "exec": {
+  "title": "The proposed {offer} per share sits above the midpoint of every method",
+  "stamp": "Preliminary draft | Subject to review",
+  "subtitle": "Summary of preliminary financial analysis",
+  "table": {
+   "exhibit": {
+    "no": "Exhibit 1",
+    "title": "Summary of implied values",
+    "unit": "($ per share, except multiples)"
+   },
+   "columns": [
+    {
+     "h": "Methodology"
+    },
+    {
+     "h": "Basis"
+    },
+    {
+     "h": "Range applied",
+     "num": true
+    },
+    {
+     "h": "Implied value, low",
+     "num": true
+    },
+    {
+     "h": "Implied value, high",
+     "num": true
+    }
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Trading range, past year",
+      "Unaffected share price",
+      "",
+      "w_lo",
+      "w_hi"
+     ]
+    },
+    {
+     "cells": [
+      "Trading comparables",
+      "Peer median, forward EBITDA",
+      "ex_2_2",
+      "tc_lo",
+      "tc_hi"
+     ]
+    },
+    {
+     "cells": [
+      "Precedent transactions",
+      "LTM EBITDA, eleven deals",
+      "ex_3_2",
+      "pt_lo",
+      "pt_hi"
+     ]
+    },
+    {
+     "cells": [
+      "Discounted cash flow",
+      "Management plan",
+      "ex_4_2",
+      "dcf_lo",
+      "dcf_hi"
+     ]
+    },
+    {
+     "cells": [
+      "LBO analysis",
+      "Sponsor return",
+      "ex_5_2",
+      "lbo_lo",
+      "lbo_hi"
+     ]
+    },
+    {
+     "cells": [
+      "Proposed offer",
+      "Per fully diluted share",
+      "",
+      "offer",
+      ""
+     ],
+     "cls": "total"
+    }
+   ]
+  },
+  "kpis": [
+   {
+    "value": "{offer_k}",
+    "label": "Proposed offer per share",
+    "hl": true
+   },
+   {
+    "value": "{prem}",
+    "label": "Premium to the undisturbed price of {undist}"
+   },
+   {
+    "value": "{iev}",
+    "label": "Implied enterprise value"
+   },
+   {
+    "value": "{imult}",
+    "label": "Implied EV / CY25E EBITDA, against a peer median of {med25}"
+   }
+  ],
+  "source": "Source: company forecasts, public filings and market data (all fictional)"
+ },
+ "chart": {
+  "title": "The {offer2} offer clears the top of the trading comparables, LBO and past-year ranges",
+  "stamp": "Preliminary draft | Subject to review",
+  "subtitle": "Valuation summary: implied value per share against each method",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Implied value per share",
+   "unit": "($ per share)"
+  },
+  "type": "football",
+  "data": {
+   "rowHeight": 62,
+   "rows": [
+    {
+     "label": "Trading range, past year",
+     "low": "@w_lo",
+     "high": "@w_hi"
+    },
+    {
+     "label": "Trading comparables",
+     "low": "@tc_lo",
+     "high": "@tc_hi"
+    },
+    {
+     "label": "Precedent transactions",
+     "low": "@pt_lo",
+     "high": "@pt_hi"
+    },
+    {
+     "label": "Discounted cash flow",
+     "low": "@dcf_lo",
+     "high": "@dcf_hi"
+    },
+    {
+     "label": "LBO analysis",
+     "low": "@lbo_lo",
+     "high": "@lbo_hi"
+    }
+   ],
+   "marker": {
+    "value": "@offer",
+    "label": "Offer"
+   },
+   "fmt": {
+    "dp": 2,
+    "prefix": "$"
+   },
+   "tickDp": 0
+  },
+  "takeaway": {
+   "h": "Observations",
+   "bullets": [
+    "The offer clears the top of the trading, LBO and past-year trading ranges.",
+    "Only precedents and the DCF extend above the offer.",
+    "LBO range shows a financial sponsor is unlikely to outbid."
+   ]
+  },
+  "source": "Source: company forecasts, public filings and market data as of the pricing date (all fictional)",
+  "note": "Note: per share values on a fully diluted basis."
+ },
+ "table": {
+  "title": "Eight precision instruments peers set the trading range used for Brightwater",
+  "stamp": "Preliminary draft | Subject to review",
+  "subtitle": "($ in millions, except per share data)",
+  "exhibit": {
+   "no": "Exhibit 3",
+   "title": "Precision instruments peers",
+   "unit": "as of the pricing date"
+  },
+  "columns": [
+   {
+    "h": "Company"
+   },
+   {
+    "h": "Market cap",
+    "num": true
+   },
+   {
+    "h": "Enterprise value",
+    "num": true
+   },
+   {
+    "h": "EV / EBITDA CY25E",
+    "num": true
+   },
+   {
+    "h": "EV / EBITDA CY26E",
+    "num": true
+   },
+   {
+    "h": "EBITDA margin CY25E",
+    "num": true
+   },
+   {
+    "h": "Net debt / EBITDA",
+    "num": true
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Norhalt Systems",
+     "cmp_7_1",
+     "cmp_7_2",
+     "cmp_7_3",
+     "cmp_7_4",
+     "cmp_7_5",
+     "cmp_7_6"
+    ]
+   },
+   {
+    "cells": [
+     "Vexley Instruments",
+     "cmp_8_1",
+     "cmp_8_2",
+     "cmp_8_3",
+     "cmp_8_4",
+     "cmp_8_5",
+     "cmp_8_6"
+    ]
+   },
+   {
+    "cells": [
+     "Qorvane Sensing",
+     "cmp_9_1",
+     "cmp_9_2",
+     "cmp_9_3",
+     "cmp_9_4",
+     "cmp_9_5",
+     "cmp_9_6"
+    ]
+   },
+   {
+    "cells": [
+     "Talbridge Controls",
+     "cmp_10_1",
+     "cmp_10_2",
+     "cmp_10_3",
+     "cmp_10_4",
+     "cmp_10_5",
+     "cmp_10_6"
+    ]
+   },
+   {
+    "cells": [
+     "Merrow Analytics",
+     "cmp_11_1",
+     "cmp_11_2",
+     "cmp_11_3",
+     "cmp_11_4",
+     "cmp_11_5",
+     "cmp_11_6"
+    ]
+   },
+   {
+    "cells": [
+     "Fenwick Precision",
+     "cmp_12_1",
+     "cmp_12_2",
+     "cmp_12_3",
+     "cmp_12_4",
+     "cmp_12_5",
+     "cmp_12_6"
+    ]
+   },
+   {
+    "cells": [
+     "Ostler Metrology",
+     "cmp_13_1",
+     "cmp_13_2",
+     "cmp_13_3",
+     "cmp_13_4",
+     "cmp_13_5",
+     "cmp_13_6"
+    ]
+   },
+   {
+    "cells": [
+     "Calder Optics",
+     "cmp_14_1",
+     "cmp_14_2",
+     "cmp_14_3",
+     "cmp_14_4",
+     "cmp_14_5",
+     "cmp_14_6"
+    ]
+   },
+   {
+    "cells": [
+     "Median",
+     "",
+     "",
+     "cmp_15_3",
+     "cmp_15_4",
+     "cmp_15_5",
+     "cmp_15_6"
+    ],
+    "cls": "total"
+   },
+   {
+    "cells": [
+     "Mean",
+     "",
+     "",
+     "cmp_16_3",
+     "cmp_16_4",
+     "cmp_16_5",
+     "cmp_16_6"
+    ]
+   },
+   {
+    "cells": [
+     "Brightwater Instruments",
+     "cmp_17_1",
+     "cmp_17_2",
+     "cmp_17_3",
+     "cmp_17_4",
+     "cmp_17_5",
+     "cmp_17_6"
+    ],
+    "cls": "hl"
+   }
+  ],
+  "source": "Source: public filings, consensus estimates and market data as of the pricing date (all fictional)",
+  "note": "Note: enterprise value is market capitalisation plus net debt and minority interests."
+ }
+}

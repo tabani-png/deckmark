@@ -1,0 +1,166 @@
+{
+ "_note": "Project Kestrel, its fund and every figure are fictional, invented for the theme specimen.",
+ "facts": {
+  "eq": {
+   "value": 142,
+   "display": "142.0"
+  },
+  "mult": {
+   "value": 9.5,
+   "display": "9.5"
+  },
+  "moic": {
+   "value": 2.6,
+   "display": "2.6"
+  },
+  "irr": {
+   "value": 21.1,
+   "display": "21.1"
+  },
+  "hurdle": {
+   "value": 2,
+   "display": "2.0"
+  },
+  "ebitda0": {
+   "value": 34.8,
+   "display": "34.8"
+  },
+  "ebitda5": {
+   "value": 51.6,
+   "display": "51.6"
+  },
+  "cust": {
+   "value": 38,
+   "display": "38"
+  },
+  "own": {
+   "value": 31,
+   "display": "31"
+  },
+  "w0": {
+   "value": 142,
+   "display": "142.0"
+  },
+  "w1": {
+   "value": 164.3,
+   "display": "164.3"
+  },
+  "w2": {
+   "value": -12.4,
+   "display": "(12.4)"
+  },
+  "w3": {
+   "value": 81.5,
+   "display": "81.5"
+  },
+  "w4": {
+   "value": -6.2,
+   "display": "(6.2)"
+  },
+  "w5": {
+   "value": 369.2,
+   "display": "369.2"
+  },
+  "grow_share": {
+   "value": 72.3,
+   "display": "72",
+   "formula": "w1 / (w5 - w0) * 100"
+  },
+  "ce0": {
+   "value": 58.4,
+   "display": "58.4"
+  },
+  "cm0": {
+   "value": 9.5,
+   "display": "9.5"
+  },
+  "cq0": {
+   "value": 432.6,
+   "display": "432.6"
+  },
+  "cmo0": {
+   "value": 3,
+   "display": "3.0"
+  },
+  "cir0": {
+   "value": 25,
+   "display": "25.0"
+  },
+  "ce1": {
+   "value": 51.6,
+   "display": "51.6"
+  },
+  "cm1": {
+   "value": 9,
+   "display": "9.0"
+  },
+  "cq1": {
+   "value": 369.2,
+   "display": "369.2"
+  },
+  "cmo1": {
+   "value": 2.6,
+   "display": "2.6"
+  },
+  "cir1": {
+   "value": 21.1,
+   "display": "21.1"
+  },
+  "ce2": {
+   "value": 43.2,
+   "display": "43.2"
+  },
+  "cm2": {
+   "value": 8,
+   "display": "8.0"
+  },
+  "cq2": {
+   "value": 241.5,
+   "display": "241.5"
+  },
+  "cmo2": {
+   "value": 1.7,
+   "display": "1.7"
+  },
+  "cir2": {
+   "value": 11.2,
+   "display": "11.2"
+  },
+  "ce3": {
+   "value": 35,
+   "display": "35.0"
+  },
+  "cm3": {
+   "value": 7,
+   "display": "7.0"
+  },
+  "cq3": {
+   "value": 142,
+   "display": "142.0"
+  },
+  "cmo3": {
+   "value": 1,
+   "display": "1.0"
+  },
+  "cir3": {
+   "value": 0,
+   "display": "0.0"
+  },
+  "w2_abs": {
+   "value": 12.4,
+   "display": "12.4"
+  },
+  "tgt": {
+   "value": 20,
+   "display": "20.0"
+  },
+  "pct_fund": {
+   "value": 9.1,
+   "display": "9.1"
+  },
+  "sect": {
+   "value": 11.2,
+   "display": "11.2"
+  }
+ }
+}

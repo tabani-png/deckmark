@@ -1,0 +1,197 @@
+{
+ "_note": "Kellmouth Regional Transit is fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "res": {
+   "value": 142,
+   "display": "$142M"
+  },
+  "months": {
+   "value": 7.4,
+   "display": "7.4"
+  },
+  "cost_g": {
+   "value": 4.8,
+   "display": "4.8%"
+  },
+  "rev_g": {
+   "value": 2.9,
+   "display": "2.9%"
+  },
+  "close": {
+   "value": 46.1,
+   "display": "$46.1M"
+  },
+  "base32": {
+   "value": 66,
+   "display": "$66M"
+  },
+  "ba2": {
+   "value": 131,
+   "display": "$131M"
+  },
+  "ba3": {
+   "value": 118,
+   "display": "$118M"
+  },
+  "ba4": {
+   "value": 104,
+   "display": "$104M"
+  },
+  "ba5": {
+   "value": 92,
+   "display": "$92M"
+  },
+  "ba6": {
+   "value": 79,
+   "display": "$79M"
+  },
+  "wo2": {
+   "value": 138,
+   "display": "$138M"
+  },
+  "wo3": {
+   "value": 135,
+   "display": "$135M"
+  },
+  "wo4": {
+   "value": 133,
+   "display": "$133M"
+  },
+  "wo5": {
+   "value": 132,
+   "display": "$132M"
+  },
+  "wo6": {
+   "value": 131,
+   "display": "$131M"
+  },
+  "wo7": {
+   "value": 131,
+   "display": "$131M"
+  },
+  "st2": {
+   "value": 124,
+   "display": "$124M"
+  },
+  "st3": {
+   "value": 101,
+   "display": "$101M"
+  },
+  "st4": {
+   "value": 77,
+   "display": "$77M"
+  },
+  "st5": {
+   "value": 52,
+   "display": "$52M"
+  },
+  "st6": {
+   "value": 26,
+   "display": "$26M"
+  },
+  "st7": {
+   "value": 4,
+   "display": "$4M"
+  },
+  "rid": {
+   "value": 92,
+   "display": "92%"
+  },
+  "cut": {
+   "value": 8,
+   "display": "8%"
+  },
+  "op_1_1": {
+   "value": 11.8,
+   "display": "11.8"
+  },
+  "op_1_2": {
+   "value": 1.5,
+   "display": "1.5"
+  },
+  "op_1_3": {
+   "value": 18,
+   "display": "18"
+  },
+  "op_2_1": {
+   "value": 9.4,
+   "display": "9.4"
+  },
+  "op_2_2": {
+   "value": 3.1,
+   "display": "3.1"
+  },
+  "op_2_3": {
+   "value": 6,
+   "display": "6"
+  },
+  "op_3_1": {
+   "value": 8,
+   "display": "8.0"
+  },
+  "op_3_3": {
+   "value": 24,
+   "display": "24"
+  },
+  "op_4_1": {
+   "value": 6.2,
+   "display": "6.2"
+  },
+  "op_4_2": {
+   "value": 2,
+   "display": "2.0"
+  },
+  "op_4_3": {
+   "value": 12,
+   "display": "12"
+  },
+  "op_5_1": {
+   "value": 4.7,
+   "display": "4.7"
+  },
+  "op_5_2": {
+   "value": 0.6,
+   "display": "0.6"
+  },
+  "op_5_3": {
+   "value": 24,
+   "display": "24"
+  },
+  "op_6_1": {
+   "value": 3.9,
+   "display": "3.9"
+  },
+  "op_6_2": {
+   "value": 1.2,
+   "display": "1.2"
+  },
+  "op_6_3": {
+   "value": 15,
+   "display": "15"
+  },
+  "op_7_1": {
+   "value": 2.1,
+   "display": "2.1"
+  },
+  "op_7_2": {
+   "value": 1.4,
+   "display": "1.4"
+  },
+  "op_7_3": {
+   "value": 4,
+   "display": "4"
+  },
+  "op_8_1": {
+   "value": 46.1,
+   "display": "46.1"
+  },
+  "op_8_2": {
+   "value": 9.8,
+   "display": "9.8"
+  },
+  "first4": {
+   "value": 35.4,
+   "display": "$35.4M"
+  }
+ }
+}

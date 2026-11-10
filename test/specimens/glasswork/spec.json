@@ -1,0 +1,248 @@
+{
+ "title": "Alderbank Logistics: credit monitoring",
+ "format": "slides-16x9",
+ "storyline": "credit-memo",
+ "decision": "lend",
+ "confid": "Confidential · sample borrower",
+ "tracker": [
+  "Diligence",
+  "Modeling",
+  "Covenants",
+  "IC memo"
+ ],
+ "cover": {
+  "light": true,
+  "kicker": "Credit committee · term loan refinancing",
+  "title": "Alderbank Logistics: refinancing case and covenant headroom",
+  "sub": "Senior secured term loan for a fictional regional logistics borrower.",
+  "meta": "As of quarter end · sample borrower · theme specimen"
+ },
+ "exec": {
+  "tracker": "Diligence",
+  "title": "Leverage is down to {lev} and every covenant passes with room to spare",
+  "stamp": "As of quarter end",
+  "kpis": [
+   {
+    "value": "{lev_k}",
+    "label": "Net leverage",
+    "delta": "{lev_d}",
+    "dir": "down good"
+   },
+   {
+    "value": "{ic}",
+    "label": "Interest cover",
+    "delta": "{ic_d}"
+   },
+   {
+    "value": "{ebitda}",
+    "label": "EBITDA, last twelve months",
+    "delta": "{eb_d}"
+   },
+   {
+    "value": "{liq}",
+    "label": "Liquidity",
+    "delta": "{liq_d}"
+   }
+  ],
+  "rows": [
+   {
+    "k": "Recommendation",
+    "h": "Approve the refinancing",
+    "p": "Terms match the base case. The tightest covenant still has {hr_min} headroom, and leverage falls every year of the plan."
+   },
+   {
+    "k": "Structure",
+    "h": "Senior secured, five-year term",
+    "p": "A {tl} term loan and a {rcf} revolver, secured on all fleet and depot assets with a full guarantor package."
+   },
+   {
+    "k": "Watch",
+    "h": "Concentration and fixed charges",
+    "p": "The top customer is {top} of revenue; fixed charge cover is the tightest test."
+   }
+  ],
+  "callout": "Decision requested: approve the {tl2} term loan on the terms in the credit agreement summary.",
+  "calloutClass": "dark",
+  "source": "Source: borrower compliance certificate and management accounts (fictional)",
+  "note": "Leverage falling is favourable, so its delta shows in green."
+ },
+ "chart": {
+  "tracker": "Modeling",
+  "title": "Leverage falls below {thr} by FY27 in the base case and holds inside the covenant in the downside",
+  "stamp": "As of quarter end",
+  "exhibit": {
+   "no": "Exhibit 1",
+   "title": "Net leverage by case",
+   "unit": "x EBITDA"
+  },
+  "type": "line",
+  "data": {
+   "height": 400,
+   "categories": [
+    "FY24A",
+    "FY25A",
+    "FY26E",
+    "FY27E",
+    "FY28E"
+   ],
+   "series": [
+    {
+     "name": "Base case",
+     "values": [
+      "@b1",
+      "@b2",
+      "@b3",
+      "@b4",
+      "@b5"
+     ]
+    },
+    {
+     "name": "Downside",
+     "values": [
+      "@b1",
+      "@b2",
+      "@d3",
+      "@d4",
+      "@d5"
+     ]
+    }
+   ],
+   "highlight": 0,
+   "min": 3,
+   "max": 5.5,
+   "fmt": {
+    "dp": 1,
+    "suffix": "x"
+   },
+   "tickDp": 1
+  },
+  "takeaway": {
+   "h": "Case assumptions",
+   "bullets": [
+    "Base: volume growth of {g} a year, margins flat.",
+    "Downside: loss of the top customer in FY26E.",
+    "Covenant limit is {cov_lim} throughout."
+   ],
+   "sowhat": "Even losing the top customer leaves leverage under the limit."
+  },
+  "source": "Source: lender model, base and downside cases (fictional)"
+ },
+ "table": {
+  "tracker": "Covenants",
+  "title": "All eight covenants pass, with three on watch below {watch_t} headroom",
+  "stamp": "As of quarter end",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Covenant compliance",
+   "unit": "test at quarter end"
+  },
+  "columns": [
+   {
+    "h": "Covenant"
+   },
+   {
+    "h": "Test"
+   },
+   {
+    "h": "Limit",
+    "num": true
+   },
+   {
+    "h": "Current",
+    "num": true
+   },
+   {
+    "h": "Headroom",
+    "num": true
+   },
+   {
+    "h": "Status"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Net leverage",
+     "Maximum",
+     "cv_1_2",
+     "lev",
+     "cv_1_4",
+     "st:ok:Pass"
+    ]
+   },
+   {
+    "cells": [
+     "Senior leverage",
+     "Maximum",
+     "cv_2_2",
+     "cv_2_3",
+     "cv_2_4",
+     "st:watch:Watch"
+    ]
+   },
+   {
+    "cells": [
+     "Interest cover",
+     "Minimum",
+     "cv_3_2",
+     "ic",
+     "cv_3_4",
+     "st:ok:Pass"
+    ]
+   },
+   {
+    "cells": [
+     "Fixed charge cover",
+     "Minimum",
+     "cv_4_2",
+     "cv_4_3",
+     "hr_min",
+     "st:watch:Watch"
+    ]
+   },
+   {
+    "cells": [
+     "Debt service cover",
+     "Minimum",
+     "cv_5_2",
+     "cv_5_3",
+     "cv_5_4",
+     "st:ok:Pass"
+    ]
+   },
+   {
+    "cells": [
+     "Liquidity",
+     "Minimum",
+     "cv_6_2",
+     "liq",
+     "cv_6_4",
+     "st:ok:Pass"
+    ]
+   },
+   {
+    "cells": [
+     "Capital expenditure",
+     "Maximum",
+     "cv_7_2",
+     "cv_7_3",
+     "cv_7_4",
+     "st:ok:Pass"
+    ]
+   },
+   {
+    "cells": [
+     "Top customer share",
+     "Maximum",
+     "cv_8_2",
+     "top",
+     "cv_8_4",
+     "st:watch:Watch"
+    ]
+   }
+  ],
+  "callout": "Fixed charge cover is the test to watch: it has the least headroom and moves first if the top customer leaves.",
+  "source": "Source: borrower compliance certificate (fictional); lender analysis",
+  "note": "Headroom is the distance to the limit as a share of the limit (maximum tests) or of the current value (minimum tests). Watch below 15%."
+ }
+}

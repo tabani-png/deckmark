@@ -1,0 +1,377 @@
+{
+  "_note": "Every printed figure. source = material.md line (L) unless marked derived; derived rows give the formula. Fictional company (Halden Packaging Ltd).",
+  "facts": {
+    "req_amt": {
+      "value": 85,
+      "display": "$85.0M",
+      "unit": "$M",
+      "source": "material.md L3 (request)"
+    },
+    "req_amt_n": {
+      "value": 85,
+      "display": "85.0",
+      "unit": "$M",
+      "source": "material.md L3"
+    },
+    "tenor": {
+      "value": 5,
+      "display": "5-year",
+      "unit": "years",
+      "source": "material.md L3"
+    },
+    "pricing": {
+      "value": 575,
+      "display": "S+575",
+      "unit": "bps over SOFR",
+      "source": "material.md L3"
+    },
+    "floor": {
+      "value": 1,
+      "display": "1.0%",
+      "unit": "%",
+      "source": "material.md L3"
+    },
+    "oid": {
+      "value": 98,
+      "display": "98.0",
+      "unit": "price",
+      "source": "material.md L3"
+    },
+    "refi": {
+      "value": 60,
+      "display": "60.0",
+      "unit": "$M",
+      "source": "material.md L3 (use)"
+    },
+    "acq": {
+      "value": 22,
+      "display": "22.0",
+      "unit": "$M",
+      "source": "material.md L3 (use)"
+    },
+    "fees": {
+      "value": 3,
+      "display": "3.0",
+      "unit": "$M",
+      "source": "material.md L3 (use)"
+    },
+    "uses_total": {
+      "value": 85,
+      "display": "85.0",
+      "unit": "$M",
+      "source": "derived: 60.0 + 22.0 + 3.0 (material.md L3)"
+    },
+    "oid_disc": {
+      "value": 1.7,
+      "display": "1.7",
+      "unit": "$M",
+      "source": "derived: 85.0 x (100 - 98.0) / 100"
+    },
+    "net_proceeds": {
+      "value": 83.3,
+      "display": "83.3",
+      "unit": "$M",
+      "source": "derived: 85.0 x 98.0 / 100"
+    },
+    "rev22": {
+      "value": 142,
+      "display": "142.0",
+      "unit": "$M",
+      "source": "material.md L4"
+    },
+    "rev23": {
+      "value": 151.5,
+      "display": "151.5",
+      "unit": "$M",
+      "source": "material.md L4"
+    },
+    "rev24": {
+      "value": 158.2,
+      "display": "158.2",
+      "unit": "$M",
+      "source": "material.md L4"
+    },
+    "rev25b": {
+      "value": 171,
+      "display": "171.0",
+      "unit": "$M",
+      "source": "material.md L4 (FY2025 budget)"
+    },
+    "ebitda22": {
+      "value": 21.3,
+      "display": "21.3",
+      "unit": "$M",
+      "source": "material.md L4"
+    },
+    "ebitda23": {
+      "value": 23.9,
+      "display": "23.9",
+      "unit": "$M",
+      "source": "material.md L4"
+    },
+    "ebitda24": {
+      "value": 25.6,
+      "display": "25.6",
+      "unit": "$M",
+      "source": "material.md L4"
+    },
+    "ebitda25b": {
+      "value": 28.4,
+      "display": "28.4",
+      "unit": "$M",
+      "source": "material.md L4 (FY2025 budget, incl. Ridgeway)"
+    },
+    "ridge": {
+      "value": 3.1,
+      "display": "3.1",
+      "unit": "$M",
+      "source": "material.md L4 (labelled FY2025 budget) and L6 (added to FY2024)"
+    },
+    "ebitda25x": {
+      "value": 25.3,
+      "display": "25.3",
+      "unit": "$M",
+      "source": "derived: 28.4 - 3.1 (material.md L4)"
+    },
+    "pf_debt": {
+      "value": 85,
+      "display": "85.0",
+      "unit": "$M",
+      "source": "material.md L6 (pro forma total debt)"
+    },
+    "pf_ebitda": {
+      "value": 28.7,
+      "display": "28.7",
+      "unit": "$M",
+      "source": "derived: 25.6 + 3.1 (material.md L6)"
+    },
+    "ridge_share": {
+      "value": 10.8,
+      "display": "10.8%",
+      "unit": "%",
+      "source": "derived: 3.1 / 28.7"
+    },
+    "capex24": {
+      "value": 6.2,
+      "display": "6.2",
+      "unit": "$M",
+      "source": "material.md L5"
+    },
+    "tax24": {
+      "value": 2.9,
+      "display": "2.9",
+      "unit": "$M",
+      "source": "material.md L5"
+    },
+    "nwc24": {
+      "value": -1.8,
+      "display": "(1.8)",
+      "unit": "$M",
+      "source": "material.md L5 (use of cash)"
+    },
+    "fcf24": {
+      "value": 14.7,
+      "display": "14.7",
+      "unit": "$M",
+      "source": "derived: 25.6 - 6.2 - 2.9 - 1.8 (pre-interest; interest not supplied)"
+    },
+    "fcf_debt": {
+      "value": 17.3,
+      "display": "17.3%",
+      "unit": "%",
+      "source": "derived: 14.7 / 85.0"
+    },
+    "g23": {
+      "value": 6.7,
+      "display": "6.7%",
+      "unit": "%",
+      "source": "derived: 151.5 / 142.0 - 1"
+    },
+    "g24": {
+      "value": 4.4,
+      "display": "4.4%",
+      "unit": "%",
+      "source": "derived: 158.2 / 151.5 - 1"
+    },
+    "g25b": {
+      "value": 8.1,
+      "display": "8.1%",
+      "unit": "%",
+      "source": "derived: 171.0 / 158.2 - 1"
+    },
+    "rev_cagr": {
+      "value": 5.6,
+      "display": "5.6%",
+      "unit": "%",
+      "source": "derived: (158.2 / 142.0)^(1/2) - 1 = 5.550%, rounds to 5.6%"
+    },
+    "m22": {
+      "value": 15,
+      "display": "15.0%",
+      "unit": "%",
+      "source": "derived: 21.3 / 142.0"
+    },
+    "m23": {
+      "value": 15.8,
+      "display": "15.8%",
+      "unit": "%",
+      "source": "derived: 23.9 / 151.5"
+    },
+    "m24": {
+      "value": 16.2,
+      "display": "16.2%",
+      "unit": "%",
+      "source": "derived: 25.6 / 158.2"
+    },
+    "m25b": {
+      "value": 16.6,
+      "display": "16.6%",
+      "unit": "%",
+      "source": "derived: 28.4 / 171.0"
+    },
+    "eg23": {
+      "value": 12.2,
+      "display": "12.2%",
+      "unit": "%",
+      "source": "derived: 23.9 / 21.3 - 1"
+    },
+    "eg24": {
+      "value": 7.1,
+      "display": "7.1%",
+      "unit": "%",
+      "source": "derived: 25.6 / 23.9 - 1"
+    },
+    "e25b": {
+      "value": 10.9,
+      "display": "10.9%",
+      "unit": "%",
+      "source": "derived: 28.4 / 25.6 - 1"
+    },
+    "m25x": {
+      "value": 14.8,
+      "display": "14.8%",
+      "unit": "%",
+      "source": "derived: 25.3 / 171.0 (FY2025 budget ex-Ridgeway)"
+    },
+    "ecagr": {
+      "value": 9.6,
+      "display": "9.6%",
+      "unit": "%",
+      "source": "derived: (25.6 / 21.3)^(1/2) - 1"
+    },
+    "gm": {
+      "value": 24.1,
+      "display": "24.1%",
+      "unit": "%",
+      "source": "material.md L10"
+    },
+    "cp_drop": {
+      "value": 9,
+      "display": "9%",
+      "unit": "%",
+      "source": "material.md L10 (FY2024 containerboard price)"
+    },
+    "top1": {
+      "value": 18,
+      "display": "18%",
+      "unit": "%",
+      "source": "material.md L9 (period not stated)"
+    },
+    "top5": {
+      "value": 41,
+      "display": "41%",
+      "unit": "%",
+      "source": "material.md L9 (period not stated)"
+    },
+    "top2_5": {
+      "value": 23,
+      "display": "23%",
+      "unit": "%",
+      "source": "derived: 41 - 18"
+    },
+    "rest": {
+      "value": 59,
+      "display": "59%",
+      "unit": "%",
+      "source": "derived: 100 - 41"
+    },
+    "lev_pf": {
+      "value": 2.96,
+      "display": "2.96x",
+      "unit": "x",
+      "source": "derived: 85.0 / 28.7 (material.md L6 states 2.96x)"
+    },
+    "lev_u": {
+      "value": 3.32,
+      "display": "3.32x",
+      "unit": "x",
+      "source": "derived: 85.0 / 25.6"
+    },
+    "lev25b": {
+      "value": 2.99,
+      "display": "2.99x",
+      "unit": "x",
+      "source": "derived: 85.0 / 28.4"
+    },
+    "eq_pct": {
+      "value": 45,
+      "display": "45%",
+      "unit": "%",
+      "source": "material.md L7 (sponsor equity, % of pro forma capitalisation)"
+    },
+    "cov_max1": {
+      "value": 4.75,
+      "display": "4.75x",
+      "unit": "x",
+      "source": "material.md L8 (max total net leverage, opening)"
+    },
+    "cov_max2": {
+      "value": 4.25,
+      "display": "4.25x",
+      "unit": "x",
+      "source": "material.md L8 (step-down)"
+    },
+    "cov_fccr": {
+      "value": 1.2,
+      "display": "1.20x",
+      "unit": "x",
+      "source": "material.md L8 (min fixed charge cover)"
+    },
+    "be475": {
+      "value": 17.9,
+      "display": "17.9",
+      "unit": "$M",
+      "source": "derived: 85.0 / 4.75 (gross debt as proxy; no cash supplied)"
+    },
+    "be425": {
+      "value": 20,
+      "display": "20.0",
+      "unit": "$M",
+      "source": "derived: 85.0 / 4.25"
+    },
+    "cush475_pf": {
+      "value": 37.6,
+      "display": "37.6%",
+      "unit": "%",
+      "source": "derived: 1 - 17.9 / 28.7"
+    },
+    "cush475_rep": {
+      "value": 30.1,
+      "display": "30.1%",
+      "unit": "%",
+      "source": "derived: 1 - 17.9 / 25.6"
+    },
+    "cush425_pf": {
+      "value": 30.3,
+      "display": "30.3%",
+      "unit": "%",
+      "source": "derived: 1 - 20.0 / 28.7"
+    },
+    "cush425_rep": {
+      "value": 21.9,
+      "display": "21.9%",
+      "unit": "%",
+      "source": "derived: 1 - 20.0 / 25.6"
+    }
+  }
+}

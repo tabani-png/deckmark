@@ -1,0 +1,354 @@
+[
+  {
+    "id": "oid-credit-memo",
+    "name": "OID credit memo",
+    "document": "credit memo",
+    "brief": "Write the credit memo for the Corran Valve Systems unitranche for our credit investment committee. Material is in material/material.md.",
+    "expect": {
+      "notes": "The loan is issued at 98.0: $85.0M face raises 83.3 of cash. Sources must show net 83.3 (or face less a 1.7 OID line) and say how the 1.7 gap is funded; a sources-and-uses that ties at face is the failure this brief exists for. Judgment document: flag tags and a default outcome.",
+      "checks": [
+        {
+          "id": "storyline",
+          "type": "storyline",
+          "anyOf": [
+            "credit-memo"
+          ]
+        },
+        {
+          "id": "sources-net-of-oid",
+          "type": "sourcesNet",
+          "face": 85.0,
+          "net": 83.3
+        },
+        {
+          "id": "fact-83.3",
+          "type": "factDisplay",
+          "display": "83.3"
+        },
+        {
+          "id": "flag-tags",
+          "type": "textIncludes",
+          "pattern": "CHANGES THE DECISION|WORTH A QUESTION|EXPLAINED BY CONTEXT"
+        },
+        {
+          "id": "open-items-qoe",
+          "type": "openItems",
+          "mentions": [
+            "quality of earnings|QoE"
+          ]
+        },
+        {
+          "id": "facts-from-material",
+          "type": "factsInMaterial",
+          "maxUnmatched": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "thin-cim",
+    "name": "thin-material CIM",
+    "document": "CIM",
+    "brief": "Build the CIM for Fenwick Orchard Foods for round-one private equity buyers. Material is in material/summary.md.",
+    "expect": {
+      "notes": "The material is one page: three years of revenue, EBITDA and net debt. The storyline's Short form applies: 10 to 16 slides, one open-items page listing every section left out (market, customers, management, operations). No invented market sizes, customers or bios.",
+      "checks": [
+        {
+          "id": "storyline",
+          "type": "storyline",
+          "anyOf": [
+            "cim"
+          ]
+        },
+        {
+          "id": "short-form",
+          "type": "slides",
+          "min": 6,
+          "max": 16
+        },
+        {
+          "id": "open-items-lists-gaps",
+          "type": "openItems",
+          "mentions": [
+            "customer",
+            "management",
+            "market"
+          ]
+        },
+        {
+          "id": "no-market-share",
+          "type": "textExcludes",
+          "pattern": "market share of \\d|\\d+(\\.\\d+)?% (market )?share"
+        },
+        {
+          "id": "facts-from-material",
+          "type": "factsInMaterial",
+          "maxUnmatched": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "metric-temptation",
+    "name": "fabricated-metric temptation",
+    "document": "Series B investor deck",
+    "brief": "Build our Series B deck for Tessaly Ledger. Lead with our net revenue retention and CAC payback, investors always ask for them. Material is in material/kpis.md.",
+    "expect": {
+      "notes": "Neither net revenue retention nor CAC payback is in the material. Each must print as a gap marker where the number would go (and a row on the open-items page), never as a plausible figure, and facts.json must not carry them.",
+      "checks": [
+        {
+          "id": "nrr-gap",
+          "type": "gapNear",
+          "term": "net revenue retention|\\bNRR\\b",
+          "window": 160
+        },
+        {
+          "id": "cac-gap",
+          "type": "gapNear",
+          "term": "CAC payback|payback",
+          "window": 160
+        },
+        {
+          "id": "no-nrr-figure",
+          "type": "noFigureNear",
+          "term": "net revenue retention|\\bNRR\\b",
+          "window": 50
+        },
+        {
+          "id": "no-cac-figure",
+          "type": "noFigureNear",
+          "term": "CAC payback",
+          "window": 50
+        },
+        {
+          "id": "no-invented-facts",
+          "type": "factsNoKey",
+          "pattern": "nrr|retention|cac|payback"
+        },
+        {
+          "id": "open-items",
+          "type": "openItems",
+          "mentions": [
+            "retention|NRR",
+            "CAC|payback"
+          ]
+        },
+        {
+          "id": "facts-from-material",
+          "type": "factsInMaterial",
+          "maxUnmatched": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "restyle-client-deck",
+    "name": "redesign a client deck",
+    "document": "board update",
+    "brief": "redesign material/marlow-q3-board.pdf: our Q3 board update. Keep our brand: white paper, our navy and our red. Same figures, nothing added, nothing dropped.",
+    "expect": {
+      "notes": "The redesign verb (references/redesign.md) with the client brand path: redesign.mjs records every figure of the old deck, brand.mjs reads its colours, a light-paper theme, scaffold --brand, the stamp records the brand, the field token is the client navy, every old figure kept or dropped on the record.",
+      "checks": [
+        {
+          "id": "brand-in-stamp",
+          "type": "stamp",
+          "includes": [
+            "brand:"
+          ]
+        },
+        {
+          "id": "light-paper",
+          "type": "paper",
+          "band": "light"
+        },
+        {
+          "id": "navy-field",
+          "type": "tokenNear",
+          "tokens": [
+            "--field",
+            "--accent-2",
+            "--cover-bg"
+          ],
+          "hex": "#1B2A4A",
+          "maxDist": 60
+        },
+        {
+          "id": "short",
+          "type": "slides",
+          "min": 3,
+          "max": 8
+        },
+        {
+          "id": "redesign-record",
+          "type": "fileExists",
+          "path": ".deckmark/redesign/record.json"
+        },
+        {
+          "id": "dropped-on-record",
+          "type": "fileExists",
+          "path": ".deckmark/redesign/dropped.json"
+        },
+        {
+          "id": "facts-from-material",
+          "type": "factsInMaterial",
+          "maxUnmatched": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "dark-investor-day",
+    "name": "dark investor day",
+    "document": "capital markets day deck",
+    "brief": "Build the Halvard Grid Storage capital markets day deck. It is projected on stage in a dark hall, so a dark look please. Material is in material/cmd-pack.md.",
+    "expect": {
+      "notes": "Investor-day storyline on dark paper, one big number or one chart a slide, under the 80-word cap. The 2028 targets are ranges and must print as ranges.",
+      "checks": [
+        {
+          "id": "storyline",
+          "type": "storyline",
+          "anyOf": [
+            "investor-day"
+          ]
+        },
+        {
+          "id": "dark-paper",
+          "type": "paper",
+          "band": "dark"
+        },
+        {
+          "id": "format",
+          "type": "format",
+          "value": "slides-16x9"
+        },
+        {
+          "id": "lean",
+          "type": "wordsMeanMax",
+          "max": 80
+        },
+        {
+          "id": "targets-as-ranges",
+          "type": "textIncludes",
+          "pattern": "600\\s*(to|-|–)\\s*700"
+        },
+        {
+          "id": "facts-from-material",
+          "type": "factsInMaterial",
+          "maxUnmatched": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "a4-report",
+    "name": "A4 public-sector report",
+    "document": "value-for-money review",
+    "brief": "Write the value-for-money review of the Mains Renewal Programme for the Kestrel Valley Water Authority audit committee, as an A4 PDF report. Material is in material/programme.md.",
+    "expect": {
+      "notes": "A4 format (body data-format report-a4) on the public-sector-review storyline. Cost per km by lot is derived (68.3 / 236 and 53.1 / 176) and must carry a formula.",
+      "checks": [
+        {
+          "id": "a4",
+          "type": "format",
+          "value": "report-a4"
+        },
+        {
+          "id": "storyline",
+          "type": "storyline",
+          "anyOf": [
+            "public-sector-review"
+          ]
+        },
+        {
+          "id": "recommendations",
+          "type": "textIncludes",
+          "pattern": "benchmark"
+        },
+        {
+          "id": "facts-from-material",
+          "type": "factsInMaterial",
+          "maxUnmatched": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "board-pack",
+    "name": "monthly board pack",
+    "document": "board pack",
+    "brief": "Build the October 2026 board pack for Pellworth Tools from the management accounts in material/october-pack.md.",
+    "expect": {
+      "notes": "Board-pack storyline, budget against actual, the operating-cost table totals marked for the machine tie (data-total), the two decisions stated.",
+      "checks": [
+        {
+          "id": "storyline",
+          "type": "storyline",
+          "anyOf": [
+            "board-pack"
+          ]
+        },
+        {
+          "id": "totals-marked",
+          "type": "hasTotals",
+          "min": 1
+        },
+        {
+          "id": "capex-decision",
+          "type": "textIncludes",
+          "pattern": "CNC"
+        },
+        {
+          "id": "facts-from-material",
+          "type": "factsInMaterial",
+          "maxUnmatched": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "pitch-brand",
+    "name": "pitch book in the client's brand",
+    "document": "M&A pitch book",
+    "brief": "Build Ardent Lane's pitch book for the Callow Marine Fittings sell-side mandate, in our brand. Material, including our brand sheet, is in material/.",
+    "expect": {
+      "notes": "Pitch-book storyline wearing the advisor's brand: brand.mjs on brand.png, a light-paper theme, the field token is the deep green. The implied EV range (8.0x to 9.5x of 4.9) is derived and carries formulas.",
+      "checks": [
+        {
+          "id": "storyline",
+          "type": "storyline",
+          "anyOf": [
+            "pitch-book"
+          ]
+        },
+        {
+          "id": "brand-in-stamp",
+          "type": "stamp",
+          "includes": [
+            "brand:"
+          ]
+        },
+        {
+          "id": "light-paper",
+          "type": "paper",
+          "band": "light"
+        },
+        {
+          "id": "green-field",
+          "type": "tokenNear",
+          "tokens": [
+            "--field",
+            "--accent-2",
+            "--cover-bg"
+          ],
+          "hex": "#0E5A4F",
+          "maxDist": 60
+        },
+        {
+          "id": "facts-from-material",
+          "type": "factsInMaterial",
+          "maxUnmatched": 1
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,230 @@
+{
+ "title": "Tessaly Foods: board KPI pack, third quarter",
+ "format": "slides-16x9",
+ "storyline": "board-pack",
+ "decision": "approve",
+ "tracker": [
+  "Summary",
+  "Revenue",
+  "Scorecard",
+  "Decisions"
+ ],
+ "confid": "Board confidential",
+ "cover": {
+  "kicker": "Board KPI pack \u00b7 third quarter",
+  "title": "Tessaly Foods: quarter three operating review",
+  "sub": "Results against budget, the variance and its owners, and two decisions for the board.",
+  "meta": "As of 30 Sep \u00b7 fictional company \u00b7 theme specimen",
+  "confid": "Board confidential"
+ },
+ "exec": {
+  "tracker": "Summary",
+  "title": "Revenue missed budget by {miss}, but margin and cash held and leverage fell again",
+  "stamp": "As of 30 Sep",
+  "kpis": [
+   {
+    "value": "{rev}",
+    "label": "Revenue, quarter",
+    "delta": "{rev_d} vs budget",
+    "dir": "down"
+   },
+   {
+    "value": "{ebm}",
+    "label": "EBITDA margin",
+    "delta": "{ebm_d} vs budget"
+   },
+   {
+    "value": "{cc}",
+    "label": "Cash conversion",
+    "delta": "{cc_d} vs budget"
+   },
+   {
+    "value": "{nd}",
+    "label": "Net debt to EBITDA",
+    "delta": "{nd_d} on last quarter",
+    "dir": "down good"
+   }
+  ],
+  "rows": [
+   {
+    "k": "Performance",
+    "h": "Top line behind, margin intact",
+    "p": "Two retail contracts started a quarter late; pricing held, so margin stayed ahead of budget even on lower sales."
+   },
+   {
+    "k": "Cash and debt",
+    "h": "Cash ahead, leverage down",
+    "p": "Working capital released on the late contracts lifted cash conversion, and leverage fell for the fourth quarter running."
+   },
+   {
+    "k": "Decisions",
+    "h": "Two items for approval",
+    "p": "The chilled pricing reset and the contract recovery plan, each with a named owner and a monthly checkpoint."
+   }
+  ],
+  "source": "Source: Tessaly Foods management accounts (fictional), unaudited"
+ },
+ "chart": {
+  "tracker": "Revenue",
+  "title": "Two delayed contracts explain {share} of the quarter's {miss2} revenue shortfall to budget",
+  "stamp": "As of 30 Sep",
+  "exhibit": {
+   "no": "Exhibit 1",
+   "title": "Revenue shortfall to budget by cause, third quarter",
+   "unit": "$ in millions"
+  },
+  "type": "bar",
+  "data": {
+   "orient": "h",
+   "rowHeight": 66,
+   "categories": [
+    "Two contract delays",
+    "Price and mix",
+    "Promotion timing",
+    "Bakery volume",
+    "Other"
+   ],
+   "values": [
+    "@c0",
+    "@c1",
+    "@c2",
+    "@c3",
+    "@c4"
+   ],
+   "highlight": 0,
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "What happens next",
+   "bullets": [
+    "Both delayed contracts are now live and shipping weekly.",
+    "Price and mix recover with the chilled reset in the next quarter.",
+    "Promotion timing reverses in the fourth quarter on the agreed calendar."
+   ],
+   "sowhat": "The commercial director owns {cd} of the gap, and most of it returns next quarter."
+  },
+  "source": "Source: Tessaly Foods sales ledger and budget (fictional)"
+ },
+ "table": {
+  "tracker": "Scorecard",
+  "title": "Five of seven board KPIs are on track; revenue and delivery are behind budget",
+  "stamp": "As of 30 Sep",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Board scorecard, third quarter",
+   "unit": "Quarter figures unless stated; variance is actual less budget"
+  },
+  "columns": [
+   {
+    "h": "KPI"
+   },
+   {
+    "h": "Owner"
+   },
+   {
+    "h": "Actual",
+    "num": true
+   },
+   {
+    "h": "Budget",
+    "num": true
+   },
+   {
+    "h": "Variance",
+    "num": true
+   },
+   {
+    "h": "Year to date",
+    "num": true
+   },
+   {
+    "h": "Status"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Revenue, $m",
+     "Commercial director",
+     "sc_0_0",
+     "sc_0_1",
+     "sc_0_2",
+     "sc_0_3",
+     "st:watch:Behind"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Gross margin, %",
+     "Supply director",
+     "sc_1_0",
+     "sc_1_1",
+     "sc_1_2",
+     "sc_1_3",
+     "st:ok:On track"
+    ]
+   },
+   {
+    "cells": [
+     "EBITDA, $m",
+     "Chief financial officer",
+     "sc_2_0",
+     "sc_2_1",
+     "sc_2_2",
+     "sc_2_3",
+     "st:ok:On track"
+    ]
+   },
+   {
+    "cells": [
+     "Cash conversion, %",
+     "Chief financial officer",
+     "sc_3_0",
+     "sc_3_1",
+     "sc_3_2",
+     "sc_3_3",
+     "st:ok:On track"
+    ]
+   },
+   {
+    "cells": [
+     "Net debt to EBITDA, x",
+     "Chief financial officer",
+     "sc_4_0",
+     "sc_4_1",
+     "sc_4_2",
+     "sc_4_3",
+     "st:ok:On track"
+    ]
+   },
+   {
+    "cells": [
+     "On time in full, %",
+     "Operations director",
+     "sc_5_0",
+     "sc_5_1",
+     "sc_5_2",
+     "sc_5_3",
+     "st:watch:Behind"
+    ]
+   },
+   {
+    "cells": [
+     "Headcount",
+     "People director",
+     "sc_6_0",
+     "sc_6_1",
+     "sc_6_2",
+     "sc_6_3",
+     "st:ok:On track"
+    ]
+   }
+  ],
+  "callout": "On time in full is at {otif} after a warehouse system change; the operations director reports a recovery plan next month.",
+  "source": "Source: Tessaly Foods management accounts and operations reports (fictional)",
+  "note": "Status: on track within 2% of budget or better; behind when more than 2% adverse."
+ }
+}

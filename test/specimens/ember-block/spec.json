@@ -1,0 +1,205 @@
+{
+ "title": "Corvane investor day",
+ "format": "slides-16x9",
+ "storyline": "investor-day",
+ "decision": "invest",
+ "confid": "Corvane investor day",
+ "cover": {
+  "kicker": "Investor day",
+  "title": "Built to compound: the next five years at Corvane",
+  "sub": "How a multi-asset platform turns steady flows into durable fee growth.",
+  "meta": "Corvane Asset Management · fictional company · theme specimen",
+  "confid": "For illustration only"
+ },
+ "exec": {
+  "title": "Corvane grew assets to {aum} with positive net flows in every strategy but one",
+  "kpis": [
+   {
+    "value": "{aum_k}",
+    "label": "Assets under management, year end",
+    "delta": "{aum_d}",
+    "hl": true
+   },
+   {
+    "value": "{flows}",
+    "label": "Net flows for the year",
+    "delta": "{flows_d}"
+   },
+   {
+    "value": "{org}",
+    "label": "Organic growth on opening assets",
+    "delta": "{org_d}"
+   },
+   {
+    "value": "{fee}",
+    "label": "Average fee rate across the platform",
+    "delta": "{fee_d}",
+    "dir": "down"
+   }
+  ],
+  "rows": [
+   {
+    "k": "Private markets",
+    "h": "Credit and infrastructure lead",
+    "p": "Together they took {pm_flows} of the year's flows at the highest fee rates on the platform. Both now have dedicated origination teams in three regions."
+   },
+   {
+    "k": "Public markets",
+    "h": "Stable, scaled, low cost",
+    "p": "Equities saw a small outflow, offset by fixed income mandates from two pension clients. Costs per dollar managed fell again as the shared trading platform scaled."
+   }
+  ],
+  "source": "Source: Corvane Asset Management annual report (fictional)"
+ },
+ "chart": {
+  "title": "Assets have compounded at {cagr} a year for four years",
+  "exhibit": {
+   "no": "Exhibit 1",
+   "title": "Assets under management, year end",
+   "unit": "$ in billions"
+  },
+  "type": "bar",
+  "data": {
+   "categories": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "values": [
+    "@a1",
+    "@a2",
+    "@a3",
+    "@a4",
+    "@a5"
+   ],
+   "highlight": 4,
+   "cagr": "CAGR 11.3%",
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "Why it compounds",
+   "bullets": [
+    "Private markets rose from a quarter to over half of fee revenue.",
+    "Clients hold an average of {prods} Corvane strategies.",
+    "Retention of institutional assets ran at {ret}."
+   ],
+   "sowhat": "Growth comes from clients who stay and add, not from markets alone."
+  },
+  "source": "Source: Corvane Asset Management annual reports (fictional)",
+  "note": "Past performance is not indicative of future results."
+ },
+ "table": {
+  "title": "Private credit is the largest strategy at {pc_share} of assets and the fastest growing",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Platform by strategy, year end",
+   "unit": "$ in billions unless stated"
+  },
+  "columns": [
+   {
+    "h": "Strategy"
+   },
+   {
+    "h": "Assets",
+    "num": true
+   },
+   {
+    "h": "Share %",
+    "num": true
+   },
+   {
+    "h": "Net flows",
+    "num": true
+   },
+   {
+    "h": "Organic growth %",
+    "num": true
+   },
+   {
+    "h": "Fee rate, bps",
+    "num": true
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Private credit",
+     "tb_1_1",
+     "tb_1_2",
+     "tb_1_3",
+     "tb_1_4",
+     "tb_1_5"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Infrastructure",
+     "tb_2_1",
+     "tb_2_2",
+     "tb_2_3",
+     "tb_2_4",
+     "tb_2_5"
+    ]
+   },
+   {
+    "cells": [
+     "Real estate",
+     "tb_3_1",
+     "tb_3_2",
+     "tb_3_3",
+     "tb_3_4",
+     "tb_3_5"
+    ]
+   },
+   {
+    "cells": [
+     "Multi-asset",
+     "tb_4_1",
+     "tb_4_2",
+     "tb_4_3",
+     "tb_4_4",
+     "tb_4_5"
+    ]
+   },
+   {
+    "cells": [
+     "Equities",
+     "tb_5_1",
+     "tb_5_2",
+     "tb_5_3",
+     "tb_5_4",
+     "tb_5_5"
+    ]
+   },
+   {
+    "cells": [
+     "Fixed income",
+     "tb_6_1",
+     "tb_6_2",
+     "tb_6_3",
+     "tb_6_4",
+     "tb_6_5"
+    ]
+   },
+   {
+    "cells": [
+     "Total",
+     "tb_7_1",
+     "tb_7_2",
+     "tb_7_3",
+     "tb_7_4",
+     "tb_7_5"
+    ],
+    "cls": "total"
+   }
+  ],
+  "callout": "Private credit and infrastructure hold {pi_share} of assets but took {pi_fl} of the year's net flows.",
+  "source": "Source: Corvane Asset Management annual report (fictional)",
+  "note": "Organic growth is net flows divided by opening assets."
+ }
+}

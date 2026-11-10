@@ -1,0 +1,218 @@
+{
+ "title": "Project Kestrel: investment committee memo",
+ "format": "slides-16x9",
+ "storyline": "ic-memo",
+ "decision": "approve",
+ "confid": "Confidential, for the investment committee",
+ "tracker": [
+  "Recommendation",
+  "Value creation",
+  "Returns",
+  "Risks"
+ ],
+ "cover": {
+  "light": true,
+  "kicker": "Investment committee · Final approval",
+  "title": "Project Kestrel: acquisition of a specialist testing laboratory group",
+  "sub": "We ask the committee to approve an equity commitment of ${eq}M at {mult}x EBITDA, with exclusivity ending on 21 November.",
+  "meta": "November 2026 · Fictional company, fund and figures, theme specimen",
+  "confid": "Confidential, for the investment committee"
+ },
+ "exec": {
+  "tracker": "Recommendation",
+  "stamp": "Recommended",
+  "title": "Approve Kestrel: a base case of {moic}x and {irr}% that clears our hurdle in three of four cases",
+  "kpis": [
+   {
+    "value": "{moic}x",
+    "label": "Gross MOIC, base case",
+    "delta": "Hurdle {hurdle}x",
+    "dir": "flat",
+    "hl": true
+   },
+   {
+    "value": "{irr}%",
+    "label": "Gross IRR, base case, five-year hold",
+    "delta": "Fund target {tgt}%",
+    "dir": "flat"
+   },
+   {
+    "value": "${eq}M",
+    "label": "Equity commitment",
+    "delta": "{pct_fund}% of fund commitments",
+    "dir": "flat"
+   },
+   {
+    "value": "{mult}x",
+    "label": "Entry EV / EBITDA, last twelve months",
+    "delta": "Sector median {sect}x",
+    "dir": "flat"
+   }
+  ],
+  "rows": [
+   {
+    "k": "Recommendation",
+    "h": "Approve the commitment",
+    "p": "Sign at {mult}x on last-twelve-month EBITDA of ${ebitda0}M. If the committee does nothing, exclusivity lapses and the seller reopens the process."
+   },
+   {
+    "k": "Thesis",
+    "h": "Grow by buying, earn by owning",
+    "p": "Add regional labs at lower multiples than ours and move their testing onto Kestrel's accredited methods. EBITDA reaches ${ebitda5}M in year five."
+   },
+   {
+    "k": "What could break it",
+    "h": "One regulator, one customer group",
+    "p": "Public utilities are {cust}% of revenue under contracts that reprice every three years. The downside case assumes the next repricing goes against us."
+   }
+  ],
+  "source": "Source: Kestrel management accounts; deal team model (all fictional)"
+ },
+ "chart": {
+  "tracker": "Value creation",
+  "title": "EBITDA growth carries {grow_share}% of the gain, so the return does not need a higher exit multiple",
+  "exhibit": {
+   "no": "Exhibit 4",
+   "title": "Equity value bridge, base case, entry to year-five exit",
+   "unit": "$ in millions"
+  },
+  "type": "waterfall",
+  "data": {
+   "height": 420,
+   "steps": [
+    {
+     "label": "Entry equity",
+     "value": "@w0",
+     "total": true
+    },
+    {
+     "label": "EBITDA growth",
+     "value": "@w1"
+    },
+    {
+     "label": "Multiple change",
+     "value": "@w2"
+    },
+    {
+     "label": "Debt paydown",
+     "value": "@w3"
+    },
+    {
+     "label": "Fees and costs",
+     "value": "@w4"
+    },
+    {
+     "label": "Exit equity",
+     "value": "@w5",
+     "total": true
+    }
+   ],
+   "highlight": 1,
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "Where the return comes from",
+   "bullets": [
+    "Organic growth and four bolt-on labs lift EBITDA from ${ebitda0}M to ${ebitda5}M.",
+    "We underwrite the exit half a turn below entry, a cost of ${w2_abs}M.",
+    "Cash flow repays ${w3}M of debt over the hold."
+   ],
+   "sowhat": "The deal works on earnings growth alone; multiple expansion is not in the case."
+  },
+  "source": "Source: deal team model, base case (fictional)",
+  "note": "Note: gross of carried interest; fees and costs include transaction and monitoring fees."
+ },
+ "table": {
+  "tracker": "Returns",
+  "stamp": "Recommended",
+  "title": "Three of four cases clear the {hurdle}x hurdle, and the severe downside returns the equity",
+  "exhibit": {
+   "no": "Exhibit 5",
+   "title": "Returns by case at a five-year exit",
+   "unit": "$ in millions unless stated"
+  },
+  "columns": [
+   {
+    "h": "Case"
+   },
+   {
+    "h": "Exit EBITDA",
+    "num": true
+   },
+   {
+    "h": "Exit multiple, x",
+    "num": true
+   },
+   {
+    "h": "Exit equity",
+    "num": true
+   },
+   {
+    "h": "Gross MOIC, x",
+    "num": true
+   },
+   {
+    "h": "Gross IRR, %",
+    "num": true
+   },
+   {
+    "h": "Against {hurdle}x hurdle"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Management case",
+     "ce0",
+     "cm0",
+     "cq0",
+     "cmo0",
+     "cir0",
+     "st:ok:Clears"
+    ]
+   },
+   {
+    "cells": [
+     "Base case",
+     "ce1",
+     "cm1",
+     "cq1",
+     "cmo1",
+     "cir1",
+     "st:ok:Clears"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Downside",
+     "ce2",
+     "cm2",
+     "cq2",
+     "cmo2",
+     "cir2",
+     "st:watch:Below"
+    ]
+   },
+   {
+    "cells": [
+     "Severe downside",
+     "ce3",
+     "cm3",
+     "cq3",
+     "cmo3",
+     "cir3",
+     "st:watch:Below"
+    ]
+   }
+  ],
+  "callout": "The severe downside assumes EBITDA flat on entry and a {cm3}x exit, and still returns the ${eq}M of equity: the debt amortises from cash flow in every case.",
+  "more": [
+   "The downside case is the one we would defend to our own investors: it takes the utility repricing against us and assumes two of the four bolt-ons do not close. It still clears the cost of the fund's capital over the hold, though not the hurdle."
+  ],
+  "source": "Source: deal team model (fictional)",
+  "note": "Note: base case governs. Management case shown for reference only; it assumes the full bolt-on pipeline closes."
+ }
+}

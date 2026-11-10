@@ -1,0 +1,220 @@
+{
+ "title": "Halden Grocers: closing the margin gap",
+ "format": "slides-16x9",
+ "storyline": "scr-strategy",
+ "decision": "approve",
+ "tracker": [
+  "Situation",
+  "Margin gap",
+  "Levers",
+  "Plan"
+ ],
+ "confid": "Confidential",
+ "cover": {
+  "kicker": "Board discussion document",
+  "title": "Halden Grocers: closing the margin gap to the regional leaders",
+  "sub": "Three operating moves that lift EBITDA margin from {m_now} to {m_target} within three years.",
+  "meta": "Fictional company · theme specimen"
+ },
+ "exec": {
+  "tracker": "Situation",
+  "title": "Halden can lift margin by {m_gap} in three years without closing a single store",
+  "rows": [
+   {
+    "k": "Situation",
+    "h": "A trusted regional grocer",
+    "p": "Sales reached {sales} across {stores} stores, and customer scores lead the region for the fourth year running. Like-for-like sales grew in every quarter, and the store estate needs no major refit before the plan period ends."
+   },
+   {
+    "k": "Complication",
+    "h": "Margin trails every leader",
+    "p": "EBITDA margin of {m_now2} sits {gap_lead} behind the best regional peer, mostly in fresh shrink and store labour. Cost inflation in both lines is running ahead of what Halden can pass on to customers."
+   },
+   {
+    "k": "Resolution",
+    "h": "Three moves, one owner each",
+    "p": "Fresh supply rebuild, labour scheduling and own-label range. Together they add {uplift} of EBITDA at today's sales, with each move owned by one executive and tracked monthly by the board."
+   }
+  ]
+ },
+ "chart": {
+  "tracker": "Margin gap",
+  "title": "Halden sits fourth of six regional grocers on margin, behind every scaled peer",
+  "stamp": "Preliminary",
+  "exhibit": {
+   "no": "Exhibit 1",
+   "title": "EBITDA margin, last fiscal year",
+   "unit": "%"
+  },
+  "type": "bar",
+  "data": {
+   "orient": "h",
+   "rowHeight": 50,
+   "categories": [
+    "Corrin Markets",
+    "Lyle and Dorn",
+    "Sorrel Foods",
+    "Halden Grocers",
+    "Brackwater",
+    "Pell Fresh"
+   ],
+   "values": [
+    "@p1",
+    "@p2",
+    "@p3",
+    "@p4",
+    "@p5",
+    "@p6"
+   ],
+   "highlight": 3,
+   "fmt": {
+    "dp": 1,
+    "suffix": "%"
+   }
+  },
+  "takeaway": {
+   "h": "What the ranking says",
+   "bullets": [
+    "The three leaders all run central fresh buying; Halden buys fresh store by store.",
+    "Shrink alone explains about {shrink_pp} of the gap to the leader.",
+    "Halden is ahead of the two smaller chains on every cost line."
+   ],
+   "sowhat": "The gap is operational, not structural: the leaders show it can be closed."
+  },
+  "source": "Source: annual reports of the six grocers (all fictional); specimen team analysis",
+  "note": "Margins on a pre-IFRS 16 basis for comparability."
+ },
+ "table": {
+  "tracker": "Levers",
+  "title": "Fresh and convenience formats carry {share_gap} of the margin gap and get the first wave",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Margin gap by store format, last fiscal year",
+   "unit": "$ in millions unless stated"
+  },
+  "columns": [
+   {
+    "h": "Format"
+   },
+   {
+    "h": "Stores",
+    "num": true
+   },
+   {
+    "h": "Sales",
+    "num": true
+   },
+   {
+    "h": "Gross margin %",
+    "num": true
+   },
+   {
+    "h": "EBITDA margin %",
+    "num": true
+   },
+   {
+    "h": "Gap to leader, pp",
+    "num": true
+   },
+   {
+    "h": "EBITDA at stake",
+    "num": true
+   },
+   {
+    "h": "Wave"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Large fresh",
+     "tb_1_1",
+     "tb_1_2",
+     "tb_1_3",
+     "tb_1_4",
+     "tb_1_5",
+     "tb_1_6",
+     "One"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Convenience",
+     "tb_2_1",
+     "tb_2_2",
+     "tb_2_3",
+     "tb_2_4",
+     "tb_2_5",
+     "tb_2_6",
+     "One"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Supermarket",
+     "tb_3_1",
+     "tb_3_2",
+     "tb_3_3",
+     "tb_3_4",
+     "tb_3_5",
+     "tb_3_6",
+     "Two"
+    ]
+   },
+   {
+    "cells": [
+     "Rural",
+     "tb_4_1",
+     "tb_4_2",
+     "tb_4_3",
+     "tb_4_4",
+     "tb_4_5",
+     "tb_4_6",
+     "Two"
+    ]
+   },
+   {
+    "cells": [
+     "Online",
+     "tb_5_1",
+     "tb_5_2",
+     "tb_5_3",
+     "tb_5_4",
+     "tb_5_5",
+     "tb_5_6",
+     "Three"
+    ]
+   },
+   {
+    "cells": [
+     "Wholesale",
+     "tb_6_1",
+     "tb_6_2",
+     "tb_6_3",
+     "tb_6_4",
+     "tb_6_5",
+     "tb_6_6",
+     "Three"
+    ]
+   },
+   {
+    "cells": [
+     "Total",
+     "tb_7_1",
+     "tb_7_2",
+     "tb_7_3",
+     "tb_7_4",
+     "tb_7_5",
+     "tb_7_6",
+     ""
+    ],
+    "cls": "total"
+   }
+  ],
+  "callout": "Wave one covers {w1_st} stores and {w1_eb} of the EBITDA at stake, so most of the value lands in the first eighteen months.",
+  "source": "Source: Halden Grocers management accounts (fictional); specimen team analysis",
+  "note": "EBITDA at stake closes half of each format gap to the regional leader on current sales."
+ }
+}

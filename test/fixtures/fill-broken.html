@@ -1,0 +1,92 @@
+<!doctype html>
+<!-- Deckmark · fill and numbers fixture: empty-slide, gap-sprawl, totals and sources-uses must fire -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fill fixture: must FAIL</title>
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="tokens.css">
+</head>
+<body data-format="slides-16x9">
+<main class="deck">
+
+<!-- empty-slide: a KPI pair and one line in the top third; the waiver is rejected (not a cover, divider or quote) -->
+<section class="slide" data-archetype="kpi-strip">
+  <header class="slide-head"><h2 class="action-title">Two numbers float at the top and leave the page empty</h2></header>
+  <div class="slide-body"><!-- waive: empty-slide the material is thin on this point -->
+    <div class="kpi-strip" style="--kpis: 2">
+      <div class="kpi"><span class="kpi-value">12.0%</span><span class="kpi-label">Margin, FY25</span></div>
+      <div class="kpi"><span class="kpi-value">8.9%</span><span class="kpi-label">Revenue CAGR</span></div>
+    </div>
+    <p>One sentence under the tiles, then nothing.</p>
+    <div><table class="data"><tbody><tr><td>Backlog</td><td class="num">n/a</td></tr></tbody></table></div>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">1</span></footer>
+</section>
+
+<!-- gap-sprawl (slide): most cells are gaps; totals: the total row does not add up -->
+<section class="slide" data-archetype="data-table">
+  <header class="slide-head"><h2 class="action-title">Half the table is missing and the total does not add up</h2></header>
+  <div class="slide-body">
+    <table class="data">
+      <thead><tr><th>Line</th><th class="num">FY24</th><th class="num">FY25</th></tr></thead>
+      <tbody>
+        <tr data-part><td>Segment A</td><td class="num">10.0</td><td class="num">n/a</td></tr>
+        <tr data-part><td>Segment B</td><td class="num">n/a</td><td class="num">n/a, source needed</td></tr>
+        <tr data-part><td>Segment C</td><td class="num">5.0</td><td class="num">DATA NEEDED</td></tr>
+        <tr class="total" data-total><td>Total</td><td class="num">16.0</td><td class="num">n/a</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">2</span></footer>
+</section>
+
+<!-- sources-uses: sources 83.3, uses 85.0 (the credit-memo case) -->
+<section class="slide" data-archetype="sources-uses">
+  <header class="slide-head"><h2 class="action-title">Sources fall 1.7 short of uses once the discount is taken</h2></header>
+  <div class="slide-body">
+    <div class="sources-uses">
+      <div><h4>Sources</h4>
+        <table class="data" data-sources><thead><tr><th>Source</th><th class="num">$M</th></tr></thead><tbody>
+          <tr data-part><td>Term loan, net of discount</td><td class="num">83.3</td></tr>
+          <tr data-part><td>Sponsor equity</td><td class="num">n/a</td></tr>
+          <tr class="total" data-total><td>Total</td><td class="num">83.3</td></tr></tbody></table></div>
+      <div><h4>Uses</h4>
+        <table class="data" data-uses><thead><tr><th>Use</th><th class="num">$M</th></tr></thead><tbody>
+          <tr data-part><td>Refinance existing debt</td><td class="num">82.0</td></tr>
+          <tr data-part><td>Fees and expenses</td><td class="num">3.0</td></tr>
+          <tr class="total" data-total><td>Total</td><td class="num">85.0</td></tr></tbody></table></div>
+    </div>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">3</span></footer>
+</section>
+
+<!-- a fourth slide with a gap cell: four slides carry gaps, so the deck-level gap-sprawl fires -->
+<section class="slide" data-archetype="data-table-b">
+  <header class="slide-head"><h2 class="action-title">One more gap cell makes four slides that carry gap cells</h2></header>
+  <div class="slide-body">
+    <table class="data">
+      <thead><tr><th>Item</th><th class="num">Value</th></tr></thead>
+      <tbody>
+        <tr><td>Customers</td><td class="num">142</td></tr>
+        <tr><td>Sites</td><td class="num">18</td></tr>
+        <tr><td>Contracts</td><td class="num">61</td></tr>
+        <tr><td>Backlog</td><td class="num">n/a</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">4</span></footer>
+</section>
+
+<!-- a quote slide may waive empty-slide; this waiver is honoured -->
+<section class="slide quote" data-archetype="quote-callout">
+  <header class="slide-head"><h2 class="action-title">The customer says the switch cost is the reason they stay</h2></header>
+  <div class="slide-body"><!-- waive: empty-slide a quote slide is short by design -->
+    <blockquote class="lead">"Switching would cost us a season of retraining."</blockquote>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">5</span></footer>
+</section>
+
+</main>
+</body>
+</html>

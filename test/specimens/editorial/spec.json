@@ -1,0 +1,242 @@
+{
+ "title": "Private markets outlook 2027",
+ "format": "report-a4",
+ "storyline": "scr-strategy",
+ "decision": "adopt",
+ "confid": "Private markets outlook 2027",
+ "tracker": [
+  "Private markets outlook 2027",
+  "Chapter 1 · The house view"
+ ],
+ "cover": {
+  "light": true,
+  "kicker": "Aldmere Institute · Annual outlook",
+  "title": "Private markets outlook 2027",
+  "sub": "Higher rates for longer reward the lender and the patient buyer. Where we would put new money, and where we would wait.",
+  "meta": "November 2026 · Fictional institute and figures, theme specimen",
+  "confid": "For institutional investors"
+ },
+ "exec": {
+  "tracker": "Chapter 1 · The house view",
+  "title": "High rates favour lenders over buyers, so we tilt new money toward credit",
+  "lead": "Direct lending still pays about {gap} points more than a buyout earns on its entry price, and buyout exits have slowed to {exit}% of holdings a year. We would lend now and buy later.",
+  "kpis": [
+   {
+    "value": "{dl_y}%",
+    "label": "All-in yield, senior direct lending, 2025",
+    "delta": "{dl_d} pp below the 2023 peak",
+    "dir": "down",
+    "hl": true
+   },
+   {
+    "value": "{exit}%",
+    "label": "Buyout exits as a share of holdings, 2025",
+    "delta": "Lowest since 2009",
+    "dir": "flat"
+   },
+   {
+    "value": "{dpi21}x",
+    "label": "Distributions to paid-in, 2021 vintage",
+    "delta": "{dpi15}x for 2015 at the same age",
+    "dir": "flat"
+   }
+  ],
+  "rows": [
+   {
+    "k": "Lend",
+    "h": "Senior credit keeps its premium",
+    "p": "Interest cover on new loans has settled near {cov}x and leverage near {lev}x, both inside the range lenders priced for."
+   },
+   {
+    "k": "Buy late",
+    "h": "Secondaries are the cheap way in",
+    "p": "Buyers of existing fund stakes paid about {sec_disc}% below reported value this year, for portfolios that are already four years old."
+   },
+   {
+    "k": "Wait",
+    "h": "New buyouts need the exit market back",
+    "p": "Until sales and listings recover, new buyout funds will return capital later than their investors planned."
+   }
+  ],
+  "more": [
+   "The three calls share one cause. Money costs more than it did for most of the last decade, and the market has repriced loans faster than it has repriced companies. Until company prices adjust, the investor who lends or buys late is paid more for the same risk than the investor who buys a new company at today's price.",
+   "Chapter 2 sets out the evidence for each call by strategy; chapter 3 covers the risks that would change our view."
+  ],
+  "source": "Source: Aldmere Institute private markets database (fictional)"
+ },
+ "chart": {
+  "tracker": "Chapter 1 · The house view",
+  "stamp": "House view",
+  "title": "Direct lending still yields about {gap} points more than buyouts earn on entry",
+  "lead": "The gap has narrowed from its 2023 peak but remains wider than in any year before 2022. A lender is paid more for less risk than a buyer who pays today's entry price.",
+  "exhibit": {
+   "no": "Figure 1",
+   "title": "Direct lending yield and buyout entry earnings yield",
+   "unit": "%, year end"
+  },
+  "type": "line",
+  "data": {
+   "height": 390,
+   "categories": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "series": [
+    {
+     "name": "Direct lending",
+     "values": [
+      "@dl0",
+      "@dl1",
+      "@dl2",
+      "@dl3",
+      "@dl4",
+      "@dl5",
+      "@dl6",
+      "@dl7"
+     ]
+    },
+    {
+     "name": "Buyout entry",
+     "values": [
+      "@bo0",
+      "@bo1",
+      "@bo2",
+      "@bo3",
+      "@bo4",
+      "@bo5",
+      "@bo6",
+      "@bo7"
+     ]
+    }
+   ],
+   "highlight": 0,
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "Reading the lines",
+   "bullets": [
+    "Lending yields track base rates; entry yields move only as prices fall.",
+    "Buyout entry yields have risen for four years but from a low base."
+   ],
+   "sowhat": "The spread is the reason to lend first and buy later."
+  },
+  "more": [
+   "Our view does not depend on rates rising further. If base rates fall by a full point next year, direct lending yields fall by roughly the same, and the gap to buyout entry yields still sits above its pre-2022 range."
+  ],
+  "source": "Source: Aldmere Institute private markets database (fictional)",
+  "note": "Note: buyout entry earnings yield is the inverse of the median entry multiple of EBITDA, after tax."
+ },
+ "table": {
+  "tracker": "Chapter 1 · The house view",
+  "title": "We would lend and buy secondaries, and hold back on large buyouts",
+  "lead": "Our expected returns are ten-year, net of fees and in US dollars. The quartile columns show the spread between the best and worst managers, which matters more than the average in private markets.",
+  "exhibit": {
+   "no": "Table 1",
+   "title": "Expected returns and positioning by strategy, 2027",
+   "unit": "net of fees, % a year"
+  },
+  "columns": [
+   {
+    "h": "Strategy"
+   },
+   {
+    "h": "Expected return",
+    "num": true
+   },
+   {
+    "h": "Worst quartile",
+    "num": true
+   },
+   {
+    "h": "Best quartile",
+    "num": true
+   },
+   {
+    "h": "View"
+   },
+   {
+    "h": "Change on last year"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Senior direct lending",
+     "r0",
+     "lo0",
+     "hi0",
+     "Overweight",
+     "Unchanged"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Secondaries",
+     "r1",
+     "lo1",
+     "hi1",
+     "Overweight",
+     "Raised"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Infrastructure equity",
+     "r2",
+     "lo2",
+     "hi2",
+     "Neutral",
+     "Unchanged"
+    ]
+   },
+   {
+    "cells": [
+     "Mid-market buyout",
+     "r3",
+     "lo3",
+     "hi3",
+     "Neutral",
+     "Lowered"
+    ]
+   },
+   {
+    "cells": [
+     "Large-cap buyout",
+     "r4",
+     "lo4",
+     "hi4",
+     "Underweight",
+     "Lowered"
+    ]
+   },
+   {
+    "cells": [
+     "Venture and growth",
+     "r5",
+     "lo5",
+     "hi5",
+     "Underweight",
+     "Unchanged"
+    ]
+   }
+  ],
+  "callout": "Manager choice moves the outcome more than the strategy does: the range in buyout is wider than the gap between any two averages.",
+  "more": [
+   "We lowered our buyout views because exits have been slower for longer than we assumed a year ago. Funds that cannot sell cannot return capital, and investors waiting on those distributions will commit less to new funds, which in turn supports prices for secondary buyers.",
+   "We raised secondaries for the same reason. Sellers that need liquidity accept discounts to reported value, and the buyer receives assets with a known history and a shorter wait to distribution.",
+   "Venture stays underweight on dispersion rather than on the average: the median manager has not earned its fees over the last ten years."
+  ],
+  "source": "Source: Aldmere Institute capital market assumptions (fictional)",
+  "note": "Note: expected returns are not guarantees and are shown for illustration in a fictional specimen."
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "_note": "Corvane Asset Management is fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "aum": {
+   "value": 412,
+   "display": "$412B"
+  },
+  "aum_k": {
+   "value": 412,
+   "display": "$412B"
+  },
+  "aum_d": {
+   "value": 10.9,
+   "display": "+10.9%"
+  },
+  "flows": {
+   "value": 18.6,
+   "display": "$18.6B"
+  },
+  "flows_d": {
+   "value": 4.2,
+   "display": "+$4.2B"
+  },
+  "org": {
+   "value": 5,
+   "display": "5.0%"
+  },
+  "org_d": {
+   "value": 1.1,
+   "display": "+1.1pp"
+  },
+  "fee": {
+   "value": 45,
+   "display": "45bps"
+  },
+  "fee_d": {
+   "value": -1,
+   "display": "-1bps"
+  },
+  "pm_flows": {
+   "value": 14.9,
+   "display": "$14.9B"
+  },
+  "cagr": {
+   "value": 11.3,
+   "display": "11.3%"
+  },
+  "a1": {
+   "value": 268.4,
+   "display": "268.4"
+  },
+  "a2": {
+   "value": 301.2,
+   "display": "301.2"
+  },
+  "a3": {
+   "value": 322.9,
+   "display": "322.9"
+  },
+  "a4": {
+   "value": 371.5,
+   "display": "371.5"
+  },
+  "a5": {
+   "value": 412,
+   "display": "412.0"
+  },
+  "prods": {
+   "value": 2.7,
+   "display": "2.7"
+  },
+  "ret": {
+   "value": 97,
+   "display": "97%"
+  },
+  "pc_share": {
+   "value": 23.4,
+   "display": "23.4%"
+  },
+  "tb_1_1": {
+   "value": 96.4,
+   "display": "96.4"
+  },
+  "tb_1_2": {
+   "value": 23.4,
+   "display": "23.4"
+  },
+  "tb_1_3": {
+   "value": 9.8,
+   "display": "9.8"
+  },
+  "tb_1_4": {
+   "value": 11.4,
+   "display": "11.4"
+  },
+  "tb_1_5": {
+   "value": 78,
+   "display": "78"
+  },
+  "tb_2_1": {
+   "value": 58.2,
+   "display": "58.2"
+  },
+  "tb_2_2": {
+   "value": 14.1,
+   "display": "14.1"
+  },
+  "tb_2_3": {
+   "value": 5.1,
+   "display": "5.1"
+  },
+  "tb_2_4": {
+   "value": 9.6,
+   "display": "9.6"
+  },
+  "tb_2_5": {
+   "value": 64,
+   "display": "64"
+  },
+  "tb_3_1": {
+   "value": 71.3,
+   "display": "71.3"
+  },
+  "tb_3_2": {
+   "value": 17.3,
+   "display": "17.3"
+  },
+  "tb_3_3": {
+   "value": 1.2,
+   "display": "1.2"
+  },
+  "tb_3_4": {
+   "value": 1.7,
+   "display": "1.7"
+  },
+  "tb_3_5": {
+   "value": 52,
+   "display": "52"
+  },
+  "tb_4_1": {
+   "value": 64.8,
+   "display": "64.8"
+  },
+  "tb_4_2": {
+   "value": 15.7,
+   "display": "15.7"
+  },
+  "tb_4_3": {
+   "value": 0.9,
+   "display": "0.9"
+  },
+  "tb_4_4": {
+   "value": 1.4,
+   "display": "1.4"
+  },
+  "tb_4_5": {
+   "value": 24,
+   "display": "24"
+  },
+  "tb_5_1": {
+   "value": 69.5,
+   "display": "69.5"
+  },
+  "tb_5_2": {
+   "value": 16.9,
+   "display": "16.9"
+  },
+  "tb_5_3": {
+   "value": -0.6,
+   "display": "(0.6)"
+  },
+  "tb_5_4": {
+   "value": -0.9,
+   "display": "(0.9)"
+  },
+  "tb_5_5": {
+   "value": 18,
+   "display": "18"
+  },
+  "tb_6_1": {
+   "value": 51.8,
+   "display": "51.8"
+  },
+  "tb_6_2": {
+   "value": 12.6,
+   "display": "12.6"
+  },
+  "tb_6_3": {
+   "value": 2.2,
+   "display": "2.2"
+  },
+  "tb_6_4": {
+   "value": 4.4,
+   "display": "4.4"
+  },
+  "tb_6_5": {
+   "value": 15,
+   "display": "15"
+  },
+  "tb_7_1": {
+   "value": 412,
+   "display": "412.0"
+  },
+  "tb_7_2": {
+   "value": 100,
+   "display": "100.0"
+  },
+  "tb_7_3": {
+   "value": 18.6,
+   "display": "18.6"
+  },
+  "tb_7_4": {
+   "value": 5,
+   "display": "5.0"
+  },
+  "tb_7_5": {
+   "value": 45,
+   "display": "45"
+  },
+  "pi_share": {
+   "value": 37.5,
+   "display": "37.5%"
+  },
+  "pi_fl": {
+   "value": 80,
+   "display": "80%"
+  }
+ }
+}

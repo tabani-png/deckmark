@@ -1,0 +1,145 @@
+{
+ "_note": "Every printed figure in the deck. Source is material.md unless marked derived.",
+ "facts": {
+  "branches": {
+   "value": 96,
+   "display": "96",
+   "src": "material.md: \"96 branches\""
+  },
+  "assets": {
+   "value": 14.2,
+   "display": "$14.2B",
+   "src": "material.md: \"$14.2B assets\""
+  },
+  "fte": {
+   "value": 210,
+   "display": "210",
+   "src": "material.md: \"Finance org: 210 FTE\""
+  },
+  "t_close": {
+   "value": 34,
+   "display": "34%",
+   "src": "material.md: internal survey, close and reconciliation 34%"
+  },
+  "t_rep": {
+   "value": 22,
+   "display": "22%",
+   "src": "material.md: internal survey, reporting 22%"
+  },
+  "t_fpa": {
+   "value": 18,
+   "display": "18%",
+   "src": "material.md: internal survey, FP&A 18%"
+  },
+  "t_ap": {
+   "value": 14,
+   "display": "14%",
+   "src": "material.md: internal survey, AP/AR 14%"
+  },
+  "t_reg": {
+   "value": 12,
+   "display": "12%",
+   "src": "material.md: internal survey, regulatory reporting 12%"
+  },
+  "t_other": {
+   "value": 66,
+   "display": "66%",
+   "src": "derived: reporting 22 + FP&A 18 + AP/AR 14 + regulatory 12"
+  },
+  "close_days": {
+   "value": 11,
+   "display": "11",
+   "src": "material.md: month-end close 11 business days"
+  },
+  "peer_days": {
+   "value": 6,
+   "display": "6",
+   "src": "material.md: peer median 6 (client-commissioned benchmark)"
+  },
+  "gap_days": {
+   "value": 5,
+   "display": "5",
+   "src": "derived: 11 less 6"
+  },
+  "je": {
+   "value": 4800,
+   "display": "4,800",
+   "src": "material.md: 4,800 manual journal entries per month"
+  },
+  "restate": {
+   "value": 3,
+   "display": "3",
+   "src": "material.md: 3 restatements in 2024"
+  },
+  "restate_year": {
+   "value": 2024,
+   "display": "2024",
+   "src": "material.md: 3 restatements in 2024"
+  },
+  "budget": {
+   "value": 4,
+   "display": "$4.0M",
+   "src": "material.md: budget available $4.0M over 18 months"
+  },
+  "months": {
+   "value": 18,
+   "display": "18",
+   "src": "material.md: budget over 18 months"
+  },
+  "h_recon": {
+   "value": 21000,
+   "display": "21,000",
+   "src": "material.md: reconciliation matching 21,000 hours (client estimate)"
+  },
+  "h_flux": {
+   "value": 9500,
+   "display": "9,500",
+   "src": "material.md: flux/variance commentary 9,500 hours (client estimate)"
+  },
+  "h_ap": {
+   "value": 14000,
+   "display": "14,000",
+   "src": "material.md: AP invoice coding 14,000 hours (client estimate)"
+  },
+  "h_reg": {
+   "value": 6000,
+   "display": "6,000",
+   "src": "material.md: reg report validation 6,000 hours (client estimate)"
+  },
+  "h_fpa": {
+   "value": 7500,
+   "display": "7,500",
+   "src": "material.md: FP&A forecasting 7,500 hours (client estimate)"
+  },
+  "h_total": {
+   "value": 58000,
+   "display": "58,000",
+   "src": "derived: sum of the five client estimates"
+  },
+  "h_w1": {
+   "value": 27000,
+   "display": "27,000",
+   "src": "derived: reconciliation 21,000 + regulatory validation 6,000"
+  },
+  "h_w12": {
+   "value": 50500,
+   "display": "50,500",
+   "src": "derived: wave one 27,000 + AP coding 14,000 + flux 9,500"
+  },
+  "h_recon_share": {
+   "value": 36,
+   "display": "36%",
+   "src": "derived: 21,000 / 58,000 = 36.2%"
+  },
+  "h_w1_share": {
+   "value": 47,
+   "display": "47%",
+   "src": "derived: 27,000 / 58,000 = 46.6%, rounded"
+  },
+  "year_now": {
+   "value": 2026,
+   "display": "2026",
+   "src": "deck date (2026-11-07)"
+  }
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "_note": "Tessaly Foods is fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "rev": {
+   "value": 182.4,
+   "display": "$182.4M"
+  },
+  "rev_d": {
+   "value": -3.3,
+   "display": "\u22123.3%"
+  },
+  "ebm": {
+   "value": 14.2,
+   "display": "14.2%"
+  },
+  "ebm_d": {
+   "value": 0.2,
+   "display": "+0.2pp"
+  },
+  "cc": {
+   "value": 91,
+   "display": "91%"
+  },
+  "cc_d": {
+   "value": 6,
+   "display": "+6pp"
+  },
+  "nd": {
+   "value": 1.8,
+   "display": "1.8x"
+  },
+  "nd_d": {
+   "value": -0.2,
+   "display": "\u22120.2x"
+  },
+  "miss": {
+   "value": 6.2,
+   "display": "$6.2M"
+  },
+  "miss2": {
+   "value": 6.2,
+   "display": "$6.2M"
+  },
+  "share": {
+   "value": 54.8,
+   "display": "54.8%"
+  },
+  "cd": {
+   "value": 3.4,
+   "display": "$3.4M"
+  },
+  "otif": {
+   "value": 94.1,
+   "display": "94.1%"
+  },
+  "c0": {
+   "value": 3.4,
+   "display": "3.4"
+  },
+  "c1": {
+   "value": 1.2,
+   "display": "1.2"
+  },
+  "c2": {
+   "value": 0.8,
+   "display": "0.8"
+  },
+  "c3": {
+   "value": 0.5,
+   "display": "0.5"
+  },
+  "c4": {
+   "value": 0.3,
+   "display": "0.3"
+  },
+  "sc_0_0": {
+   "value": 182.4,
+   "display": "182.4"
+  },
+  "sc_0_1": {
+   "value": 188.6,
+   "display": "188.6"
+  },
+  "sc_0_2": {
+   "value": -6.2,
+   "display": "(6.2)"
+  },
+  "sc_0_3": {
+   "value": 541.0,
+   "display": "541.0"
+  },
+  "sc_1_0": {
+   "value": 31.8,
+   "display": "31.8"
+  },
+  "sc_1_1": {
+   "value": 31.2,
+   "display": "31.2"
+  },
+  "sc_1_2": {
+   "value": 0.6,
+   "display": "0.6"
+  },
+  "sc_1_3": {
+   "value": 31.5,
+   "display": "31.5"
+  },
+  "sc_2_0": {
+   "value": 25.9,
+   "display": "25.9"
+  },
+  "sc_2_1": {
+   "value": 26.4,
+   "display": "26.4"
+  },
+  "sc_2_2": {
+   "value": -0.5,
+   "display": "(0.5)"
+  },
+  "sc_2_3": {
+   "value": 76.2,
+   "display": "76.2"
+  },
+  "sc_3_0": {
+   "value": 91.0,
+   "display": "91"
+  },
+  "sc_3_1": {
+   "value": 85.0,
+   "display": "85"
+  },
+  "sc_3_2": {
+   "value": 6,
+   "display": "6"
+  },
+  "sc_3_3": {
+   "value": 88.0,
+   "display": "88"
+  },
+  "sc_4_0": {
+   "value": 1.8,
+   "display": "1.8"
+  },
+  "sc_4_1": {
+   "value": 2.0,
+   "display": "2.0"
+  },
+  "sc_4_2": {
+   "value": -0.2,
+   "display": "(0.2)"
+  },
+  "sc_4_3": {
+   "value": 1.8,
+   "display": "1.8"
+  },
+  "sc_5_0": {
+   "value": 94.1,
+   "display": "94.1"
+  },
+  "sc_5_1": {
+   "value": 96.0,
+   "display": "96.0"
+  },
+  "sc_5_2": {
+   "value": -1.9,
+   "display": "(1.9)"
+  },
+  "sc_5_3": {
+   "value": 94.8,
+   "display": "94.8"
+  },
+  "sc_6_0": {
+   "value": 2140.0,
+   "display": "2,140"
+  },
+  "sc_6_1": {
+   "value": 2180.0,
+   "display": "2,180"
+  },
+  "sc_6_2": {
+   "value": -40,
+   "display": "(40)"
+  },
+  "sc_6_3": {
+   "value": 2140.0,
+   "display": "2,140"
+  }
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "_note": "Project Juniper and the business it describes are fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "cagr_t": {
+   "value": 14.1,
+   "display": "14.1%"
+  },
+  "recur": {
+   "value": 94,
+   "display": "94%"
+  },
+  "m22": {
+   "value": 22.5,
+   "display": "22.5%"
+  },
+  "m26": {
+   "value": 26.3,
+   "display": "26.3%"
+  },
+  "cc": {
+   "value": 82,
+   "display": "82%"
+  },
+  "top5": {
+   "value": 31,
+   "display": "31%"
+  },
+  "r22": {
+   "value": 55.1,
+   "display": "55.1"
+  },
+  "r23": {
+   "value": 63.2,
+   "display": "63.2"
+  },
+  "r24": {
+   "value": 71.9,
+   "display": "71.9"
+  },
+  "r25": {
+   "value": 82,
+   "display": "82.0"
+  },
+  "r26": {
+   "value": 93.4,
+   "display": "93.4"
+  },
+  "vol": {
+   "value": 9,
+   "display": "9%"
+  },
+  "pl_2_1": {
+   "value": 13.4,
+   "display": "13.4%"
+  },
+  "pl_2_2": {
+   "value": 14.7,
+   "display": "14.7%"
+  },
+  "pl_2_3": {
+   "value": 13.8,
+   "display": "13.8%"
+  },
+  "pl_2_4": {
+   "value": 14,
+   "display": "14.0%"
+  },
+  "pl_2_5": {
+   "value": 13.9,
+   "display": "13.9%"
+  },
+  "pl_3_1": {
+   "value": 30.3,
+   "display": "30.3"
+  },
+  "pl_3_2": {
+   "value": 35.1,
+   "display": "35.1"
+  },
+  "pl_3_3": {
+   "value": 40.6,
+   "display": "40.6"
+  },
+  "pl_3_4": {
+   "value": 46.7,
+   "display": "46.7"
+  },
+  "pl_3_5": {
+   "value": 53.7,
+   "display": "53.7"
+  },
+  "pl_4_1": {
+   "value": 55,
+   "display": "55.0%"
+  },
+  "pl_4_2": {
+   "value": 55.5,
+   "display": "55.5%"
+  },
+  "pl_4_3": {
+   "value": 56.5,
+   "display": "56.5%"
+  },
+  "pl_4_4": {
+   "value": 57,
+   "display": "57.0%"
+  },
+  "pl_4_5": {
+   "value": 57.5,
+   "display": "57.5%"
+  },
+  "pl_5_1": {
+   "value": 12.4,
+   "display": "12.4"
+  },
+  "pl_5_2": {
+   "value": 14.8,
+   "display": "14.8"
+  },
+  "pl_5_3": {
+   "value": 17.6,
+   "display": "17.6"
+  },
+  "pl_5_4": {
+   "value": 20.9,
+   "display": "20.9"
+  },
+  "pl_5_5": {
+   "value": 24.6,
+   "display": "24.6"
+  },
+  "pl_6_1": {
+   "value": 22.5,
+   "display": "22.5%"
+  },
+  "pl_6_2": {
+   "value": 23.4,
+   "display": "23.4%"
+  },
+  "pl_6_3": {
+   "value": 24.5,
+   "display": "24.5%"
+  },
+  "pl_6_4": {
+   "value": 25.5,
+   "display": "25.5%"
+  },
+  "pl_6_5": {
+   "value": 26.3,
+   "display": "26.3%"
+  },
+  "pl_7_1": {
+   "value": -2.1,
+   "display": "(2.1)"
+  },
+  "pl_7_2": {
+   "value": -2.6,
+   "display": "(2.6)"
+  },
+  "pl_7_3": {
+   "value": -2.9,
+   "display": "(2.9)"
+  },
+  "pl_7_4": {
+   "value": -3.4,
+   "display": "(3.4)"
+  },
+  "pl_7_5": {
+   "value": -3.8,
+   "display": "(3.8)"
+  },
+  "pl_8_1": {
+   "value": 83.1,
+   "display": "83.1%"
+  },
+  "pl_8_2": {
+   "value": 82.4,
+   "display": "82.4%"
+  },
+  "pl_8_3": {
+   "value": 83.5,
+   "display": "83.5%"
+  },
+  "pl_8_4": {
+   "value": 83.7,
+   "display": "83.7%"
+  },
+  "pl_8_5": {
+   "value": 84.6,
+   "display": "84.6%"
+  },
+  "eb22": {
+   "value": 12.4,
+   "display": "£12.4M"
+  },
+  "eb26": {
+   "value": 24.6,
+   "display": "£24.6M"
+  }
+ }
+}

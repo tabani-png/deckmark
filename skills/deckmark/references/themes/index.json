@@ -1,0 +1,739 @@
+{
+ "themes": [
+  {
+   "name": "Console",
+   "slug": "console",
+   "field": "dashboard",
+   "format": "slides-16x9",
+   "density": "dense",
+   "paper": {
+    "band": "dark",
+    "L": 0.17,
+    "hue": 250
+   },
+   "display": {
+    "class": "grotesk-sans Host",
+    "face": "Grotesk"
+   },
+   "accent": {
+    "band": "warm",
+    "hue": 80
+   },
+   "keywords": [
+    "dashboard",
+    "board kpi pack",
+    "board pack",
+    "monthly management pack",
+    "operating review",
+    "scorecard",
+    "kpi tiles",
+    "variance",
+    "budget vs actual",
+    "monitoring",
+    "portfolio monitoring",
+    "cfo pack",
+    "dark",
+    "graphite",
+    "amber",
+    "mono figures",
+    "instrument",
+    "audit trail"
+   ],
+   "inspired_by": "operating dashboard for a CFO board pack set on a graphite instrument panel (hairline panels, mono figures, amber for what a person owns)",
+   "pictured": "board-pack",
+   "file": "references/themes/console.md"
+  },
+  {
+   "name": "Editorial",
+   "slug": "editorial",
+   "field": "editorial",
+   "format": "report-a4",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 0.97,
+    "hue": 86
+   },
+   "display": {
+    "class": "sans",
+    "face": "Bricolage Grotesque"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 152
+   },
+   "keywords": [
+    "thought leadership",
+    "research report",
+    "outlook",
+    "white paper",
+    "house view",
+    "market outlook",
+    "insights",
+    "institute",
+    "annual outlook",
+    "long read",
+    "magazine",
+    "serif body",
+    "heavy rule",
+    "green",
+    "a4"
+   ],
+   "inspired_by": "asset manager or research institute annual outlook and thought-leadership report set like a contemporary magazine",
+   "pictured": "research outlook report",
+   "file": "references/themes/editorial.md"
+  },
+  {
+   "name": "Ember Block",
+   "slug": "ember-block",
+   "field": "asset-mgmt",
+   "format": "slides-16x9",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 1,
+    "hue": 0
+   },
+   "display": {
+    "class": "sans",
+    "face": "Archivo"
+   },
+   "accent": {
+    "band": "warm",
+    "hue": 35
+   },
+   "keywords": [
+    "investor day",
+    "asset manager",
+    "earnings",
+    "kpi",
+    "big numbers",
+    "black and white",
+    "orange accent",
+    "platform",
+    "flows",
+    "aum",
+    "capital markets day",
+    "strategy targets"
+   ],
+   "inspired_by": "global asset manager investor day and earnings supplement decks (black and white with one hot brand colour)",
+   "pictured": "investor day deck",
+   "file": "references/themes/ember-block.md"
+  },
+  {
+   "name": "Fairness Room",
+   "slug": "fairness-room",
+   "field": "banking",
+   "format": "slides-16x9",
+   "density": "dense",
+   "paper": {
+    "band": "light",
+    "L": 1,
+    "hue": 0
+   },
+   "display": {
+    "class": "sans",
+    "face": "Albert Sans"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 262
+   },
+   "keywords": [
+    "pitch book",
+    "board discussion materials",
+    "special committee",
+    "fairness",
+    "m&a",
+    "valuation",
+    "football field",
+    "comps",
+    "precedents",
+    "sources and uses",
+    "dcf",
+    "sensitivity",
+    "navy",
+    "blue"
+   ],
+   "inspired_by": "bulge-bracket investment bank board and special committee discussion materials (public fairness exhibit style)",
+   "pictured": "pitch book",
+   "file": "references/themes/fairness-room.md"
+  },
+  {
+   "name": "Folio North",
+   "slug": "folio-north",
+   "field": "public-sector",
+   "format": "report-a4",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 1,
+    "hue": 0
+   },
+   "display": {
+    "class": "serif",
+    "face": "EB Garamond"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 255
+   },
+   "keywords": [
+    "public sector",
+    "government report",
+    "white paper",
+    "strategy",
+    "ministry",
+    "regulator",
+    "utilities",
+    "municipality",
+    "nordic",
+    "a4",
+    "chapters",
+    "boxes",
+    "figures",
+    "policy",
+    "restraint"
+   ],
+   "inspired_by": "Nordic government ministry strategy white paper (A4, chapter numbers, grey boxes, one navy)",
+   "pictured": "public-sector report",
+   "file": "references/themes/folio-north.md"
+  },
+  {
+   "name": "Glasswork",
+   "slug": "glasswork",
+   "field": "dashboard",
+   "format": "slides-16x9",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 0.97,
+    "hue": 250
+   },
+   "display": {
+    "class": "serif",
+    "face": "Source Serif 4"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 255
+   },
+   "keywords": [
+    "dashboard",
+    "kpi tiles",
+    "monitoring",
+    "underwriting desk",
+    "covenant tracker",
+    "portfolio surveillance",
+    "frosted cards",
+    "glass",
+    "navy",
+    "serif headings",
+    "status dots",
+    "deltas",
+    "board scorecard",
+    "credit monitoring",
+    "live deal"
+   ],
+   "inspired_by": "modern fintech monitoring dashboards (frosted white cards on a pale blue canvas, serif headings, KPI tiles with deltas)",
+   "pictured": "credit-memo",
+   "file": "references/themes/glasswork.md"
+  },
+  {
+   "name": "Gridline",
+   "slug": "gridline",
+   "field": "consulting",
+   "format": "both",
+   "density": "dense",
+   "paper": {
+    "band": "light",
+    "L": 1,
+    "hue": 0
+   },
+   "display": {
+    "class": "sans",
+    "face": "Arial"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 210
+   },
+   "keywords": [
+    "energy",
+    "utilities",
+    "power",
+    "efficiency",
+    "abatement",
+    "policy",
+    "infrastructure",
+    "research report",
+    "government study",
+    "barriers",
+    "levers",
+    "aqua"
+   ],
+   "inspired_by": "consultancy research report for a national energy or utilities ministry",
+   "pictured": "research report",
+   "file": "references/themes/gridline.md"
+  },
+  {
+   "name": "Harbourlight",
+   "slug": "harbourlight",
+   "field": "public-sector",
+   "format": "slides-16x9",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 1,
+    "hue": 0
+   },
+   "display": {
+    "class": "sans",
+    "face": "Arial"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 230
+   },
+   "keywords": [
+    "city",
+    "municipal",
+    "council report",
+    "recovery",
+    "economic development",
+    "scenarios",
+    "opportunities",
+    "airy",
+    "light blue",
+    "co-branded"
+   ],
+   "inspired_by": "consultancy council report for a city and its economic development agency",
+   "pictured": "public-sector report",
+   "file": "references/themes/harbourlight.md"
+  },
+  {
+   "name": "Ink",
+   "slug": "ink",
+   "field": "pe",
+   "format": "slides-16x9",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 0.995,
+    "hue": 100
+   },
+   "display": {
+    "class": "sans",
+    "face": "Epilogue"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 188
+   },
+   "keywords": [
+    "private equity",
+    "investment committee",
+    "ic memo",
+    "lp letter",
+    "quarterly letter",
+    "portfolio review",
+    "buyout",
+    "growth equity",
+    "value creation",
+    "returns by case",
+    "monochrome",
+    "teal",
+    "ruled",
+    "quiet",
+    "plain"
+   ],
+   "inspired_by": "mid-market private equity investment committee memo and quarterly LP letter, printed in plain black with one state colour",
+   "pictured": "IC memo",
+   "file": "references/themes/ink.md"
+  },
+  {
+   "name": "Ledgerline",
+   "slug": "ledgerline",
+   "field": "public-sector",
+   "format": "slides-16x9",
+   "density": "dense",
+   "paper": {
+    "band": "light",
+    "L": 1,
+    "hue": 0
+   },
+   "display": {
+    "class": "sans",
+    "face": "Arial"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 250
+   },
+   "keywords": [
+    "public sector",
+    "transit",
+    "agency",
+    "board readout",
+    "operating review",
+    "cost reduction",
+    "initiatives",
+    "harvey balls",
+    "roadmap",
+    "workplan",
+    "pre-decisional"
+   ],
+   "inspired_by": "classic strategy consultancy board readout for a public transit agency (older Arial template)",
+   "pictured": "board pack",
+   "file": "references/themes/ledgerline.md"
+  },
+  {
+   "name": "Meridian",
+   "slug": "meridian",
+   "field": "consulting",
+   "format": "slides-16x9",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 1,
+    "hue": 0
+   },
+   "display": {
+    "class": "serif",
+    "face": "Georgia"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 235
+   },
+   "keywords": [
+    "strategy",
+    "board",
+    "sector analysis",
+    "market sizing",
+    "scr",
+    "transformation",
+    "peers",
+    "benchmark",
+    "navy",
+    "cyan",
+    "serif titles"
+   ],
+   "inspired_by": "top-tier strategy consultancy sector analysis deck, recent house style (serif titles, navy and electric blue)",
+   "pictured": "SCR strategy deck",
+   "file": "references/themes/meridian.md"
+  },
+  {
+   "name": "Midnight",
+   "slug": "midnight",
+   "field": "asset-mgmt",
+   "format": "slides-16x9",
+   "density": "medium",
+   "paper": {
+    "band": "dark",
+    "L": 0.14,
+    "hue": 264
+   },
+   "display": {
+    "class": "grotesk-sans Mona",
+    "face": "Sans"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 230
+   },
+   "keywords": [
+    "investor day",
+    "fund pitch",
+    "fundraise",
+    "lp meeting",
+    "private credit",
+    "infrastructure",
+    "income fund",
+    "track record",
+    "aum",
+    "dark",
+    "midnight blue",
+    "night",
+    "calm",
+    "expanded sans",
+    "institutional",
+    "asset management",
+    "capital markets day"
+   ],
+   "inspired_by": "institutional asset manager investor-day deck shown on a dark stage (midnight ground, wide light headings, one cool signal)",
+   "pictured": "investor day",
+   "file": "references/themes/midnight.md"
+  },
+  {
+   "name": "Newsprint",
+   "slug": "newsprint",
+   "field": "editorial",
+   "format": "report-a4",
+   "density": "dense",
+   "paper": {
+    "band": "light",
+    "L": 0.94,
+    "hue": 92
+   },
+   "display": {
+    "class": "slab serif",
+    "face": "Zilla Slab"
+   },
+   "accent": {
+    "band": "warm",
+    "hue": 32
+   },
+   "keywords": [
+    "equity research",
+    "research note",
+    "sector note",
+    "initiation",
+    "earnings preview",
+    "market outlook",
+    "broker research",
+    "estimates",
+    "price target",
+    "newsprint",
+    "broadsheet",
+    "slab serif",
+    "double rule",
+    "a4"
+   ],
+   "inspired_by": "sell-side equity research note and weekly market outlook printed like a broadsheet page",
+   "pictured": "equity research note",
+   "file": "references/themes/newsprint.md"
+  },
+  {
+   "name": "Ochre Covenant",
+   "slug": "ochre-covenant",
+   "field": "credit",
+   "format": "slides-16x9",
+   "density": "dense",
+   "paper": {
+    "band": "light",
+    "L": 1,
+    "hue": 0
+   },
+   "display": {
+    "class": "sans",
+    "face": "Public Sans"
+   },
+   "accent": {
+    "band": "warm",
+    "hue": 70
+   },
+   "keywords": [
+    "private credit",
+    "direct lending",
+    "bdc",
+    "fund deck",
+    "lp update",
+    "quarterly results",
+    "first lien",
+    "nav",
+    "nii",
+    "non-accruals",
+    "leverage",
+    "portfolio statistics",
+    "credit memo",
+    "navy",
+    "ochre"
+   ],
+   "inspired_by": "listed direct lending fund (BDC) quarterly investor and earnings presentations",
+   "pictured": "private credit fund deck",
+   "file": "references/themes/ochre-covenant.md"
+  },
+  {
+   "name": "Quiet Mandate",
+   "slug": "quiet-mandate",
+   "field": "banking",
+   "format": "both",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 0.99,
+    "hue": 85
+   },
+   "display": {
+    "class": "serif",
+    "face": "Source Serif 4"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 250
+   },
+   "keywords": [
+    "cim",
+    "teaser",
+    "confidential information memorandum",
+    "sell-side",
+    "boutique advisory",
+    "mid-market m&a",
+    "investment highlights",
+    "business overview",
+    "adjusted ebitda",
+    "project codename",
+    "navy",
+    "serif"
+   ],
+   "inspired_by": "boutique M&A advisory confidential information memorandum and sell-side teaser",
+   "pictured": "CIM",
+   "file": "references/themes/quiet-mandate.md"
+  },
+  {
+   "name": "Specimen",
+   "slug": "specimen",
+   "field": "banking",
+   "format": "slides-16x9",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 0.965,
+    "hue": 82
+   },
+   "display": {
+    "class": "high-contrast serif",
+    "face": "Bodoni Moda"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 262
+   },
+   "keywords": [
+    "pitch book",
+    "board presentation",
+    "strategic alternatives",
+    "fairness",
+    "valuation",
+    "football field",
+    "precedent transactions",
+    "boutique advisory",
+    "sell-side",
+    "cim",
+    "didone",
+    "oat paper",
+    "ink blue",
+    "hairline"
+   ],
+   "inspired_by": "independent boutique M&A advisory board pitch book and strategic alternatives review, set like a type foundry's specimen",
+   "pictured": "pitch book",
+   "file": "references/themes/specimen.md"
+  },
+  {
+   "name": "Vantage",
+   "slug": "vantage",
+   "field": "pe",
+   "format": "slides-16x9",
+   "density": "medium",
+   "paper": {
+    "band": "dark",
+    "L": 0.135,
+    "hue": 235
+   },
+   "display": {
+    "class": "grotesk-sans Geologica",
+    "face": ""
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 126
+   },
+   "keywords": [
+    "pe fund pitch",
+    "fundraise",
+    "buyout",
+    "mid-market",
+    "investor day",
+    "lp update",
+    "track record",
+    "value creation",
+    "portfolio review",
+    "dark",
+    "blue-black",
+    "steel",
+    "lime signal",
+    "measured",
+    "precise",
+    "corner ticks",
+    "fund deck"
+   ],
+   "inspired_by": "private equity fund-raising deck in a dark, instrument-quiet house style (blue-black ground, steel ink, one lime signal for the result)",
+   "pictured": "pe fund pitch",
+   "file": "references/themes/vantage.md"
+  },
+  {
+   "name": "Vellum",
+   "slug": "vellum",
+   "field": "asset-mgmt",
+   "format": "slides-16x9",
+   "density": "medium",
+   "paper": {
+    "band": "light",
+    "L": 0.94,
+    "hue": 82
+   },
+   "display": {
+    "class": "serif",
+    "face": "Grenze"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 268
+   },
+   "keywords": [
+    "family office",
+    "wealth review",
+    "client review",
+    "private client",
+    "trust",
+    "multi-generational",
+    "heritage",
+    "stewardship",
+    "allocation versus policy",
+    "investment committee",
+    "parchment",
+    "ultramarine",
+    "ledger"
+   ],
+   "inspired_by": "multi-generational family office and private bank annual client review, printed on heavy cream stock",
+   "pictured": "wealth review",
+   "file": "references/themes/vellum.md"
+  },
+  {
+   "name": "Verdance",
+   "slug": "verdance",
+   "field": "public-sector",
+   "format": "slides-16x9",
+   "density": "dense",
+   "paper": {
+    "band": "light",
+    "L": 1,
+    "hue": 0
+   },
+   "display": {
+    "class": "geometric sans",
+    "face": "Questrial"
+   },
+   "accent": {
+    "band": "warm",
+    "hue": 150
+   },
+   "keywords": [
+    "national plan",
+    "economic vision",
+    "government",
+    "sector strategy",
+    "initiatives",
+    "targets",
+    "flagship projects",
+    "green",
+    "gold",
+    "ministry"
+   ],
+   "inspired_by": "consultancy national economic vision full report for a government",
+   "pictured": "public-sector report",
+   "file": "references/themes/verdance.md"
+  }
+ ]
+}

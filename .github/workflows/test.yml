@@ -1,0 +1,25 @@
+name: test
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      # Classic themes name Georgia and Arial first; macOS ships them, Ubuntu does not.
+      # poppler-utils: redesign.mjs reads PDF decks with pdftotext and pdftoppm.
+      - name: Install Microsoft core fonts and poppler
+        run: |
+          echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | sudo debconf-set-selections
+          sudo apt-get install -y ttf-mscorefonts-installer poppler-utils
+          fc-cache -f
+      - run: npm test
+      - name: Eval harness tests (offline)
+        run: npm run eval:test

@@ -1,0 +1,189 @@
+{
+ "_note": "Project Linden, its bidder, the adviser and every precedent are fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "offer": {
+   "value": 860,
+   "display": "860"
+  },
+  "ebitda": {
+   "value": 70,
+   "display": "70.0"
+  },
+  "undist": {
+   "value": 680,
+   "display": "680"
+  },
+  "impl": {
+   "value": 12.29,
+   "display": "12.3",
+   "formula": "offer / ebitda"
+  },
+  "prem": {
+   "value": 26.47,
+   "display": "26.5",
+   "formula": "(offer / undist - 1) * 100"
+  },
+  "lo0": {
+   "value": 610,
+   "display": "610"
+  },
+  "hi0": {
+   "value": 780,
+   "display": "780"
+  },
+  "lo1": {
+   "value": 700,
+   "display": "700"
+  },
+  "hi1": {
+   "value": 840,
+   "display": "840"
+  },
+  "lo2": {
+   "value": 650,
+   "display": "650"
+  },
+  "hi2": {
+   "value": 820,
+   "display": "820"
+  },
+  "lo3": {
+   "value": 760,
+   "display": "760"
+  },
+  "hi3": {
+   "value": 930,
+   "display": "930"
+  },
+  "lo4": {
+   "value": 790,
+   "display": "790"
+  },
+  "hi4": {
+   "value": 960,
+   "display": "960"
+  },
+  "pev0": {
+   "value": 655.5,
+   "display": "655.5"
+  },
+  "pm0": {
+   "value": 10.9,
+   "display": "10.9"
+  },
+  "pr0": {
+   "value": 2.1,
+   "display": "2.1"
+  },
+  "pev1": {
+   "value": 1120,
+   "display": "1,120.0"
+  },
+  "pm1": {
+   "value": 12.6,
+   "display": "12.6"
+  },
+  "pr1": {
+   "value": 2.9,
+   "display": "2.9"
+  },
+  "pev2": {
+   "value": 412,
+   "display": "412.0"
+  },
+  "pm2": {
+   "value": 11.8,
+   "display": "11.8"
+  },
+  "pr2": {
+   "value": 2.4,
+   "display": "2.4"
+  },
+  "pev3": {
+   "value": 298.4,
+   "display": "298.4"
+  },
+  "pm3": {
+   "value": 10.2,
+   "display": "10.2"
+  },
+  "pr3": {
+   "value": 1.8,
+   "display": "1.8"
+  },
+  "pev4": {
+   "value": 760,
+   "display": "760.0"
+  },
+  "pm4": {
+   "value": 11.4,
+   "display": "11.4"
+  },
+  "pr4": {
+   "value": 2.3,
+   "display": "2.3"
+  },
+  "pev5": {
+   "value": 905.3,
+   "display": "905.3"
+  },
+  "pm5": {
+   "value": 13.1,
+   "display": "13.1"
+  },
+  "pr5": {
+   "value": 3,
+   "display": "3.0"
+  },
+  "pev_med": {
+   "value": 707.75,
+   "display": "707.8"
+  },
+  "pm_med": {
+   "value": 11.6,
+   "display": "11.6"
+  },
+  "pr_med": {
+   "value": 2.35,
+   "display": "2.4"
+  },
+  "pev_mean": {
+   "value": 691.87,
+   "display": "691.9"
+  },
+  "pm_mean": {
+   "value": 11.67,
+   "display": "11.7"
+  },
+  "pr_mean": {
+   "value": 2.42,
+   "display": "2.4"
+  },
+  "implr": {
+   "value": 2.53,
+   "display": "2.5",
+   "formula": "offer / rev"
+  },
+  "offer_ev": {
+   "value": 860,
+   "display": "860.0"
+  },
+  "impl2": {
+   "value": 12.29,
+   "display": "12.3",
+   "formula": "offer / ebitda"
+  },
+  "rev": {
+   "value": 340,
+   "display": "340.0"
+  },
+  "fifty": {
+   "value": 80,
+   "display": "80"
+  },
+  "irr_lo": {
+   "value": 20,
+   "display": "20"
+  }
+ }
+}

@@ -1,0 +1,272 @@
+{
+ "title": "Energy efficiency potential in Kestria",
+ "format": "slides-16x9",
+ "storyline": "public-sector-review",
+ "decision": "adopt",
+ "confid": "Draft for discussion",
+ "tracker": [
+  "1 Potential",
+  "2 Levers",
+  "3 Barriers",
+  "4 Policy"
+ ],
+ "cover": {
+  "kicker": "Study for the Ministry of Energy of Kestria (fictional)",
+  "title": "Unlocking energy efficiency: potential, levers and barriers",
+  "sub": "Final report of the national energy efficiency study.",
+  "meta": "Theme specimen · fictional country",
+  "confid": "Draft for discussion"
+ },
+ "exec": {
+  "tracker": "1 Potential",
+  "title": "Kestria can abate {tot40} of CO2e a year by 2040 and most of it costs little or nothing",
+  "stamp": "Based on study model",
+  "rows": [
+   {
+    "k": "A  Potential",
+    "h": "Large and mostly cheap",
+    "p": "Industry holds {ind40} of the potential in 2040; buildings {bld40}, transport {trn40} and power {pwr40}. More than half of it costs less than the energy it saves over the life of the measure."
+   },
+   {
+    "k": "B  Levers",
+    "h": "Eleven measures carry it",
+    "p": "Four measures pay back on their own: smart controls, efficient motors, waste heat recovery and logistics efficiency. The rest need support, standards or both before firms and households will act."
+   },
+   {
+    "k": "C  Barriers",
+    "h": "Cost is not the main barrier",
+    "p": "Split incentives, skills and grid capacity block more potential than upfront cost does. Interviews with firms point to the same four barriers in every sector."
+   },
+   {
+    "k": "D  Policy",
+    "h": "Three policy packages",
+    "p": "Standards for buildings, an industrial efficiency fund and a fleet programme cover nine of the eleven measures. Each package has one lead ministry and a review date."
+   }
+  ],
+  "source": "Source: Kestria energy efficiency study model (fictional)"
+ },
+ "chart": {
+  "tracker": "1 Potential",
+  "title": "Industry holds the largest abatement potential at every horizon",
+  "stamp": "Based on study model",
+  "exhibit": {
+   "no": "Exhibit 4",
+   "title": "Technical abatement potential by sector",
+   "unit": "Mt CO2e a year"
+  },
+  "type": "stacked",
+  "data": {
+   "height": 410,
+   "categories": [
+    "2030",
+    "2035",
+    "2040"
+   ],
+   "series": [
+    {
+     "name": "Industry",
+     "values": [
+      "@i30",
+      "@i35",
+      "@ind40"
+     ]
+    },
+    {
+     "name": "Buildings",
+     "values": [
+      "@b30",
+      "@b35",
+      "@bld40"
+     ]
+    },
+    {
+     "name": "Transport",
+     "values": [
+      "@t30",
+      "@t35",
+      "@trn40"
+     ]
+    },
+    {
+     "name": "Power",
+     "values": [
+      "@p30",
+      "@p35",
+      "@pwr40"
+     ]
+    }
+   ],
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "Reading the exhibit",
+   "bullets": [
+    "Potential grows from {tot30} in 2030 to {tot40b} in 2040 as stock turns over.",
+    "Transport rises fastest once fleet replacement cycles complete.",
+    "Power potential is grid losses and demand response only."
+   ]
+  },
+  "source": "Source: Kestria energy efficiency study model (fictional)",
+  "note": "Technical potential against the frozen-efficiency reference case."
+ },
+ "table": {
+  "tracker": "2 Levers",
+  "title": "Eleven measures deliver the 2040 potential; four of them pay back without support",
+  "stamp": "Based on study model",
+  "exhibit": {
+   "no": "Exhibit 7",
+   "title": "Measure overview, 2040",
+   "unit": "abatement in Mt CO2e a year; cost in EUR per tonne, negative is a saving"
+  },
+  "columns": [
+   {
+    "h": "Sector"
+   },
+   {
+    "h": "Measure"
+   },
+   {
+    "h": "Abatement",
+    "num": true
+   },
+   {
+    "h": "Cost",
+    "num": true
+   },
+   {
+    "h": "Payback, years",
+    "num": true
+   },
+   {
+    "h": "Main barrier"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Industry",
+     "Process heat electrification",
+     "m_1_2",
+     "m_1_3",
+     "m_1_4",
+     "Grid capacity"
+    ]
+   },
+   {
+    "cells": [
+     "Industry",
+     "Waste heat recovery",
+     "m_2_2",
+     "m_2_3",
+     "m_2_4",
+     "Awareness"
+    ]
+   },
+   {
+    "cells": [
+     "Industry",
+     "Efficient electric motors",
+     "m_3_2",
+     "m_3_3",
+     "m_3_4",
+     "Upfront cost"
+    ]
+   },
+   {
+    "cells": [
+     "Buildings",
+     "Heat pumps in homes",
+     "m_4_2",
+     "m_4_3",
+     "m_4_4",
+     "Split incentive"
+    ]
+   },
+   {
+    "cells": [
+     "Buildings",
+     "Building envelope",
+     "m_5_2",
+     "m_5_3",
+     "m_5_4",
+     "Split incentive"
+    ]
+   },
+   {
+    "cells": [
+     "Buildings",
+     "Smart controls",
+     "m_6_2",
+     "m_6_3",
+     "m_6_4",
+     "Awareness"
+    ]
+   },
+   {
+    "cells": [
+     "Transport",
+     "Electric urban fleets",
+     "m_7_2",
+     "m_7_3",
+     "m_7_4",
+     "Charging access"
+    ]
+   },
+   {
+    "cells": [
+     "Transport",
+     "Rail freight shift",
+     "m_8_2",
+     "m_8_3",
+     "m_8_4",
+     "Infrastructure"
+    ]
+   },
+   {
+    "cells": [
+     "Transport",
+     "Logistics efficiency",
+     "m_9_2",
+     "m_9_3",
+     "m_9_4",
+     "Skills"
+    ]
+   },
+   {
+    "cells": [
+     "Power",
+     "Grid loss reduction",
+     "m_10_2",
+     "m_10_3",
+     "m_10_4",
+     "Regulation"
+    ]
+   },
+   {
+    "cells": [
+     "Power",
+     "Demand response",
+     "m_11_2",
+     "m_11_3",
+     "m_11_4",
+     "Market design"
+    ]
+   },
+   {
+    "cells": [
+     "Total",
+     "",
+     "m_12_2",
+     "",
+     "",
+     ""
+    ],
+    "cls": "total"
+   }
+  ],
+  "source": "Source: Kestria energy efficiency study model; expert interviews (fictional)",
+  "note": "Payback at a 4% real discount rate."
+ }
+}

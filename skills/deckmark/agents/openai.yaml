@@ -1,0 +1,14 @@
+interface:
+  display_name: Deckmark
+  short_description: Finance-grade decks and PDF reports that look designed, not generated.
+  default_prompts:
+    - "$deckmark an IC memo deck from <the model and memo>"
+    - "$deckmark a CIM from <the data room folder>"
+    - "$deckmark theme meridian a board pack from <the monthly pack>"
+    - "$deckmark redesign <the client's deck.pdf or .pptx>"
+    - "$deckmark audit <deck.pdf, .pptx or deck.html>"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies: []

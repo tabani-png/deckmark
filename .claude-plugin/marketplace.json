@@ -1,0 +1,31 @@
+{
+  "name": "deckmark",
+  "owner": {
+    "name": "tabani-png",
+    "url": "https://github.com/tabani-png"
+  },
+  "metadata": {
+    "description": "Deckmark, finance-grade decks and reports that look designed, not generated."
+  },
+  "plugins": [
+    {
+      "name": "deckmark",
+      "source": "./skills",
+      "strict": false,
+      "skills": [
+        "./deckmark"
+      ],
+      "description": "Finance-grade decks and PDF reports that look designed, not generated. Deals a house style per audience, builds HTML slides, renders PDF and PNG, and lints in a real browser.",
+      "version": "0.7.0",
+      "author": {
+        "name": "tabani-png",
+        "url": "https://github.com/tabani-png"
+      },
+      "homepage": "https://github.com/tabani-png/deckmark",
+      "repository": "https://github.com/tabani-png/deckmark",
+      "license": "MIT",
+      "category": "design",
+      "keywords": ["finance", "decks", "cim", "pitch-book", "ic-memo", "pdf"]
+    }
+  ]
+}

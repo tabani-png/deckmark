@@ -1,0 +1,213 @@
+{
+ "_note": "Calder Reach Credit and every vehicle here are fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "aum": {
+   "value": 4.8,
+   "display": "$4.8B"
+  },
+  "aum_d": {
+   "value": 0.9,
+   "display": "+$0.9B"
+  },
+  "nirr2": {
+   "value": 13.2,
+   "display": "13.2%"
+  },
+  "nirr_d": {
+   "value": 1.7,
+   "display": "+1.7pp"
+  },
+  "dpi2": {
+   "value": 0.92,
+   "display": "0.92x"
+  },
+  "dpi_d": {
+   "value": 0.31,
+   "display": "+0.31x"
+  },
+  "nirr2b": {
+   "value": 13.2,
+   "display": "13.2%"
+  },
+  "dpi2b": {
+   "value": 0.92,
+   "display": "0.92x"
+  },
+  "loss": {
+   "value": 0.4,
+   "display": "0.4%"
+  },
+  "loans": {
+   "value": 212,
+   "display": "212"
+  },
+  "f3": {
+   "value": 1.8,
+   "display": "$1.8B"
+  },
+  "f3b": {
+   "value": 1.8,
+   "display": "$1.8B"
+  },
+  "anchor": {
+   "value": 600,
+   "display": "$600M"
+  },
+  "a21": {
+   "value": 1.9,
+   "display": "1.9"
+  },
+  "a22": {
+   "value": 2.4,
+   "display": "2.4"
+  },
+  "a23": {
+   "value": 2.9,
+   "display": "2.9"
+  },
+  "a24": {
+   "value": 3.4,
+   "display": "3.4"
+  },
+  "a25": {
+   "value": 3.9,
+   "display": "3.9"
+  },
+  "a26": {
+   "value": 4.8,
+   "display": "4.8"
+  },
+  "retention": {
+   "value": 94,
+   "display": "94%"
+  },
+  "sma_share": {
+   "value": 38,
+   "display": "38%"
+  },
+  "tr_0_0": {
+   "value": 650.0,
+   "display": "650"
+  },
+  "tr_0_1": {
+   "value": 100.0,
+   "display": "100"
+  },
+  "tr_0_2": {
+   "value": 11.8,
+   "display": "11.8"
+  },
+  "tr_0_3": {
+   "value": 1.52,
+   "display": "1.52"
+  },
+  "tr_0_4": {
+   "value": 1.41,
+   "display": "1.41"
+  },
+  "tr_1_0": {
+   "value": 1200.0,
+   "display": "1,200"
+  },
+  "tr_1_1": {
+   "value": 96.0,
+   "display": "96"
+  },
+  "tr_1_2": {
+   "value": 13.2,
+   "display": "13.2"
+  },
+  "tr_1_3": {
+   "value": 1.38,
+   "display": "1.38"
+  },
+  "tr_1_4": {
+   "value": 0.92,
+   "display": "0.92"
+  },
+  "tr_2_0": {
+   "value": 540.0,
+   "display": "540"
+  },
+  "tr_2_1": {
+   "value": 92.0,
+   "display": "92"
+  },
+  "tr_2_2": {
+   "value": 10.6,
+   "display": "10.6"
+  },
+  "tr_2_3": {
+   "value": 1.29,
+   "display": "1.29"
+  },
+  "tr_2_4": {
+   "value": 0.71,
+   "display": "0.71"
+  },
+  "tr_3_0": {
+   "value": 480.0,
+   "display": "480"
+  },
+  "tr_3_1": {
+   "value": 81.0,
+   "display": "81"
+  },
+  "tr_3_2": {
+   "value": 11.4,
+   "display": "11.4"
+  },
+  "tr_3_3": {
+   "value": 1.14,
+   "display": "1.14"
+  },
+  "tr_3_4": {
+   "value": 0.28,
+   "display": "0.28"
+  },
+  "tr_4_0": {
+   "value": 310.0,
+   "display": "310"
+  },
+  "tr_4_1": {
+   "value": 100.0,
+   "display": "100"
+  },
+  "tr_4_2": {
+   "value": 14.9,
+   "display": "14.9"
+  },
+  "tr_4_3": {
+   "value": 1.41,
+   "display": "1.41"
+  },
+  "tr_4_4": {
+   "value": 0.66,
+   "display": "0.66"
+  },
+  "tr_5_0": {
+   "value": 220.0,
+   "display": "220"
+  },
+  "tr_5_1": {
+   "value": 64.0,
+   "display": "64"
+  },
+  "tr_5_2": {
+   "value": 12.3,
+   "display": "12.3"
+  },
+  "tr_5_3": {
+   "value": 1.08,
+   "display": "1.08"
+  },
+  "tr_5_4": {
+   "value": 0.12,
+   "display": "0.12"
+  },
+  "tr_tot": {
+   "value": 3400.0,
+   "display": "3,400"
+  }
+ }
+}

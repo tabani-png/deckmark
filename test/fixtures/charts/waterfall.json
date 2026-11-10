@@ -1,0 +1,1 @@
+{ "width": 540, "height": 300, "steps": [{ "label": "Budget", "value": 50.0, "total": true }, { "label": "Price", "value": 2.1 }, { "label": "Volume", "value": -3.4 }, { "label": "Mix", "value": 0.8 }, { "label": "Actual", "value": 49.5, "total": true }], "floor": 40, "fmt": { "dp": 1 }, "src": "fixture" }

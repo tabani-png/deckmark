@@ -1,0 +1,215 @@
+{
+ "title": "Project Juniper: confidential information memorandum",
+ "format": "slides-16x9",
+ "storyline": "cim",
+ "decision": "buy",
+ "confid": "Strictly private and confidential",
+ "tracker": [
+  "1 | Highlights",
+  "2 | Financials",
+  "3 | Business overview"
+ ],
+ "cover": {
+  "light": true,
+  "kicker": "Confidential information memorandum",
+  "title": "Project Juniper",
+  "sub": "A specialist supplier of laboratory consumables to research and hospital laboratories.",
+  "meta": "November 2026 · fictional company · theme specimen"
+ },
+ "exec": {
+  "tracker": "1 | Highlights",
+  "title": "A recurring revenue business growing {cagr_t} a year with expanding margins",
+  "rows": [
+   {
+    "k": "{recur} recurring",
+    "h": "Recurring, essential demand",
+    "p": "{recur} of revenue repeats every year: laboratories reorder the same consumables on standing contracts."
+   },
+   {
+    "k": "{m26} margin, FY26B",
+    "h": "Margin expansion built in",
+    "p": "Adjusted EBITDA margin rises from {m22} to {m26} as own manufacturing replaces bought-in product."
+   },
+   {
+    "k": "{cc} cash conversion",
+    "h": "High cash conversion",
+    "p": "Low capital needs convert more than {cc} of EBITDA to cash in every year shown."
+   },
+   {
+    "k": "{top5} top-five share",
+    "h": "Room to consolidate",
+    "p": "The top five suppliers hold only {top5} of a fragmented market, leaving clear bolt-on targets."
+   }
+  ],
+  "source": "Source: management information (fictional); advisor analysis"
+ },
+ "chart": {
+  "tracker": "2 | Financials",
+  "title": "Revenue has grown every year and the budget continues the trend",
+  "stamp": "Illustrative",
+  "exhibit": {
+   "no": "Exhibit 2.1",
+   "title": "Revenue, FY22A to FY26B",
+   "unit": "£ in millions"
+  },
+  "type": "bar",
+  "data": {
+   "categories": [
+    "FY22A",
+    "FY23A",
+    "FY24A",
+    "FY25E",
+    "FY26B"
+   ],
+   "values": [
+    "@r22",
+    "@r23",
+    "@r24",
+    "@r25",
+    "@r26"
+   ],
+   "highlight": 4,
+   "cagr": "CAGR 14.1%",
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "Drivers",
+   "bullets": [
+    "Volume growth of {vol} a year from new hospital contracts.",
+    "Price rises in line with inflation, accepted on every renewal.",
+    "Own-label range launched in FY24A now a fifth of sales."
+   ],
+   "sowhat": "Budget growth needs no new customers beyond the signed pipeline."
+  },
+  "source": "Source: audited accounts FY22A to FY24A, management estimate FY25E and budget FY26B (fictional)",
+  "note": "A: actual. E: estimate. B: budget."
+ },
+ "table": {
+  "tracker": "2 | Financials",
+  "title": "Margins have widened every year while capital needs stayed low",
+  "exhibit": {
+   "no": "Exhibit 2.2",
+   "title": "Summary income statement and cash conversion",
+   "unit": "£ in millions"
+  },
+  "columns": [
+   {
+    "h": "Year ending March"
+   },
+   {
+    "h": "FY22A",
+    "num": true
+   },
+   {
+    "h": "FY23A",
+    "num": true
+   },
+   {
+    "h": "FY24A",
+    "num": true
+   },
+   {
+    "h": "FY25E",
+    "num": true
+   },
+   {
+    "h": "FY26B",
+    "num": true
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Revenue",
+     "r22",
+     "r23",
+     "r24",
+     "r25",
+     "r26"
+    ],
+    "cls": "strong"
+   },
+   {
+    "cells": [
+     "Growth %",
+     "pl_2_1",
+     "pl_2_2",
+     "pl_2_3",
+     "pl_2_4",
+     "pl_2_5"
+    ],
+    "cls": "sub"
+   },
+   {
+    "cells": [
+     "Gross profit",
+     "pl_3_1",
+     "pl_3_2",
+     "pl_3_3",
+     "pl_3_4",
+     "pl_3_5"
+    ],
+    "cls": "strong"
+   },
+   {
+    "cells": [
+     "Gross margin %",
+     "pl_4_1",
+     "pl_4_2",
+     "pl_4_3",
+     "pl_4_4",
+     "pl_4_5"
+    ],
+    "cls": "sub"
+   },
+   {
+    "cells": [
+     "Adjusted EBITDA",
+     "pl_5_1",
+     "pl_5_2",
+     "pl_5_3",
+     "pl_5_4",
+     "pl_5_5"
+    ],
+    "cls": "total"
+   },
+   {
+    "cells": [
+     "Adjusted EBITDA margin %",
+     "pl_6_1",
+     "pl_6_2",
+     "pl_6_3",
+     "pl_6_4",
+     "pl_6_5"
+    ],
+    "cls": "sub"
+   },
+   {
+    "cells": [
+     "Capital expenditure",
+     "pl_7_1",
+     "pl_7_2",
+     "pl_7_3",
+     "pl_7_4",
+     "pl_7_5"
+    ]
+   },
+   {
+    "cells": [
+     "Cash conversion %",
+     "pl_8_1",
+     "pl_8_2",
+     "pl_8_3",
+     "pl_8_4",
+     "pl_8_5"
+    ],
+    "cls": "sub"
+   }
+  ],
+  "callout": "Adjusted EBITDA nearly doubles from {eb22} to {eb26} over the five years, with capital expenditure held near four percent of revenue.",
+  "source": "Source: audited accounts and management information (fictional); advisor analysis",
+  "note": "Cash conversion is adjusted EBITDA less capital expenditure, divided by adjusted EBITDA."
+ }
+}

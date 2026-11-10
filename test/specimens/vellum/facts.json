@@ -1,0 +1,205 @@
+{
+ "_note": "Larchmere Trust is fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "tw": {
+   "value": 286.4,
+   "display": "286.4"
+  },
+  "tw_d": {
+   "value": 14.1,
+   "display": "14.1"
+  },
+  "ret": {
+   "value": 6.8,
+   "display": "6.8"
+  },
+  "bm": {
+   "value": 5.9,
+   "display": "5.9"
+  },
+  "ex": {
+   "value": 0.9,
+   "display": "0.9"
+  },
+  "liq": {
+   "value": 41.2,
+   "display": "41.2"
+  },
+  "liq_p": {
+   "value": 14.4,
+   "display": "14.4"
+  },
+  "unc": {
+   "value": 38.5,
+   "display": "38.5"
+  },
+  "dist": {
+   "value": 9.6,
+   "display": "9.6"
+  },
+  "mv": {
+   "value": 2.9,
+   "display": "2.9"
+  },
+  "fiu": {
+   "value": 3,
+   "display": "3.0"
+  },
+  "reb": {
+   "value": 8.3,
+   "display": "8.3"
+  },
+  "rt0": {
+   "value": 9.8,
+   "display": "9.8"
+  },
+  "rt1": {
+   "value": 7.4,
+   "display": "7.4"
+  },
+  "rt2": {
+   "value": 5.1,
+   "display": "5.1"
+  },
+  "rt3": {
+   "value": 4.6,
+   "display": "4.6"
+  },
+  "rt4": {
+   "value": 3.2,
+   "display": "3.2"
+  },
+  "rt5": {
+   "value": 2.9,
+   "display": "2.9"
+  },
+  "av0": {
+   "value": 108.6,
+   "display": "108.6"
+  },
+  "ap0": {
+   "value": 37.9,
+   "display": "37.9"
+  },
+  "at0": {
+   "value": 35,
+   "display": "35.0"
+  },
+  "al0": {
+   "value": 30,
+   "display": "30.0"
+  },
+  "ah0": {
+   "value": 40,
+   "display": "40.0"
+  },
+  "av1": {
+   "value": 54.4,
+   "display": "54.4"
+  },
+  "ap1": {
+   "value": 19,
+   "display": "19.0"
+  },
+  "at1": {
+   "value": 22,
+   "display": "22.0"
+  },
+  "al1": {
+   "value": 17,
+   "display": "17.0"
+  },
+  "ah1": {
+   "value": 27,
+   "display": "27.0"
+  },
+  "av2": {
+   "value": 47.3,
+   "display": "47.3"
+  },
+  "ap2": {
+   "value": 16.5,
+   "display": "16.5"
+  },
+  "at2": {
+   "value": 15,
+   "display": "15.0"
+  },
+  "al2": {
+   "value": 10,
+   "display": "10.0"
+  },
+  "ah2": {
+   "value": 20,
+   "display": "20.0"
+  },
+  "av3": {
+   "value": 31.2,
+   "display": "31.2"
+  },
+  "ap3": {
+   "value": 10.9,
+   "display": "10.9"
+  },
+  "at3": {
+   "value": 12,
+   "display": "12.0"
+  },
+  "al3": {
+   "value": 8,
+   "display": "8.0"
+  },
+  "ah3": {
+   "value": 16,
+   "display": "16.0"
+  },
+  "av4": {
+   "value": 23.7,
+   "display": "23.7"
+  },
+  "ap4": {
+   "value": 8.3,
+   "display": "8.3"
+  },
+  "at4": {
+   "value": 10,
+   "display": "10.0"
+  },
+  "al4": {
+   "value": 6,
+   "display": "6.0"
+  },
+  "ah4": {
+   "value": 14,
+   "display": "14.0"
+  },
+  "av5": {
+   "value": 21.2,
+   "display": "21.2"
+  },
+  "ap5": {
+   "value": 7.4,
+   "display": "7.4"
+  },
+  "at5": {
+   "value": 6,
+   "display": "6.0"
+  },
+  "al5": {
+   "value": 2,
+   "display": "2.0"
+  },
+  "ah5": {
+   "value": 10,
+   "display": "10.0"
+  },
+  "apt": {
+   "value": 100,
+   "display": "100.0"
+  },
+  "att": {
+   "value": 100,
+   "display": "100.0"
+  }
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "_note": "Tamsin Senior Lending Fund is fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "fl_pct": {
+   "value": 90,
+   "display": "90.0%"
+  },
+  "na_cap": {
+   "value": 1,
+   "display": "1%"
+  },
+  "fv": {
+   "value": 1891.2,
+   "display": "$1,891.2M"
+  },
+  "cos": {
+   "value": 142,
+   "display": "142"
+  },
+  "fv_py": {
+   "value": 1621.8,
+   "display": "$1,621.8M"
+  },
+  "na": {
+   "value": 0.9,
+   "display": "0.9%"
+  },
+  "na_py": {
+   "value": 0.6,
+   "display": "0.6%"
+  },
+  "nii": {
+   "value": 0.58,
+   "display": "$0.58"
+  },
+  "div": {
+   "value": 0.52,
+   "display": "$0.52"
+  },
+  "cov": {
+   "value": 1.12,
+   "display": "1.12x"
+  },
+  "fl1": {
+   "value": 1412.6,
+   "display": "1,412.6"
+  },
+  "fl2": {
+   "value": 1488.3,
+   "display": "1,488.3"
+  },
+  "fl3": {
+   "value": 1561,
+   "display": "1,561.0"
+  },
+  "fl4": {
+   "value": 1634.9,
+   "display": "1,634.9"
+  },
+  "fl5": {
+   "value": 1702.4,
+   "display": "1,702.4"
+  },
+  "sl1": {
+   "value": 168.2,
+   "display": "168.2"
+  },
+  "sl2": {
+   "value": 162.5,
+   "display": "162.5"
+  },
+  "sl3": {
+   "value": 158.1,
+   "display": "158.1"
+  },
+  "sl4": {
+   "value": 149.7,
+   "display": "149.7"
+  },
+  "sl5": {
+   "value": 141.3,
+   "display": "141.3"
+  },
+  "eq1": {
+   "value": 41,
+   "display": "41.0"
+  },
+  "eq2": {
+   "value": 43.2,
+   "display": "43.2"
+  },
+  "eq3": {
+   "value": 44.8,
+   "display": "44.8"
+  },
+  "eq4": {
+   "value": 46.1,
+   "display": "46.1"
+  },
+  "eq5": {
+   "value": 47.5,
+   "display": "47.5"
+  },
+  "fl_add": {
+   "value": 289.8,
+   "display": "$289.8M"
+  },
+  "sl_off": {
+   "value": 26.9,
+   "display": "$26.9M"
+  },
+  "q_1_1": {
+   "value": 1891.2,
+   "display": "1,891.2"
+  },
+  "q_1_2": {
+   "value": 1830.7,
+   "display": "1,830.7"
+  },
+  "q_1_3": {
+   "value": 1763.9,
+   "display": "1,763.9"
+  },
+  "q_1_4": {
+   "value": 1694,
+   "display": "1,694.0"
+  },
+  "q_1_5": {
+   "value": 1621.8,
+   "display": "1,621.8"
+  },
+  "q_2_2": {
+   "value": 138,
+   "display": "138"
+  },
+  "q_2_3": {
+   "value": 135,
+   "display": "135"
+  },
+  "q_2_4": {
+   "value": 131,
+   "display": "131"
+  },
+  "q_2_5": {
+   "value": 127,
+   "display": "127"
+  },
+  "q_3_2": {
+   "value": 89.3,
+   "display": "89.3%"
+  },
+  "q_3_3": {
+   "value": 88.5,
+   "display": "88.5%"
+  },
+  "q_3_4": {
+   "value": 87.9,
+   "display": "87.9%"
+  },
+  "q_3_5": {
+   "value": 87.1,
+   "display": "87.1%"
+  },
+  "q_4_1": {
+   "value": 10.8,
+   "display": "10.8%"
+  },
+  "q_4_2": {
+   "value": 11,
+   "display": "11.0%"
+  },
+  "q_4_3": {
+   "value": 11.2,
+   "display": "11.2%"
+  },
+  "q_4_4": {
+   "value": 11.3,
+   "display": "11.3%"
+  },
+  "q_4_5": {
+   "value": 11.4,
+   "display": "11.4%"
+  },
+  "q_5_2": {
+   "value": 0.8,
+   "display": "0.8%"
+  },
+  "q_5_3": {
+   "value": 1.1,
+   "display": "1.1%"
+  },
+  "q_5_4": {
+   "value": 0.7,
+   "display": "0.7%"
+  },
+  "q_6_1": {
+   "value": 1.05,
+   "display": "1.05x"
+  },
+  "q_6_2": {
+   "value": 1.02,
+   "display": "1.02x"
+  },
+  "q_6_3": {
+   "value": 0.98,
+   "display": "0.98x"
+  },
+  "q_6_4": {
+   "value": 0.96,
+   "display": "0.96x"
+  },
+  "q_6_5": {
+   "value": 0.93,
+   "display": "0.93x"
+  },
+  "q_7_1": {
+   "value": 20.14,
+   "display": "$20.14"
+  },
+  "q_7_2": {
+   "value": 20.08,
+   "display": "$20.08"
+  },
+  "q_7_3": {
+   "value": 20.11,
+   "display": "$20.11"
+  },
+  "q_7_4": {
+   "value": 20.02,
+   "display": "$20.02"
+  },
+  "q_7_5": {
+   "value": 19.97,
+   "display": "$19.97"
+  },
+  "q_8_2": {
+   "value": 0.57,
+   "display": "$0.57"
+  },
+  "q_8_3": {
+   "value": 0.59,
+   "display": "$0.59"
+  },
+  "q_8_4": {
+   "value": 0.56,
+   "display": "$0.56"
+  },
+  "q_8_5": {
+   "value": 0.55,
+   "display": "$0.55"
+  },
+  "q_9_2": {
+   "value": 0.52,
+   "display": "$0.52"
+  },
+  "q_9_3": {
+   "value": 0.52,
+   "display": "$0.52"
+  },
+  "q_9_4": {
+   "value": 0.52,
+   "display": "$0.52"
+  },
+  "q_9_5": {
+   "value": 0.52,
+   "display": "$0.52"
+  }
+ }
+}

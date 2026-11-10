@@ -1,0 +1,341 @@
+{
+ "_note": "Brightwater Instruments, Project Larch and every peer named here are fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "offer": {
+   "value": 53,
+   "display": "$53.00"
+  },
+  "ex_2_2": {
+   "value": 9,
+   "display": "9.0x to 11.0x"
+  },
+  "ex_3_2": {
+   "value": 10,
+   "display": "10.0x to 12.5x"
+  },
+  "ex_4_2": {
+   "value": 8.5,
+   "display": "8.5% to 9.5% WACC"
+  },
+  "ex_5_2": {
+   "value": 20,
+   "display": "20% to 25% IRR"
+  },
+  "offer_k": {
+   "value": 53,
+   "display": "$53.00"
+  },
+  "prem": {
+   "value": 26.7,
+   "display": "26.7%"
+  },
+  "undist": {
+   "value": 41.84,
+   "display": "$41.84"
+  },
+  "iev": {
+   "value": 5219,
+   "display": "$5,219M"
+  },
+  "imult": {
+   "value": 11.2,
+   "display": "11.2x"
+  },
+  "med25": {
+   "value": 10.2,
+   "display": "10.2x"
+  },
+  "offer2": {
+   "value": 53,
+   "display": "$53.00"
+  },
+  "w_lo": {
+   "value": 38.2,
+   "display": "$38.20"
+  },
+  "w_hi": {
+   "value": 46.9,
+   "display": "$46.90"
+  },
+  "tc_lo": {
+   "value": 41.5,
+   "display": "$41.50"
+  },
+  "tc_hi": {
+   "value": 49.6,
+   "display": "$49.60"
+  },
+  "pt_lo": {
+   "value": 45.9,
+   "display": "$45.90"
+  },
+  "pt_hi": {
+   "value": 57.3,
+   "display": "$57.30"
+  },
+  "dcf_lo": {
+   "value": 43.4,
+   "display": "$43.40"
+  },
+  "dcf_hi": {
+   "value": 54.8,
+   "display": "$54.80"
+  },
+  "lbo_lo": {
+   "value": 39,
+   "display": "$39.00"
+  },
+  "lbo_hi": {
+   "value": 47.6,
+   "display": "$47.60"
+  },
+  "cmp_7_1": {
+   "value": 4812,
+   "display": "4,812"
+  },
+  "cmp_7_2": {
+   "value": 5301,
+   "display": "5,301"
+  },
+  "cmp_7_3": {
+   "value": 9.8,
+   "display": "9.8x"
+  },
+  "cmp_7_4": {
+   "value": 8.9,
+   "display": "8.9x"
+  },
+  "cmp_7_5": {
+   "value": 21.4,
+   "display": "21.4%"
+  },
+  "cmp_7_6": {
+   "value": 1.8,
+   "display": "1.8x"
+  },
+  "cmp_8_1": {
+   "value": 7206,
+   "display": "7,206"
+  },
+  "cmp_8_2": {
+   "value": 7488,
+   "display": "7,488"
+  },
+  "cmp_8_3": {
+   "value": 11.2,
+   "display": "11.2x"
+  },
+  "cmp_8_4": {
+   "value": 10.1,
+   "display": "10.1x"
+  },
+  "cmp_8_5": {
+   "value": 24.8,
+   "display": "24.8%"
+  },
+  "cmp_8_6": {
+   "value": 0.9,
+   "display": "0.9x"
+  },
+  "cmp_9_1": {
+   "value": 3955,
+   "display": "3,955"
+  },
+  "cmp_9_2": {
+   "value": 4620,
+   "display": "4,620"
+  },
+  "cmp_9_3": {
+   "value": 10.4,
+   "display": "10.4x"
+  },
+  "cmp_9_4": {
+   "value": 9.5,
+   "display": "9.5x"
+  },
+  "cmp_9_5": {
+   "value": 22.9,
+   "display": "22.9%"
+  },
+  "cmp_9_6": {
+   "value": 2.4,
+   "display": "2.4x"
+  },
+  "cmp_10_1": {
+   "value": 2418,
+   "display": "2,418"
+  },
+  "cmp_10_2": {
+   "value": 3210,
+   "display": "3,210"
+  },
+  "cmp_10_3": {
+   "value": 8.7,
+   "display": "8.7x"
+  },
+  "cmp_10_4": {
+   "value": 8,
+   "display": "8.0x"
+  },
+  "cmp_10_5": {
+   "value": 18.6,
+   "display": "18.6%"
+  },
+  "cmp_10_6": {
+   "value": 2.9,
+   "display": "2.9x"
+  },
+  "cmp_11_1": {
+   "value": 9874,
+   "display": "9,874"
+  },
+  "cmp_11_2": {
+   "value": 10012,
+   "display": "10,012"
+  },
+  "cmp_11_3": {
+   "value": 12.1,
+   "display": "12.1x"
+  },
+  "cmp_11_4": {
+   "value": 10.8,
+   "display": "10.8x"
+  },
+  "cmp_11_5": {
+   "value": 27.3,
+   "display": "27.3%"
+  },
+  "cmp_11_6": {
+   "value": 0.4,
+   "display": "0.4x"
+  },
+  "cmp_12_1": {
+   "value": 3102,
+   "display": "3,102"
+  },
+  "cmp_12_2": {
+   "value": 3598,
+   "display": "3,598"
+  },
+  "cmp_12_3": {
+   "value": 9.3,
+   "display": "9.3x"
+  },
+  "cmp_12_4": {
+   "value": 8.6,
+   "display": "8.6x"
+  },
+  "cmp_12_5": {
+   "value": 20.1,
+   "display": "20.1%"
+  },
+  "cmp_12_6": {
+   "value": 1.6,
+   "display": "1.6x"
+  },
+  "cmp_13_1": {
+   "value": 5630,
+   "display": "5,630"
+  },
+  "cmp_13_2": {
+   "value": 6105,
+   "display": "6,105"
+  },
+  "cmp_13_3": {
+   "value": 10.9,
+   "display": "10.9x"
+  },
+  "cmp_13_4": {
+   "value": 9.9,
+   "display": "9.9x"
+  },
+  "cmp_13_5": {
+   "value": 23.6,
+   "display": "23.6%"
+  },
+  "cmp_13_6": {
+   "value": 1.2,
+   "display": "1.2x"
+  },
+  "cmp_14_1": {
+   "value": 2967,
+   "display": "2,967"
+  },
+  "cmp_14_2": {
+   "value": 3402,
+   "display": "3,402"
+  },
+  "cmp_14_3": {
+   "value": 9.9,
+   "display": "9.9x"
+  },
+  "cmp_14_4": {
+   "value": 9.1,
+   "display": "9.1x"
+  },
+  "cmp_14_5": {
+   "value": 22.1,
+   "display": "22.1%"
+  },
+  "cmp_14_6": {
+   "value": 2.1,
+   "display": "2.1x"
+  },
+  "cmp_15_3": {
+   "value": 10.2,
+   "display": "10.2x"
+  },
+  "cmp_15_4": {
+   "value": 9.3,
+   "display": "9.3x"
+  },
+  "cmp_15_5": {
+   "value": 22.5,
+   "display": "22.5%"
+  },
+  "cmp_15_6": {
+   "value": 1.7,
+   "display": "1.7x"
+  },
+  "cmp_16_3": {
+   "value": 10.3,
+   "display": "10.3x"
+  },
+  "cmp_16_4": {
+   "value": 9.4,
+   "display": "9.4x"
+  },
+  "cmp_16_5": {
+   "value": 22.6,
+   "display": "22.6%"
+  },
+  "cmp_16_6": {
+   "value": 1.7,
+   "display": "1.7x"
+  },
+  "cmp_17_1": {
+   "value": 3684,
+   "display": "3,684"
+  },
+  "cmp_17_2": {
+   "value": 4236,
+   "display": "4,236"
+  },
+  "cmp_17_3": {
+   "value": 9.1,
+   "display": "9.1x"
+  },
+  "cmp_17_4": {
+   "value": 8.4,
+   "display": "8.4x"
+  },
+  "cmp_17_5": {
+   "value": 23.4,
+   "display": "23.4%"
+  },
+  "cmp_17_6": {
+   "value": 1.2,
+   "display": "1.2x"
+  }
+ }
+}

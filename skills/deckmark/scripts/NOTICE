@@ -1,0 +1,13 @@
+Deckmark scripts (theme.mjs, decklint.mjs) mirror the design of Hallmark's theme.mjs and sloplint.mjs:
+frontmatter themes, a seeded dealer rotated against a project log, a structural draw, and a linter with
+FAIL / REFLEX tiers, on-the-record waivers and a real-browser tier.
+Hallmark is MIT licensed, Copyright (c) 2026 Hallmark contributors. No Hallmark code is copied verbatim
+except small helpers (seeded random, project salt, log write) adapted under that licence.
+Theme midnight (references/themes/midnight.md) is adapted from Hallmark's midnight theme (palette, fonts, material), MIT, Copyright (c) 2026 Hallmark contributors.
+Theme vantage (references/themes/vantage.md) is adapted from Hallmark's vantage theme (palette, fonts, corner-tick frame), MIT, Copyright (c) 2026 Hallmark contributors.
+Theme console (references/themes/console.md) is adapted from Hallmark's console theme (palette, fonts, hairline panels), MIT, Copyright (c) 2026 Hallmark contributors.
+Theme newsprint is adapted from Hallmark's newsprint theme (palette and type tokens), MIT licence, Copyright (c) 2026 Hallmark contributors.
+Theme editorial is adapted from Hallmark's editorial theme (palette and type tokens), MIT licence, Copyright (c) 2026 Hallmark contributors.
+Theme vellum is adapted from Hallmark's vellum theme (palette and type tokens), MIT licence, Copyright (c) 2026 Hallmark contributors.
+Theme ink is adapted from Hallmark's ink theme (palette and type tokens), MIT licence, Copyright (c) 2026 Hallmark contributors.
+Theme specimen is adapted from Hallmark's specimen theme (palette and type tokens), MIT licence, Copyright (c) 2026 Hallmark contributors.

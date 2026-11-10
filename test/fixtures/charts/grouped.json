@@ -1,0 +1,1 @@
+{ "width": 540, "height": 300, "categories": ["North", "Central", "South", "West"], "series": [{ "name": "FY24", "values": [11.2, 9.8, 8.4, 12.2] }, { "name": "FY25", "values": [12.6, 10.4, 9.1, 13.9] }], "highlight": "FY25", "fmt": { "dp": 1 }, "src": "fixture" }

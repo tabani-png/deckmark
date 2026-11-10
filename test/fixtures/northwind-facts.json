@@ -1,0 +1,132 @@
+{
+ "_note": "Northwind Freight is a fictional company. Every figure below is invented for the test fixture.",
+ "facts": {
+  "rev_fy21": {
+   "value": 286.4,
+   "display": "286.4"
+  },
+  "rev_fy22": {
+   "value": 312.9,
+   "display": "312.9"
+  },
+  "rev_fy23": {
+   "value": 341.7,
+   "display": "341.7"
+  },
+  "rev_fy24": {
+   "value": 368.2,
+   "display": "368.2"
+  },
+  "rev_fy25": {
+   "value": 402.5,
+   "display": "$402.5M"
+  },
+  "rev_cagr": {
+   "value": 8.9,
+   "display": "8.9%",
+   "formula": "((rev_fy25 / rev_fy21) ^ (1 / 4) - 1) * 100"
+  },
+  "ebitda_fy24": {
+   "value": 41.6,
+   "display": "$41.6M"
+  },
+  "ebitda_fy25": {
+   "value": 48.3,
+   "display": "$48.3M"
+  },
+  "margin_fy25": {
+   "value": 12.0,
+   "display": "12.0%",
+   "formula": "ebitda_fy25 / rev_fy25 * 100"
+  },
+  "margin_target": {
+   "value": 14.0,
+   "display": "14.0%"
+  },
+  "otd_fy25": {
+   "value": 96.4,
+   "display": "96.4%"
+  },
+  "fleet": {
+   "value": 1240,
+   "display": "1,240"
+  },
+  "br_volume": {
+   "value": 5.2,
+   "display": "+5.2"
+  },
+  "br_price": {
+   "value": 3.1,
+   "display": "+3.1"
+  },
+  "br_fuel": {
+   "value": -2.4,
+   "display": "(2.4)"
+  },
+  "br_labour": {
+   "value": -1.8,
+   "display": "(1.8)"
+  },
+  "br_network": {
+   "value": 2.6,
+   "display": "+2.6"
+  },
+  "val_trading_lo": {
+   "value": 362.3,
+   "display": "362.3"
+  },
+  "val_trading_hi": {
+   "value": 434.7,
+   "display": "434.7"
+  },
+  "val_prec_lo": {
+   "value": 386.4,
+   "display": "386.4"
+  },
+  "val_prec_hi": {
+   "value": 483.0,
+   "display": "483.0"
+  },
+  "val_dcf_lo": {
+   "value": 395.0,
+   "display": "395.0"
+  },
+  "val_dcf_hi": {
+   "value": 470.0,
+   "display": "470.0"
+  },
+  "offer_ev": {
+   "value": 420.0,
+   "display": "$420.0M"
+  },
+  "su_term_loan": {
+   "value": 180.0,
+   "display": "180.0"
+  },
+  "su_equity": {
+   "value": 255.0,
+   "display": "255.0"
+  },
+  "su_total": {
+   "value": 435.0,
+   "display": "435.0",
+   "formula": "su_term_loan + su_equity"
+  },
+  "su_ev": {
+   "value": 420.0,
+   "display": "420.0"
+  },
+  "su_fees": {
+   "value": 9.5,
+   "display": "9.5"
+  },
+  "su_cash": {
+   "value": 5.5,
+   "display": "5.5"
+  },
+  "uplift": {
+   "value": 8.1,
+   "display": "$8.1M"
+  }
+ }
+}

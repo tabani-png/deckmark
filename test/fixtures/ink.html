@@ -1,0 +1,101 @@
+<!doctype html>
+<!-- Deckmark · ink fixture: stat-only, ink-based empty-slide, stretched-rows and numbered-cards must fire; the exec summary and the paired slide must not -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ink fixture</title>
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="tokens.css">
+</head>
+<body data-format="slides-16x9" data-words-cap="150">
+<main class="deck">
+
+<!-- 1. stat-only: four big numbers and nothing that explains them -->
+<section class="slide" data-archetype="kpi-strip">
+  <header class="slide-head"><h2 class="action-title">Four big numbers sit at the top of the page with nothing under them</h2></header>
+  <div class="slide-body">
+    <div class="kpi-strip" style="--kpis: 4">
+      <div class="kpi"><span class="kpi-value">2.9x</span><span class="kpi-label">Leverage, pro forma</span></div>
+      <div class="kpi"><span class="kpi-value">28.7</span><span class="kpi-label">EBITDA, pro forma</span></div>
+      <div class="kpi"><span class="kpi-value">37.6%</span><span class="kpi-label">Cushion to the covenant</span></div>
+      <div class="kpi"><span class="kpi-value">25.3</span><span class="kpi-label">Budget EBITDA</span></div>
+    </div>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">1</span></footer>
+</section>
+
+<!-- 2. empty-slide by ink: a bordered box stretched to the full body holds one line. The old container
+     measure counted the box and passed; real ink is one line at the top. -->
+<section class="slide" data-archetype="callout">
+  <header class="slide-head"><h2 class="action-title">A stretched outline box cannot make one line of text look like a full page</h2></header>
+  <div class="slide-body">
+    <figure class="exhibit" style="border: 1px solid var(--rule); padding: 16px"><p>One line of text inside a box that fills the body.</p></figure>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">2</span></footer>
+</section>
+
+<!-- 3. stretched-rows: a five-row table pulled to fill the body -->
+<section class="slide" data-archetype="data-table">
+  <header class="slide-head"><h2 class="action-title">Five rows pulled to the full height of the page lose their text in space</h2></header>
+  <div class="slide-body">
+    <table class="data" style="height: 470px"><thead><tr><th>Line</th><th class="num">FY25</th></tr></thead><tbody>
+      <tr><td>Revenue</td><td class="num">158.2</td></tr><tr><td>Gross margin</td><td class="num">38.1</td></tr>
+      <tr><td>EBITDA</td><td class="num">25.6</td></tr><tr><td>Capex</td><td class="num">6.2</td></tr><tr><td>Cash before interest</td><td class="num">14.7</td></tr></tbody></table>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">3</span></footer>
+</section>
+
+<!-- 4. numbered-cards: Claim 1, Claim 2, Claim 3 -->
+<section class="slide" data-archetype="matrix-2x2">
+  <header class="slide-head"><h2 class="action-title">Boxes labelled Claim 1, Claim 2 and Claim 3 read as a template</h2></header>
+  <div class="slide-body">
+    <div class="grid-12">
+      <div class="span-4 callout"><h4>Claim 1</h4><p>Revenue grew every year from FY22 to FY24, and the plan keeps that pace.</p></div>
+      <div class="span-4 callout"><h4>Claim 2</h4><p>Margin widened each year as the practice base grew and costs were shared.</p></div>
+      <div class="span-4 callout"><h4>Claim 3</h4><p>Same-practice growth held through the period with no price increase.</p></div>
+      <div class="span-12 callout"><p>Every claim above carries a page reference to where it is proved in the full memorandum.</p></div>
+    </div>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">4</span></footer>
+</section>
+
+<!-- 5. clean: the exec summary may carry KPI tiles, here with rows under them -->
+<section class="slide" data-archetype="exec-summary" data-exec>
+  <header class="slide-head"><h2 class="action-title">The exec summary may lead with KPI tiles because the rows below explain them</h2></header>
+  <div class="slide-body">
+    <div class="kpi-strip" style="--kpis: 3">
+      <div class="kpi"><span class="kpi-value">2.9x</span><span class="kpi-label">Leverage, pro forma</span></div>
+      <div class="kpi"><span class="kpi-value">37.6%</span><span class="kpi-label">Cushion to the covenant</span></div>
+      <div class="kpi hl"><span class="kpi-value">85.0</span><span class="kpi-label">Facility, face value</span></div>
+    </div>
+    <div class="summary-rows">
+      <div class="row"><div><span class="k">Situation</span><h4>A steady packaging business</h4></div><p>Revenue grew every year and margin held while input prices fell. The business has refinanced twice without a covenant reset and carries no history of a missed payment.</p></div>
+      <div class="row"><div><span class="k">Complication</span><h4>The add-on carries the case</h4></div><p>Pro forma EBITDA leans on the add-on before the quality of earnings report closes, so the leverage figure rests on numbers nobody has yet verified.</p></div>
+      <div class="row"><div><span class="k">Resolution</span><h4>Approve with conditions</h4></div><p>Fund once the report closes and the year-to-date actuals hold against budget. If neither arrives, the request returns to committee unchanged.</p></div>
+    </div>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">5</span></footer>
+</section>
+
+<!-- 6. clean: KPI tiles above the table they come from, the table at its natural height beside a takeaway -->
+<section class="slide" data-archetype="chart-takeaway">
+  <header class="slide-head"><h2 class="action-title">Big numbers belong above the table they come from, with a takeaway beside it</h2></header>
+  <div class="slide-body">
+    <div class="kpi-strip" style="--kpis: 2">
+      <div class="kpi"><span class="kpi-value">25.6</span><span class="kpi-label">EBITDA, FY24</span><span class="delta up">+1.7 vs FY23</span></div>
+      <div class="kpi hl"><span class="kpi-value">14.7</span><span class="kpi-label">Cash before interest, FY24</span><span class="delta up">57.4% of EBITDA</span></div>
+    </div>
+    <div class="chart-takeaway">
+      <figure class="exhibit"><figcaption><span class="exhibit-no">Exhibit 1</span><span class="exhibit-title">EBITDA to cash</span><span class="exhibit-unit">$ in millions</span></figcaption>
+        <table class="data"><thead><tr><th>Line</th><th class="num">FY24</th></tr></thead><tbody>
+          <tr><td>EBITDA</td><td class="num">25.6</td></tr><tr><td>Capex</td><td class="num">(6.2)</td></tr><tr><td>Cash taxes</td><td class="num">(2.9)</td></tr>
+          <tr><td>Change in working capital</td><td class="num">(1.8)</td></tr><tr class="total"><td>Cash before interest</td><td class="num">14.7</td></tr></tbody></table></figure>
+      <aside class="takeaway"><h3>What the walk says</h3><ul><li>Capex took the largest bite of EBITDA in FY24.</li><li>Working capital absorbed less than taxes did.</li><li>Debt service cannot be tested until the amortisation schedule arrives.</li></ul><p class="so-what">Cash cover is the open question, not EBITDA.</p></aside>
+    </div>
+  </div>
+  <footer class="slide-foot"><div class="notes"><p class="source">Source: fixture, fictional</p></div><span class="pageno">6</span></footer>
+</section>
+
+</main>
+</body>
+</html>

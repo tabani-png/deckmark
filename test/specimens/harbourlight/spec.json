@@ -1,0 +1,219 @@
+{
+ "title": "Kellmouth Regional Transit: long-range financial outlook",
+ "format": "slides-16x9",
+ "storyline": "public-sector-review",
+ "decision": "adopt",
+ "confid": "Prepared for the board of directors",
+ "cover": {
+  "light": true,
+  "kicker": "Long-range financial outlook",
+  "title": "Keeping Kellmouth moving: the operating reserve to FY32",
+  "sub": "A briefing for the board of directors and the finance committee.",
+  "meta": "Kellmouth Regional Transit · fictional agency · theme specimen",
+  "confid": "Draft for board discussion"
+ },
+ "exec": {
+  "title": "The operating reserve covers service today, but falls by more than half by FY32 without action",
+  "stamp": "Preliminary",
+  "rows": [
+   {
+    "k": "Where we are",
+    "h": "Service is stable",
+    "p": "The reserve stands at {res}, about {months} months of operating cost, after federal relief ended. Service levels and fares have held steady for two years."
+   },
+   {
+    "k": "What changes",
+    "h": "Costs outpace fares",
+    "p": "Operating cost grows about {cost_g} a year while fares and local tax grow about {rev_g}. The gap widens each year the plan is deferred."
+   },
+   {
+    "k": "What we propose",
+    "h": "Seven options, phased",
+    "p": "Together the options close {close} of the annual gap, enough to hold the reserve steady. Most need board decisions this year to count in FY28."
+   }
+  ],
+  "source": "Source: Kellmouth Regional Transit adopted budget and financial model (fictional)"
+ },
+ "chart": {
+  "title": "Without action the reserve falls to {base32} by FY32, and under stress it is nearly exhausted",
+  "stamp": "Preliminary",
+  "exhibit": {
+   "no": "Exhibit 1",
+   "title": "Operating reserve by scenario",
+   "unit": "$ in millions, fiscal year end"
+  },
+  "type": "line",
+  "data": {
+   "height": 400,
+   "categories": [
+    "FY26",
+    "FY27",
+    "FY28",
+    "FY29",
+    "FY30",
+    "FY31",
+    "FY32"
+   ],
+   "series": [
+    {
+     "name": "Baseline",
+     "values": [
+      "@res",
+      "@ba2",
+      "@ba3",
+      "@ba4",
+      "@ba5",
+      "@ba6",
+      "@base32"
+     ]
+    },
+    {
+     "name": "With options",
+     "values": [
+      "@res",
+      "@wo2",
+      "@wo3",
+      "@wo4",
+      "@wo5",
+      "@wo6",
+      "@wo7"
+     ]
+    },
+    {
+     "name": "Stress",
+     "values": [
+      "@res",
+      "@st2",
+      "@st3",
+      "@st4",
+      "@st5",
+      "@st6",
+      "@st7"
+     ]
+    }
+   ],
+   "highlight": 1,
+   "min": 0,
+   "max": 150,
+   "fmt": {
+    "dp": 0
+   }
+  },
+  "takeaway": {
+   "h": "Scenario parameters",
+   "bullets": [
+    "Baseline: ridership recovers to {rid} of pre-pandemic levels.",
+    "With options: all seven options in place by FY28.",
+    "Stress: a mild recession cuts sales tax by {cut}."
+   ]
+  },
+  "source": "Source: Kellmouth Regional Transit financial model (fictional)"
+ },
+ "table": {
+  "title": "Seven options close the gap, led by the bus network redesign",
+  "stamp": "Preliminary",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Options to close the operating gap",
+   "unit": "$ in millions a year"
+  },
+  "columns": [
+   {
+    "h": "Option"
+   },
+   {
+    "h": "Full-year impact",
+    "num": true
+   },
+   {
+    "h": "Year one",
+    "num": true
+   },
+   {
+    "h": "Lead time, months",
+    "num": true
+   },
+   {
+    "h": "Effect on riders"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Bus network redesign",
+     "op_1_1",
+     "op_1_2",
+     "op_1_3",
+     "More frequent core routes"
+    ]
+   },
+   {
+    "cells": [
+     "Fare policy refresh",
+     "op_2_1",
+     "op_2_2",
+     "op_2_3",
+     "Small rise, capped passes"
+    ]
+   },
+   {
+    "cells": [
+     "State formula advocacy",
+     "op_3_1",
+     "",
+     "op_3_3",
+     "None"
+    ]
+   },
+   {
+    "cells": [
+     "Paratransit contract rebid",
+     "op_4_1",
+     "op_4_2",
+     "op_4_3",
+     "None"
+    ]
+   },
+   {
+    "cells": [
+     "Fleet electrification savings",
+     "op_5_1",
+     "op_5_2",
+     "op_5_3",
+     "Quieter buses"
+    ]
+   },
+   {
+    "cells": [
+     "Facility consolidation",
+     "op_6_1",
+     "op_6_2",
+     "op_6_3",
+     "None"
+    ]
+   },
+   {
+    "cells": [
+     "Advertising and leases",
+     "op_7_1",
+     "op_7_2",
+     "op_7_3",
+     "None"
+    ]
+   },
+   {
+    "cells": [
+     "Total",
+     "op_8_1",
+     "op_8_2",
+     "",
+     ""
+    ],
+    "cls": "total"
+   }
+  ],
+  "callout": "The first four options alone close {first4}, three quarters of the gap, and only the fare refresh changes what riders pay.",
+  "source": "Source: Kellmouth Regional Transit staff analysis (fictional)",
+  "note": "Year one assumes board approval this fiscal year."
+ }
+}

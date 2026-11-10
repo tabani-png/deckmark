@@ -1,0 +1,201 @@
+{
+ "_note": "Kestria and its energy study are fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "tot40": {
+   "value": 41.5,
+   "display": "41.5 Mt"
+  },
+  "ind40": {
+   "value": 13.5,
+   "display": "13.5 Mt"
+  },
+  "bld40": {
+   "value": 11.3,
+   "display": "11.3 Mt"
+  },
+  "trn40": {
+   "value": 10.8,
+   "display": "10.8 Mt"
+  },
+  "pwr40": {
+   "value": 5.9,
+   "display": "5.9 Mt"
+  },
+  "i30": {
+   "value": 6.8,
+   "display": "6.8"
+  },
+  "i35": {
+   "value": 10.2,
+   "display": "10.2"
+  },
+  "b30": {
+   "value": 4.2,
+   "display": "4.2"
+  },
+  "b35": {
+   "value": 7.9,
+   "display": "7.9"
+  },
+  "t30": {
+   "value": 3.1,
+   "display": "3.1"
+  },
+  "t35": {
+   "value": 6.6,
+   "display": "6.6"
+  },
+  "p30": {
+   "value": 2.4,
+   "display": "2.4"
+  },
+  "p35": {
+   "value": 4.1,
+   "display": "4.1"
+  },
+  "tot30": {
+   "value": 16.5,
+   "display": "16.5 Mt"
+  },
+  "tot40b": {
+   "value": 41.5,
+   "display": "41.5 Mt"
+  },
+  "m_1_2": {
+   "value": 5.1,
+   "display": "5.1"
+  },
+  "m_1_3": {
+   "value": 88,
+   "display": "88"
+  },
+  "m_1_4": {
+   "value": 16,
+   "display": "16"
+  },
+  "m_2_2": {
+   "value": 4.6,
+   "display": "4.6"
+  },
+  "m_2_3": {
+   "value": -24,
+   "display": "(24)"
+  },
+  "m_2_4": {
+   "value": 4,
+   "display": "4"
+  },
+  "m_3_2": {
+   "value": 3.8,
+   "display": "3.8"
+  },
+  "m_3_3": {
+   "value": -51,
+   "display": "(51)"
+  },
+  "m_3_4": {
+   "value": 3,
+   "display": "3"
+  },
+  "m_4_2": {
+   "value": 5.2,
+   "display": "5.2"
+  },
+  "m_4_3": {
+   "value": 63,
+   "display": "63"
+  },
+  "m_4_4": {
+   "value": 14,
+   "display": "14"
+  },
+  "m_5_2": {
+   "value": 4.1,
+   "display": "4.1"
+  },
+  "m_5_3": {
+   "value": 46,
+   "display": "46"
+  },
+  "m_5_4": {
+   "value": 19,
+   "display": "19"
+  },
+  "m_6_2": {
+   "value": 2,
+   "display": "2.0"
+  },
+  "m_6_3": {
+   "value": -38,
+   "display": "(38)"
+  },
+  "m_6_4": {
+   "value": 2,
+   "display": "2"
+  },
+  "m_7_2": {
+   "value": 6.2,
+   "display": "6.2"
+  },
+  "m_7_3": {
+   "value": 22,
+   "display": "22"
+  },
+  "m_7_4": {
+   "value": 8,
+   "display": "8"
+  },
+  "m_8_2": {
+   "value": 2.5,
+   "display": "2.5"
+  },
+  "m_8_3": {
+   "value": 71,
+   "display": "71"
+  },
+  "m_8_4": {
+   "value": 24,
+   "display": "24"
+  },
+  "m_9_2": {
+   "value": 2.1,
+   "display": "2.1"
+  },
+  "m_9_3": {
+   "value": -17,
+   "display": "(17)"
+  },
+  "m_9_4": {
+   "value": 2,
+   "display": "2"
+  },
+  "m_10_2": {
+   "value": 3.4,
+   "display": "3.4"
+  },
+  "m_10_3": {
+   "value": 15,
+   "display": "15"
+  },
+  "m_10_4": {
+   "value": 9,
+   "display": "9"
+  },
+  "m_11_2": {
+   "value": 2.5,
+   "display": "2.5"
+  },
+  "m_11_3": {
+   "value": -9,
+   "display": "(9)"
+  },
+  "m_11_4": {
+   "value": 5,
+   "display": "5"
+  },
+  "m_12_2": {
+   "value": 41.5,
+   "display": "41.5"
+  }
+ }
+}

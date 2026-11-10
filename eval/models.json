@@ -1,0 +1,17 @@
+{
+  "arms": [
+    { "id": "default", "model": null, "note": "Whatever `claude` resolves to on this login (no --model flag)." },
+    { "id": "sonnet", "model": "sonnet", "note": "--model sonnet" },
+    { "id": "haiku", "model": "haiku", "note": "--model haiku" }
+  ],
+  "judge": { "model": null, "note": "null = the CLI default model; override with judge.mjs --model or run-matrix --judge-model." },
+  "defaults": { "budgetUsd": 15, "timeoutMin": 45, "concurrency": 2 },
+  "costEstimateUsd": {
+    "note": "Per cell, API-equivalent, from the size of a herdr round (12-17 slides, 2-4 renders, 3-6 decklint runs, every PNG read). On a subscription this is usage, not a bill. Replace with measured run.json costUSD after the first cells.",
+    "default": [4, 10],
+    "sonnet": [2, 5],
+    "haiku": [0.5, 1.5],
+    "judge": [0.1, 0.4],
+    "repairRound": [0.5, 3]
+  }
+}

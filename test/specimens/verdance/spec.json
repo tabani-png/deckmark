@@ -1,0 +1,200 @@
+{
+ "title": "Northmere Vision: tourism sector programme",
+ "format": "slides-16x9",
+ "storyline": "public-sector-review",
+ "decision": "adopt",
+ "confid": "Northmere Vision",
+ "tracker": [
+  "A Context",
+  "B Targets",
+  "C Initiatives"
+ ],
+ "cover": {
+  "kicker": "Northmere Vision · sector programme",
+  "title": "Tourism: from hidden coast to global destination",
+  "sub": "Targets and initiatives for the tourism sector, a programme of the fictional Republic of Northmere.",
+  "meta": "Theme specimen · fictional country",
+  "confid": "Programme document"
+ },
+ "exec": {
+  "tracker": "A Context",
+  "title": "Tourism can grow from {sh17} to {sh35} of GDP by 2035 through three levers",
+  "stamp": "Non-exhaustive",
+  "rows": [
+   {
+    "k": "Air routes and visas",
+    "h": "Access",
+    "p": "Grow direct air routes from {rt17} to {rt35} and simplify visas for the top source markets, so that a visit can be booked in one step."
+   },
+   {
+    "k": "Heritage and hotels",
+    "h": "Destinations",
+    "p": "Open {sites} heritage sites and build {rooms} hotel rooms across four coastal clusters, each with its own development company."
+   },
+   {
+    "k": "Skills and jobs",
+    "h": "People",
+    "p": "Train Northmere nationals into {jobs} tourism jobs, with a national hospitality academy and sector wage standards."
+   }
+  ],
+  "source": "Source: Northmere Vision programme office (fictional)"
+ },
+ "chart": {
+  "tracker": "B Targets",
+  "title": "Tourism's contribution to GDP grows more than fourfold to {gdp35} by 2035",
+  "stamp": "Illustrative example",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Tourism direct contribution to GDP",
+   "unit": "$ in billions"
+  },
+  "type": "bar",
+  "data": {
+   "categories": [
+    "2017",
+    "2020",
+    "2025",
+    "2030",
+    "2035"
+   ],
+   "values": [
+    "@g17",
+    "@g20",
+    "@g25",
+    "@g30",
+    "@gdp35"
+   ],
+   "highlight": 4,
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "Growth path",
+   "bullets": [
+    "2017 and 2020 are actuals; later years are programme targets.",
+    "Visitors rise from {vis17} to {vis35} a year.",
+    "Spending per visit rises as the hotel mix moves upmarket."
+   ],
+   "sowhat": "Access is the binding constraint until new routes open."
+  },
+  "source": "Source: Northmere statistics office; programme targets (fictional)"
+ },
+ "table": {
+  "tracker": "C Initiatives",
+  "title": "Eight sector targets anchor the programme, each with one accountable owner",
+  "stamp": "Non-exhaustive",
+  "exhibit": {
+   "no": "Exhibit 3",
+   "title": "Sector targets",
+   "unit": "baseline and target values"
+  },
+  "columns": [
+   {
+    "h": "ID"
+   },
+   {
+    "h": "Indicator"
+   },
+   {
+    "h": "Baseline 2017",
+    "num": true
+   },
+   {
+    "h": "Target 2025",
+    "num": true
+   },
+   {
+    "h": "Target 2035",
+    "num": true
+   },
+   {
+    "h": "Owner"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Tour.A.1",
+     "International visitors, millions",
+     "kpi_1_2",
+     "kpi_1_3",
+     "kpi_1_4",
+     "Tourism authority"
+    ]
+   },
+   {
+    "cells": [
+     "Tour.A.2",
+     "Direct air routes",
+     "kpi_2_2",
+     "kpi_2_3",
+     "kpi_2_4",
+     "Civil aviation agency"
+    ]
+   },
+   {
+    "cells": [
+     "Tour.B.1",
+     "Hotel rooms, thousands",
+     "kpi_3_2",
+     "kpi_3_3",
+     "kpi_3_4",
+     "Tourism authority"
+    ]
+   },
+   {
+    "cells": [
+     "Tour.B.2",
+     "Heritage sites open to visitors",
+     "kpi_4_2",
+     "kpi_4_3",
+     "kpi_4_4",
+     "Heritage commission"
+    ]
+   },
+   {
+    "cells": [
+     "Tour.B.3",
+     "Average spend per visit, $",
+     "kpi_5_2",
+     "kpi_5_3",
+     "kpi_5_4",
+     "Tourism authority"
+    ]
+   },
+   {
+    "cells": [
+     "Tour.C.1",
+     "Tourism jobs, thousands",
+     "kpi_6_2",
+     "kpi_6_3",
+     "kpi_6_4",
+     "Labour ministry"
+    ]
+   },
+   {
+    "cells": [
+     "Tour.C.2",
+     "Visitor satisfaction, %",
+     "kpi_7_2",
+     "kpi_7_3",
+     "kpi_7_4",
+     "Tourism authority"
+    ]
+   },
+   {
+    "cells": [
+     "Tour.C.3",
+     "Tourism share of GDP, %",
+     "kpi_8_2",
+     "kpi_8_3",
+     "kpi_8_4",
+     "Planning ministry"
+    ]
+   }
+  ],
+  "callout": "Visitor numbers nearly triple over the programme, so hotel room supply must more than double to keep pace.",
+  "source": "Source: Northmere Vision programme office (fictional)"
+ }
+}

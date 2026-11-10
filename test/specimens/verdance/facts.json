@@ -1,0 +1,157 @@
+{
+ "_note": "Northmere and its tourism programme are fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "sh17": {
+   "value": 2.9,
+   "display": "2.9%"
+  },
+  "sh35": {
+   "value": 6.8,
+   "display": "6.8%"
+  },
+  "rt17": {
+   "value": 46,
+   "display": "46"
+  },
+  "rt35": {
+   "value": 110,
+   "display": "110"
+  },
+  "sites": {
+   "value": 35,
+   "display": "35"
+  },
+  "rooms": {
+   "value": 81.5,
+   "display": "81.5k"
+  },
+  "jobs": {
+   "value": 215,
+   "display": "215k"
+  },
+  "gdp35": {
+   "value": 14.5,
+   "display": "$14.5B"
+  },
+  "g17": {
+   "value": 3.2,
+   "display": "$3.2B"
+  },
+  "g20": {
+   "value": 3.9,
+   "display": "3.9"
+  },
+  "g25": {
+   "value": 6.4,
+   "display": "6.4"
+  },
+  "g30": {
+   "value": 9.8,
+   "display": "9.8"
+  },
+  "vis17": {
+   "value": 4.1,
+   "display": "4.1M"
+  },
+  "vis35": {
+   "value": 12,
+   "display": "12.0M"
+  },
+  "kpi_1_2": {
+   "value": 4.1,
+   "display": "4.1"
+  },
+  "kpi_1_3": {
+   "value": 7.5,
+   "display": "7.5"
+  },
+  "kpi_1_4": {
+   "value": 12,
+   "display": "12.0"
+  },
+  "kpi_2_2": {
+   "value": 46,
+   "display": "46"
+  },
+  "kpi_2_3": {
+   "value": 70,
+   "display": "70"
+  },
+  "kpi_2_4": {
+   "value": 110,
+   "display": "110"
+  },
+  "kpi_3_2": {
+   "value": 38.2,
+   "display": "38.2"
+  },
+  "kpi_3_3": {
+   "value": 52,
+   "display": "52.0"
+  },
+  "kpi_3_4": {
+   "value": 81.5,
+   "display": "81.5"
+  },
+  "kpi_4_2": {
+   "value": 14,
+   "display": "14"
+  },
+  "kpi_4_3": {
+   "value": 22,
+   "display": "22"
+  },
+  "kpi_4_4": {
+   "value": 35,
+   "display": "35"
+  },
+  "kpi_5_2": {
+   "value": 812,
+   "display": "812"
+  },
+  "kpi_5_3": {
+   "value": 950,
+   "display": "950"
+  },
+  "kpi_5_4": {
+   "value": 1180,
+   "display": "1,180"
+  },
+  "kpi_6_2": {
+   "value": 96.4,
+   "display": "96.4"
+  },
+  "kpi_6_3": {
+   "value": 140,
+   "display": "140.0"
+  },
+  "kpi_6_4": {
+   "value": 215,
+   "display": "215.0"
+  },
+  "kpi_7_2": {
+   "value": 71,
+   "display": "71"
+  },
+  "kpi_7_3": {
+   "value": 80,
+   "display": "80"
+  },
+  "kpi_7_4": {
+   "value": 88,
+   "display": "88"
+  },
+  "kpi_8_2": {
+   "value": 2.9,
+   "display": "2.9"
+  },
+  "kpi_8_3": {
+   "value": 4.1,
+   "display": "4.1"
+  },
+  "kpi_8_4": {
+   "value": 6.8,
+   "display": "6.8"
+  }
+ }
+}

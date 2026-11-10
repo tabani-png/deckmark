@@ -1,0 +1,286 @@
+{
+ "title": "Tamsin Senior Lending Fund: third quarter update",
+ "format": "slides-16x9",
+ "storyline": "fund-pitch",
+ "decision": "fund",
+ "confid": "For existing investors only",
+ "cover": {
+  "kicker": "Quarterly investor update",
+  "title": "Tamsin Senior Lending Fund",
+  "sub": "Third quarter results and portfolio review",
+  "meta": "Fictional fund · theme specimen",
+  "confid": "For existing investors only"
+ },
+ "exec": {
+  "title": "First lien loans reached {fl_pct} of the portfolio as non-accruals stayed under {na_cap}",
+  "subtitle": "Key financial highlights",
+  "rows": [
+   {
+    "k": "Portfolio",
+    "h": "Larger and more senior",
+    "p": "Investments at fair value rose to {fv} across {cos} companies, up from {fv_py} a year earlier."
+   },
+   {
+    "k": "Credit quality",
+    "h": "Stable non-accruals",
+    "p": "Non-accruals were {na} of cost, against {na_py} a year ago; no new names were added this quarter."
+   },
+   {
+    "k": "Income",
+    "h": "Dividend fully covered",
+    "p": "Net investment income of {nii} per share covered the {div} distribution {cov}."
+   }
+  ],
+  "source": "Source: Tamsin Senior Lending Fund quarterly report (fictional)",
+  "note": "Non-accruals at amortised cost. Past performance is not indicative of future results.",
+  "kpis": [
+   {
+    "value": "{fv}",
+    "label": "Investments at fair value",
+    "delta": "from {fv_py}",
+    "dir": "flat"
+   },
+   {
+    "value": "{fl_pct}",
+    "label": "First lien share of the portfolio",
+    "hl": true
+   },
+   {
+    "value": "{na}",
+    "label": "Non-accruals, % of cost",
+    "delta": "from {na_py}",
+    "dir": "flat"
+   },
+   {
+    "value": "{cov}",
+    "label": "Dividend cover by net investment income"
+   }
+  ]
+ },
+ "chart": {
+  "title": "Growth has come entirely from first lien loans while second lien has run off",
+  "subtitle": "Portfolio composition at fair value",
+  "exhibit": {
+   "no": "Exhibit 1",
+   "title": "Investments by seniority, quarter end",
+   "unit": "($ in millions)"
+  },
+  "type": "stacked",
+  "data": {
+   "height": 400,
+   "categories": [
+    "Q3 2025",
+    "Q4 2025",
+    "Q1 2026",
+    "Q2 2026",
+    "Q3 2026"
+   ],
+   "series": [
+    {
+     "name": "First lien",
+     "values": [
+      "@fl1",
+      "@fl2",
+      "@fl3",
+      "@fl4",
+      "@fl5"
+     ]
+    },
+    {
+     "name": "Second lien",
+     "values": [
+      "@sl1",
+      "@sl2",
+      "@sl3",
+      "@sl4",
+      "@sl5"
+     ]
+    },
+    {
+     "name": "Equity",
+     "values": [
+      "@eq1",
+      "@eq2",
+      "@eq3",
+      "@eq4",
+      "@eq5"
+     ]
+    }
+   ],
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "Portfolio positioning",
+   "bullets": [
+    "First lien rose by {fl_add} over the year.",
+    "Second lien fell by {sl_off} as loans repaid at par.",
+    "Equity co-investments stay small and passive."
+   ],
+   "sowhat": "Seniority has risen every quarter for a year."
+  },
+  "source": "Source: Tamsin Senior Lending Fund quarterly reports (fictional)"
+ },
+ "table": {
+  "title": "Five quarters of steady growth with leverage held near one turn",
+  "subtitle": "Rolling five-quarter summary",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Key metrics, newest quarter first",
+   "unit": "($ in millions, except per share data)"
+  },
+  "columns": [
+   {
+    "h": "As of quarter end"
+   },
+   {
+    "h": "Q3 2026",
+    "num": true
+   },
+   {
+    "h": "Q2 2026",
+    "num": true
+   },
+   {
+    "h": "Q1 2026",
+    "num": true
+   },
+   {
+    "h": "Q4 2025",
+    "num": true
+   },
+   {
+    "h": "Q3 2025",
+    "num": true
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Portfolio",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "cls": "group"
+   },
+   {
+    "cells": [
+     "Investments at fair value",
+     "q_1_1",
+     "q_1_2",
+     "q_1_3",
+     "q_1_4",
+     "q_1_5"
+    ]
+   },
+   {
+    "cells": [
+     "Portfolio companies",
+     "cos",
+     "q_2_2",
+     "q_2_3",
+     "q_2_4",
+     "q_2_5"
+    ]
+   },
+   {
+    "cells": [
+     "First lien share",
+     "fl_pct",
+     "q_3_2",
+     "q_3_3",
+     "q_3_4",
+     "q_3_5"
+    ]
+   },
+   {
+    "cells": [
+     "Weighted average yield at cost",
+     "q_4_1",
+     "q_4_2",
+     "q_4_3",
+     "q_4_4",
+     "q_4_5"
+    ]
+   },
+   {
+    "cells": [
+     "Non-accruals at cost",
+     "na",
+     "q_5_2",
+     "q_5_3",
+     "q_5_4",
+     "na_py"
+    ]
+   },
+   {
+    "cells": [
+     "Capital",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "cls": "group"
+   },
+   {
+    "cells": [
+     "Debt to equity",
+     "q_6_1",
+     "q_6_2",
+     "q_6_3",
+     "q_6_4",
+     "q_6_5"
+    ]
+   },
+   {
+    "cells": [
+     "Per share",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "cls": "group"
+   },
+   {
+    "cells": [
+     "Net asset value",
+     "q_7_1",
+     "q_7_2",
+     "q_7_3",
+     "q_7_4",
+     "q_7_5"
+    ]
+   },
+   {
+    "cells": [
+     "Net investment income",
+     "nii",
+     "q_8_2",
+     "q_8_3",
+     "q_8_4",
+     "q_8_5"
+    ]
+   },
+   {
+    "cells": [
+     "Distributions declared",
+     "div",
+     "q_9_2",
+     "q_9_3",
+     "q_9_4",
+     "q_9_5"
+    ]
+   }
+  ],
+  "source": "Source: Tamsin Senior Lending Fund quarterly reports (fictional)",
+  "note": "Yield at amortised cost, excluding non-accruals."
+ }
+}

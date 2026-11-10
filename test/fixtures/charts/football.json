@@ -1,0 +1,1 @@
+{ "width": 540, "rows": [{ "label": "Trading comps", "low": 362.3, "high": 434.7 }, { "label": "Precedents", "low": 386.4, "high": 483.0 }, { "label": "DCF", "low": 395.0, "high": 470.0 }], "marker": { "value": 420.0, "label": "Offer" }, "fmt": { "dp": 1 }, "src": "fixture" }

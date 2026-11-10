@@ -1,0 +1,240 @@
+{
+ "title": "Ferrow Ridge Partners: Fund V",
+ "format": "slides-16x9",
+ "storyline": "fund-pitch",
+ "decision": "invest",
+ "tracker": [
+  "Track record",
+  "Value creation",
+  "Portfolio",
+  "Fund V"
+ ],
+ "confid": "Confidential \u00b7 for limited partners",
+ "cover": {
+  "kicker": "Fund V \u00b7 mid-market buyout",
+  "title": "Ferrow Ridge Partners Fund V: earnings growth, not leverage",
+  "sub": "Fund presentation for a fictional buyout manager, prepared for prospective limited partners.",
+  "meta": "Fictional manager \u00b7 theme specimen"
+ },
+ "exec": {
+  "tracker": "Track record",
+  "title": "Fund IV is on track for {nirr} net with a loss ratio of {lossr} across {deals} deals",
+  "kpis": [
+   {
+    "value": "{nirr}",
+    "label": "Fund IV net IRR",
+    "delta": "{nirr_d} over target",
+    "hl": true
+   },
+   {
+    "value": "{gmoic}",
+    "label": "Gross MOIC, all funds",
+    "delta": "{gmoic_d} on Fund III"
+   },
+   {
+    "value": "{exits}",
+    "label": "Realised exits",
+    "delta": "{exits_d} since last raise"
+   },
+   {
+    "value": "{lossr}",
+    "label": "Loss ratio, capital",
+    "delta": "{lossr_d} on Fund III",
+    "dir": "down good"
+   }
+  ],
+  "rows": [
+   {
+    "k": "Strategy",
+    "h": "Founder-owned firms, first institutional owner",
+    "p": "Control buyouts of profitable companies where Ferrow Ridge is the first institutional investor, with an operating plan agreed before signing."
+   },
+   {
+    "k": "Value creation",
+    "h": "Earnings growth, not leverage",
+    "p": "On realised deals, EBITDA growth created {ebshare} of the value gained; entry leverage averages {lev}."
+   },
+   {
+    "k": "Fund V",
+    "h": "Same strategy, same team",
+    "p": "Fund V targets {f5} with the partners who led every Fund III and Fund IV deal still in place."
+   }
+  ],
+  "source": "Source: Ferrow Ridge Partners fund reports (fictional); net of fees, carry and expenses"
+ },
+ "chart": {
+  "tracker": "Value creation",
+  "title": "EBITDA growth created {ebshare2} of the value on realised deals, well ahead of multiple expansion",
+  "stamp": "Realised deals",
+  "exhibit": {
+   "no": "Exhibit 1",
+   "title": "Value bridge, realised deals, entry to exit equity",
+   "unit": "$ in millions"
+  },
+  "type": "waterfall",
+  "data": {
+   "height": 400,
+   "steps": [
+    {
+     "label": "Entry equity",
+     "value": "@w0",
+     "total": true
+    },
+    {
+     "label": "EBITDA growth",
+     "value": "@w1"
+    },
+    {
+     "label": "Multiple expansion",
+     "value": "@w2"
+    },
+    {
+     "label": "Debt paydown",
+     "value": "@w3"
+    },
+    {
+     "label": "Fees and costs",
+     "value": "@w4"
+    },
+    {
+     "label": "Exit equity",
+     "value": "@w5",
+     "total": true
+    }
+   ],
+   "highlight": 1,
+   "fmt": {
+    "dp": 0
+   }
+  },
+  "takeaway": {
+   "h": "How the value was made",
+   "bullets": [
+    "Average EBITDA growth of {ebg} a year under ownership.",
+    "Multiple expansion came from scale, not market timing.",
+    "Debt paydown from free cash flow, no dividend recaps."
+   ],
+   "sowhat": "Entry equity turned into {mo_real} on realised deals, mostly through earnings growth."
+  },
+  "source": "Source: Ferrow Ridge Partners deal records (fictional); specimen analysis"
+ },
+ "table": {
+  "tracker": "Portfolio",
+  "title": "Five of six Fund IV holdings are on plan and Ostrel Dental leads on value created",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Fund IV unrealised portfolio",
+   "unit": "$ in millions unless stated"
+  },
+  "columns": [
+   {
+    "h": "Company"
+   },
+   {
+    "h": "Sector"
+   },
+   {
+    "h": "Entry"
+   },
+   {
+    "h": "Invested",
+    "num": true
+   },
+   {
+    "h": "EBITDA growth % a year",
+    "num": true
+   },
+   {
+    "h": "Gross MOIC x",
+    "num": true
+   },
+   {
+    "h": "Status"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Brenmoor Packaging",
+     "Industrials",
+     "2020",
+     "pf_0_0",
+     "pf_0_1",
+     "pf_0_2",
+     "st:ok:On plan"
+    ]
+   },
+   {
+    "cells": [
+     "Ostrel Dental Group",
+     "Healthcare",
+     "2020",
+     "pf_1_0",
+     "pf_1_1",
+     "pf_1_2",
+     "st:ok:On plan"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Kinvara Fleet Services",
+     "Business services",
+     "2021",
+     "pf_2_0",
+     "pf_2_1",
+     "pf_2_2",
+     "st:ok:On plan"
+    ]
+   },
+   {
+    "cells": [
+     "Halloway Lab Supply",
+     "Healthcare",
+     "2021",
+     "pf_3_0",
+     "pf_3_1",
+     "pf_3_2",
+     "st:watch:Watch"
+    ]
+   },
+   {
+    "cells": [
+     "Tarrant Field Software",
+     "Software",
+     "2022",
+     "pf_4_0",
+     "pf_4_1",
+     "pf_4_2",
+     "st:ok:On plan"
+    ]
+   },
+   {
+    "cells": [
+     "Quillon Water Systems",
+     "Infrastructure",
+     "2023",
+     "pf_5_0",
+     "pf_5_1",
+     "pf_5_2",
+     "st:ok:On plan"
+    ]
+   },
+   {
+    "cells": [
+     "Total",
+     "",
+     "",
+     "pf_tot",
+     "",
+     "",
+     ""
+    ],
+    "cls": "total"
+   }
+  ],
+  "callout": "Halloway Lab Supply is on watch after a slower reorder cycle; the plan resets pricing in the next quarter.",
+  "source": "Source: Ferrow Ridge Partners quarterly valuation report (fictional)",
+  "note": "Gross MOIC at the latest quarterly valuation. Watch: below plan on EBITDA for two quarters."
+ }
+}

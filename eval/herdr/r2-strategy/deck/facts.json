@@ -1,0 +1,182 @@
+{
+ "_schema": "facts.json sits next to deck.html. facts: { \"<id>\": { \"value\": <number>, \"display\": \"<exactly as printed>\", \"unit\": \"<$m|%|x|count|hrs>\", \"source\": \"<file:section>\", \"formula\": \"<optional expression over other fact ids>\" } }. Print with <span data-fact=\"<id>\">.",
+ "facts": {
+  "assets": {
+   "value": 14200,
+   "display": "$14.2B",
+   "unit": "$m",
+   "source": "material.md, client profile"
+  },
+  "branches": {
+   "value": 96,
+   "display": "96",
+   "unit": "count",
+   "source": "material.md, client profile"
+  },
+  "fte": {
+   "value": 210,
+   "display": "210",
+   "unit": "count",
+   "source": "material.md, finance org"
+  },
+  "t_close": {
+   "value": 34,
+   "display": "34%",
+   "unit": "%",
+   "source": "material.md, internal survey time split"
+  },
+  "t_report": {
+   "value": 22,
+   "display": "22%",
+   "unit": "%",
+   "source": "material.md, internal survey time split"
+  },
+  "t_fpa": {
+   "value": 18,
+   "display": "18%",
+   "unit": "%",
+   "source": "material.md, internal survey time split"
+  },
+  "t_ap": {
+   "value": 14,
+   "display": "14%",
+   "unit": "%",
+   "source": "material.md, internal survey time split"
+  },
+  "t_reg": {
+   "value": 12,
+   "display": "12%",
+   "unit": "%",
+   "source": "material.md, internal survey time split"
+  },
+  "t_total": {
+   "value": 100,
+   "display": "100%",
+   "unit": "%",
+   "source": "team sum of survey shares",
+   "formula": "t_close + t_report + t_fpa + t_ap + t_reg"
+  },
+  "close_days": {
+   "value": 11,
+   "display": "11",
+   "unit": "count",
+   "source": "material.md, month-end close"
+  },
+  "peer_close": {
+   "value": 6,
+   "display": "6",
+   "unit": "count",
+   "source": "material.md, client-commissioned benchmark (peer median)"
+  },
+  "close_gap": {
+   "value": 5,
+   "display": "5",
+   "unit": "count",
+   "source": "team difference",
+   "formula": "close_days - peer_close"
+  },
+  "je": {
+   "value": 4800,
+   "display": "4,800",
+   "unit": "count",
+   "source": "material.md, manual journal entries per month"
+  },
+  "restate": {
+   "value": 3,
+   "display": "3",
+   "unit": "count",
+   "source": "material.md, regulatory reporting 2024"
+  },
+  "budget": {
+   "value": 4.0,
+   "display": "$4.0M",
+   "unit": "$m",
+   "source": "material.md, budget available over 18 months"
+  },
+  "h_recon": {
+   "value": 21000,
+   "display": "21,000",
+   "unit": "hrs",
+   "source": "material.md, client estimate, reconciliation matching"
+  },
+  "h_ap": {
+   "value": 14000,
+   "display": "14,000",
+   "unit": "hrs",
+   "source": "material.md, client estimate, AP invoice coding"
+  },
+  "h_flux": {
+   "value": 9500,
+   "display": "9,500",
+   "unit": "hrs",
+   "source": "material.md, client estimate, flux commentary"
+  },
+  "h_reg": {
+   "value": 6000,
+   "display": "6,000",
+   "unit": "hrs",
+   "source": "material.md, client estimate, reg report validation"
+  },
+  "h_fpa": {
+   "value": 7500,
+   "display": "7,500",
+   "unit": "hrs",
+   "source": "material.md, client estimate, FP&A forecasting"
+  },
+  "h_total": {
+   "value": 58000,
+   "display": "58,000",
+   "unit": "hrs",
+   "source": "team sum of client estimates",
+   "formula": "h_recon + h_ap + h_flux + h_reg + h_fpa"
+  },
+  "h_w1": {
+   "value": 35000,
+   "display": "35,000",
+   "unit": "hrs",
+   "source": "team sum, wave one",
+   "formula": "h_recon + h_ap"
+  },
+  "h_w2": {
+   "value": 15500,
+   "display": "15,500",
+   "unit": "hrs",
+   "source": "team sum, wave two",
+   "formula": "h_flux + h_reg"
+  },
+  "sh_recon": {
+   "value": 36.2,
+   "display": "36%",
+   "unit": "%",
+   "source": "team share",
+   "formula": "h_recon / h_total * 100"
+  },
+  "sh_w1": {
+   "value": 60.3,
+   "display": "60%",
+   "unit": "%",
+   "source": "team share, wave one",
+   "formula": "h_w1 / h_total * 100"
+  },
+  "sh_w2": {
+   "value": 26.7,
+   "display": "27%",
+   "unit": "%",
+   "source": "team share, wave two",
+   "formula": "h_w2 / h_total * 100"
+  },
+  "sh_w3": {
+   "value": 12.9,
+   "display": "13%",
+   "unit": "%",
+   "source": "team share, wave three",
+   "formula": "h_fpa / h_total * 100"
+  },
+  "sh_none": {
+   "value": 0,
+   "display": "0%",
+   "unit": "%",
+   "source": "team baseline: do nothing adds no hours"
+  }
+ }
+}

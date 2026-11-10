@@ -1,0 +1,245 @@
+{
+ "_note": "Halden Grocers and every peer named here are fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "m_now": {
+   "value": 5.2,
+   "display": "5.2%"
+  },
+  "m_target": {
+   "value": 7,
+   "display": "7.0%"
+  },
+  "m_gap": {
+   "value": 1.8,
+   "display": "1.8pp"
+  },
+  "sales": {
+   "value": 2.41,
+   "display": "$2.41B"
+  },
+  "stores": {
+   "value": 186,
+   "display": "186"
+  },
+  "m_now2": {
+   "value": 5.2,
+   "display": "5.2%"
+  },
+  "gap_lead": {
+   "value": 2.6,
+   "display": "2.6pp"
+  },
+  "uplift": {
+   "value": 43,
+   "display": "$43M"
+  },
+  "p1": {
+   "value": 7.8,
+   "display": "7.8"
+  },
+  "p2": {
+   "value": 7.1,
+   "display": "7.1"
+  },
+  "p3": {
+   "value": 6.4,
+   "display": "6.4"
+  },
+  "p4": {
+   "value": 5.2,
+   "display": "5.2"
+  },
+  "p5": {
+   "value": 4.9,
+   "display": "4.9"
+  },
+  "p6": {
+   "value": 4.1,
+   "display": "4.1"
+  },
+  "shrink_pp": {
+   "value": 1.1,
+   "display": "1.1pp"
+  },
+  "share_gap": {
+   "value": 71,
+   "display": "71%"
+  },
+  "tb_1_1": {
+   "value": 42,
+   "display": "42"
+  },
+  "tb_1_2": {
+   "value": 912.4,
+   "display": "912.4"
+  },
+  "tb_1_3": {
+   "value": 27.8,
+   "display": "27.8"
+  },
+  "tb_1_4": {
+   "value": 4.6,
+   "display": "4.6"
+  },
+  "tb_1_5": {
+   "value": 2.9,
+   "display": "2.9"
+  },
+  "tb_1_6": {
+   "value": 18.4,
+   "display": "18.4"
+  },
+  "tb_2_1": {
+   "value": 71,
+   "display": "71"
+  },
+  "tb_2_2": {
+   "value": 486,
+   "display": "486.0"
+  },
+  "tb_2_3": {
+   "value": 31.2,
+   "display": "31.2"
+  },
+  "tb_2_4": {
+   "value": 4.1,
+   "display": "4.1"
+  },
+  "tb_2_5": {
+   "value": 3.2,
+   "display": "3.2"
+  },
+  "tb_2_6": {
+   "value": 12.1,
+   "display": "12.1"
+  },
+  "tb_3_1": {
+   "value": 48,
+   "display": "48"
+  },
+  "tb_3_2": {
+   "value": 702.6,
+   "display": "702.6"
+  },
+  "tb_3_3": {
+   "value": 26.1,
+   "display": "26.1"
+  },
+  "tb_3_4": {
+   "value": 6.3,
+   "display": "6.3"
+  },
+  "tb_3_5": {
+   "value": 1.4,
+   "display": "1.4"
+  },
+  "tb_3_6": {
+   "value": 6.9,
+   "display": "6.9"
+  },
+  "tb_4_1": {
+   "value": 19,
+   "display": "19"
+  },
+  "tb_4_2": {
+   "value": 161.3,
+   "display": "161.3"
+  },
+  "tb_4_3": {
+   "value": 24.9,
+   "display": "24.9"
+  },
+  "tb_4_4": {
+   "value": 5.8,
+   "display": "5.8"
+  },
+  "tb_4_5": {
+   "value": 1.1,
+   "display": "1.1"
+  },
+  "tb_4_6": {
+   "value": 1.6,
+   "display": "1.6"
+  },
+  "tb_5_1": {
+   "value": 1,
+   "display": "1"
+  },
+  "tb_5_2": {
+   "value": 98.7,
+   "display": "98.7"
+  },
+  "tb_5_3": {
+   "value": 22.4,
+   "display": "22.4"
+  },
+  "tb_5_4": {
+   "value": -1.6,
+   "display": "(1.6)"
+  },
+  "tb_5_5": {
+   "value": 3.8,
+   "display": "3.8"
+  },
+  "tb_5_6": {
+   "value": 2.8,
+   "display": "2.8"
+  },
+  "tb_6_1": {
+   "value": 5,
+   "display": "5"
+  },
+  "tb_6_2": {
+   "value": 49,
+   "display": "49.0"
+  },
+  "tb_6_3": {
+   "value": 14.2,
+   "display": "14.2"
+  },
+  "tb_6_4": {
+   "value": 3.9,
+   "display": "3.9"
+  },
+  "tb_6_5": {
+   "value": 0.6,
+   "display": "0.6"
+  },
+  "tb_6_6": {
+   "value": 1.2,
+   "display": "1.2"
+  },
+  "tb_7_1": {
+   "value": 186,
+   "display": "186"
+  },
+  "tb_7_2": {
+   "value": 2410,
+   "display": "2,410.0"
+  },
+  "tb_7_3": {
+   "value": 27.4,
+   "display": "27.4"
+  },
+  "tb_7_4": {
+   "value": 5.2,
+   "display": "5.2"
+  },
+  "tb_7_5": {
+   "value": 2.6,
+   "display": "2.6"
+  },
+  "tb_7_6": {
+   "value": 43,
+   "display": "43.0"
+  },
+  "w1_st": {
+   "value": 113,
+   "display": "113"
+  },
+  "w1_eb": {
+   "value": 30.5,
+   "display": "$30.5M"
+  }
+ }
+}

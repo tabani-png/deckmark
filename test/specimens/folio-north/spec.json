@@ -1,0 +1,194 @@
+{
+ "title": "Coastal freight strategy",
+ "format": "report-a4",
+ "storyline": "public-sector-review",
+ "decision": "adopt",
+ "confid": "Coastal freight strategy",
+ "tracker": [
+  "Chapter 3",
+  "Ports and coastal freight"
+ ],
+ "cover": {
+  "kicker": "Ministry of Coastal Affairs · Vestmark (fictional)",
+  "title": "Coastal freight strategy",
+  "sub": "More cargo by sea and rail, fewer heavy lorries on coastal roads.",
+  "meta": "Theme specimen · fictional state",
+  "confid": "Published by the ministry"
+ },
+ "exec": {
+  "tracker": "Chapter 3",
+  "title": "3. Two ports carry most freight, and rail share trails the national goal",
+  "lead": "The five state ports handled {tot} million tonnes last year. This chapter sets out where that freight goes, how it travels inland, and what the ministry will fund to move more of it by rail.",
+  "rows": [
+   {
+    "k": "Box 9",
+    "h": "Main findings",
+    "p": "Two ports carry {two} of all tonnes. Rail takes {rail} of inland onward freight, against a national goal of {goal}."
+   },
+   {
+    "k": "Box 10",
+    "h": "What the ministry will do",
+    "p": "Fund rail sidings at three ports and share berth data across all five, within the existing transport budget."
+   },
+   {
+    "k": "Box 11",
+    "h": "How progress is measured",
+    "p": "Rail share and berth utilisation are reported each year in the transport statistics annex."
+   }
+  ],
+  "more": [
+   "The chapter draws on the port statistics series and on consultations with port authorities, freight forwarders and the rail infrastructure manager held during the spring. Where figures are rounded, totals may not add up exactly.",
+   "Freight moved by sea and rail rather than by road reduces wear on coastal roads, cuts emissions per tonne and frees capacity on routes that also carry tourist traffic in summer. The ministry therefore treats the share of freight that leaves the ports by rail as the main measure of progress for this chapter.",
+   "Chapter 4 turns to the inland rail network itself and the timetable for new freight paths."
+  ],
+  "source": "Source: Vestmark Port Statistics (fictional)"
+ },
+ "chart": {
+  "tracker": "Chapter 3",
+  "title": "Two ports, Brennvik and Ostra, carry most of the freight",
+  "lead": "Brennvik and Ostra together handle three in five tonnes. Smaller ports serve local industry and island routes, see figure 4 and box 12.",
+  "exhibit": {
+   "no": "Figure 4",
+   "title": "Freight through the five state ports, last year",
+   "unit": "million tonnes"
+  },
+  "type": "bar",
+  "data": {
+   "height": 320,
+   "categories": [
+    "Brennvik",
+    "Ostra",
+    "Halsund",
+    "Kalvoy",
+    "Morkesand"
+   ],
+   "values": [
+    "@p1",
+    "@p2",
+    "@p3",
+    "@p4",
+    "@p5"
+   ],
+   "highlight": 0,
+   "fmt": {
+    "dp": 1
+   }
+  },
+  "takeaway": {
+   "h": "Box 12  Island routes",
+   "bullets": [
+    "Kalvoy and Morkesand carry most island supply cargo.",
+    "Their volumes are small but have no road alternative."
+   ]
+  },
+  "more": [
+   "Volumes at the two largest ports have grown fastest, while the smaller ports have held level or declined slightly. The ministry expects this concentration to continue as container lines call at fewer, larger ports.",
+   "For the island routes the question is not volume but reliability. The ministry will keep the existing route contracts in place and review their terms when they next fall due, so that island supply is not affected by the investment programme set out below."
+  ],
+  "source": "Source: Vestmark Port Statistics (fictional)"
+ },
+ "table": {
+  "tracker": "Chapter 3",
+  "title": "Rail share is lowest where volumes are highest",
+  "lead": "Table 3 sets the five ports side by side. Brennvik moves the most cargo but sends less than a fifth of it inland by rail, which is why it receives the largest share of the siding programme.",
+  "exhibit": {
+   "no": "Table 3",
+   "title": "Port volumes, inland rail share and planned investment",
+   "unit": ""
+  },
+  "columns": [
+   {
+    "h": "Port"
+   },
+   {
+    "h": "Tonnes, million",
+    "num": true
+   },
+   {
+    "h": "Change on five years, %",
+    "num": true
+   },
+   {
+    "h": "Rail share, %",
+    "num": true
+   },
+   {
+    "h": "Berth use, %",
+    "num": true
+   },
+   {
+    "h": "Investment, EUR million",
+    "num": true
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Brennvik",
+     "p1",
+     "pt_1_2",
+     "pt_1_3",
+     "pt_1_4",
+     "pt_1_5"
+    ]
+   },
+   {
+    "cells": [
+     "Ostra",
+     "p2",
+     "pt_2_2",
+     "pt_2_3",
+     "pt_2_4",
+     "pt_2_5"
+    ]
+   },
+   {
+    "cells": [
+     "Halsund",
+     "p3",
+     "pt_3_2",
+     "pt_3_3",
+     "pt_3_4",
+     "pt_3_5"
+    ]
+   },
+   {
+    "cells": [
+     "Kalvoy",
+     "p4",
+     "pt_4_2",
+     "pt_4_3",
+     "pt_4_4",
+     ""
+    ]
+   },
+   {
+    "cells": [
+     "Morkesand",
+     "p5",
+     "pt_5_2",
+     "pt_5_3",
+     "pt_5_4",
+     ""
+    ]
+   },
+   {
+    "cells": [
+     "All ports",
+     "pt_6_1",
+     "pt_6_2",
+     "pt_6_3",
+     "pt_6_4",
+     "pt_6_5"
+    ],
+    "cls": "total"
+   }
+  ],
+  "source": "Source: Vestmark Port Statistics; Ministry of Coastal Affairs (fictional)",
+  "note": "Note: rail share of inland onward freight by weight.",
+  "more": [
+   "Halsund has the highest berth capacity to spare and the best existing rail link, which makes it the natural relief port if Brennvik reaches its limit. Kalvoy and Morkesand receive no siding investment in this period; their freight serves island communities and is covered by the coastal route contracts in chapter 5.",
+   "The investment figures are the ministry share only. Port authorities and rail operators are expected to fund station works and rolling stock from their own budgets, and those amounts are not included in table 3."
+  ]
+ }
+}

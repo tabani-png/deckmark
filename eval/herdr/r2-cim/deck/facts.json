@@ -1,0 +1,65 @@
+{
+  "_schema": "facts.json sits next to deck.html. facts: { \"<id>\": { \"value\": <number>, \"display\": \"<exactly as printed>\", \"unit\": \"<$m|%|x|count>\", \"source\": \"<file:section>\", \"formula\": \"<optional>\" } }.",
+  "facts": {
+    "rev_fy22":   { "value": 61.4, "display": "61.4", "unit": "$m", "source": "material.md: Financials FY2022 revenue" },
+    "rev_fy23":   { "value": 70.9, "display": "70.9", "unit": "$m", "source": "material.md: Financials FY2023 revenue" },
+    "rev_fy24":   { "value": 82.3, "display": "82.3", "unit": "$m", "source": "material.md: Financials FY2024 revenue" },
+    "rev_fy25f":  { "value": 94.0, "display": "94.0", "unit": "$m", "source": "material.md: Financials FY2025 management forecast revenue" },
+    "ebitda_fy22":  { "value": 9.8,  "display": "9.8",  "unit": "$m", "source": "material.md: Financials FY2022 adj. EBITDA" },
+    "ebitda_fy23":  { "value": 11.9, "display": "11.9", "unit": "$m", "source": "material.md: Financials FY2023 adj. EBITDA" },
+    "ebitda_fy24":  { "value": 14.6, "display": "14.6", "unit": "$m", "source": "material.md: Financials FY2024 adj. EBITDA" },
+    "ebitda_fy25f": { "value": 17.2, "display": "17.2", "unit": "$m", "source": "material.md: Financials FY2025 management forecast adj. EBITDA" },
+
+    "samepr_fy23": { "value": 6.1, "display": "6.1%", "unit": "%", "source": "material.md: Same-practice revenue growth FY2023" },
+    "samepr_fy24": { "value": 7.4, "display": "7.4%", "unit": "%", "source": "material.md: Same-practice revenue growth FY2024" },
+
+    "prac_fy22": { "value": 24, "display": "24", "unit": "count", "source": "material.md: Practices 2022" },
+    "prac_fy23": { "value": 29, "display": "29", "unit": "count", "source": "material.md: Practices 2023" },
+    "prac_fy24": { "value": 34, "display": "34", "unit": "count", "source": "material.md: Practices 2024" },
+    "prac_add":  { "value": 10, "display": "10", "unit": "count", "source": "derived from practice counts", "formula": "prac_fy24 - prac_fy22" },
+
+    "acq_fy24":  { "value": 5,   "display": "5",    "unit": "count", "source": "material.md: Acquisitions 2024" },
+    "acq_mult":  { "value": 4.8, "display": "4.8x", "unit": "x",     "source": "material.md: Acquisitions 2024 average multiple" },
+
+    "payer_comm": { "value": 58, "display": "58%", "unit": "%", "source": "material.md: Payer mix FY2024 commercial" },
+    "payer_mcd":  { "value": 22, "display": "22%", "unit": "%", "source": "material.md: Payer mix FY2024 Medicaid" },
+    "payer_self": { "value": 20, "display": "20%", "unit": "%", "source": "material.md: Payer mix FY2024 self-pay" },
+
+    "dentists":  { "value": 112, "display": "112", "unit": "count", "source": "material.md: Dentists FY2024" },
+    "dent_ret":  { "value": 91,  "display": "91%", "unit": "%",     "source": "material.md: Dentist retention" },
+    "dent_per_prac": { "value": 3.3, "display": "3.3", "unit": "x", "source": "derived", "formula": "dentists / prac_fy24" },
+
+    "loi_n":   { "value": 11,   "display": "11",   "unit": "count", "source": "material.md: Pipeline, practices under LOI" },
+    "loi_rev": { "value": 18.5, "display": "18.5", "unit": "$m",    "source": "material.md: Pipeline combined revenue (unaudited, management figure)" },
+
+    "adj_owner": { "value": 0.9, "display": "0.9", "unit": "$m", "source": "material.md: EBITDA adjustments FY2024, owner compensation normalization" },
+    "adj_acq":   { "value": 0.7, "display": "0.7", "unit": "$m", "source": "material.md: EBITDA adjustments FY2024, acquisition costs" },
+    "adj_total": { "value": 1.6, "display": "1.6", "unit": "$m", "source": "material.md: EBITDA adjustments FY2024 total", "formula": "adj_owner + adj_acq" },
+    "rep_ebitda_fy24": { "value": 13.0, "display": "13.0", "unit": "$m", "source": "derived: adjusted EBITDA less FY2024 adjustments (not a stated figure in material)", "formula": "ebitda_fy24 - adj_total" },
+
+    "cagr_rev":    { "value": 15.8, "display": "15.8%", "unit": "%", "source": "derived", "formula": "((rev_fy24 / rev_fy22) ^ (1 / 2) - 1) * 100" },
+    "cagr_ebitda": { "value": 22.1, "display": "22.1%", "unit": "%", "source": "derived", "formula": "((ebitda_fy24 / ebitda_fy22) ^ (1 / 2) - 1) * 100" },
+    "cum_rev":     { "value": 34.0, "display": "34.0%", "unit": "%", "source": "derived", "formula": "(rev_fy24 / rev_fy22 - 1) * 100" },
+    "cum_ebitda":  { "value": 49.0, "display": "49.0%", "unit": "%", "source": "derived", "formula": "(ebitda_fy24 / ebitda_fy22 - 1) * 100" },
+
+    "mgn_fy22":  { "value": 16.0, "display": "16.0%", "unit": "%", "source": "derived", "formula": "ebitda_fy22 / rev_fy22 * 100" },
+    "mgn_fy23":  { "value": 16.8, "display": "16.8%", "unit": "%", "source": "derived", "formula": "ebitda_fy23 / rev_fy23 * 100" },
+    "mgn_fy24":  { "value": 17.7, "display": "17.7%", "unit": "%", "source": "derived", "formula": "ebitda_fy24 / rev_fy24 * 100" },
+    "mgn_fy25f": { "value": 18.3, "display": "18.3%", "unit": "%", "source": "derived", "formula": "ebitda_fy25f / rev_fy25f * 100" },
+
+    "gr_rev_fy23":  { "value": 15.5, "display": "15.5%", "unit": "%", "source": "derived", "formula": "(rev_fy23 / rev_fy22 - 1) * 100" },
+    "gr_rev_fy24":  { "value": 16.1, "display": "16.1%", "unit": "%", "source": "derived", "formula": "(rev_fy24 / rev_fy23 - 1) * 100" },
+    "gr_rev_fy25f": { "value": 14.2, "display": "14.2%", "unit": "%", "source": "derived", "formula": "(rev_fy25f / rev_fy24 - 1) * 100" },
+    "gr_eb_fy23":   { "value": 21.4, "display": "21.4%", "unit": "%", "source": "derived", "formula": "(ebitda_fy23 / ebitda_fy22 - 1) * 100" },
+    "gr_eb_fy24":   { "value": 22.7, "display": "22.7%", "unit": "%", "source": "derived", "formula": "(ebitda_fy24 / ebitda_fy23 - 1) * 100" },
+    "gr_eb_fy25f":  { "value": 17.8, "display": "17.8%", "unit": "%", "source": "derived", "formula": "(ebitda_fy25f / ebitda_fy24 - 1) * 100" },
+
+    "cost_fy22":  { "value": 51.6, "display": "51.6", "unit": "$m", "source": "derived", "formula": "rev_fy22 - ebitda_fy22" },
+    "cost_fy23":  { "value": 59.0, "display": "59.0", "unit": "$m", "source": "derived", "formula": "rev_fy23 - ebitda_fy23" },
+    "cost_fy24":  { "value": 67.7, "display": "67.7", "unit": "$m", "source": "derived", "formula": "rev_fy24 - ebitda_fy24" },
+    "cost_fy25f": { "value": 76.8, "display": "76.8", "unit": "$m", "source": "derived", "formula": "rev_fy25f - ebitda_fy25f" },
+
+    "addback_pct": { "value": 11.0, "display": "11.0%", "unit": "%", "source": "derived", "formula": "adj_total / ebitda_fy24 * 100" },
+    "rev_add_fy25": { "value": 11.7, "display": "11.7", "unit": "$m", "source": "derived", "formula": "rev_fy25f - rev_fy24" }
+  }
+}

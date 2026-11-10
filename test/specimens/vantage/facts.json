@@ -1,0 +1,169 @@
+{
+ "_note": "Ferrow Ridge Partners and every company named here are fictional. Every figure is invented for the theme specimen.",
+ "facts": {
+  "nirr": {
+   "value": 21.4,
+   "display": "21.4%"
+  },
+  "nirr_d": {
+   "value": 3.4,
+   "display": "+3.4pp"
+  },
+  "gmoic": {
+   "value": 2.6,
+   "display": "2.6x"
+  },
+  "gmoic_d": {
+   "value": 0.3,
+   "display": "+0.3x"
+  },
+  "exits": {
+   "value": 14,
+   "display": "14"
+  },
+  "exits_d": {
+   "value": 5,
+   "display": "+5"
+  },
+  "lossr": {
+   "value": 2.1,
+   "display": "2.1%"
+  },
+  "lossr_d": {
+   "value": -0.6,
+   "display": "\u22120.6pp"
+  },
+  "deals": {
+   "value": 31,
+   "display": "31"
+  },
+  "ebshare": {
+   "value": 70.4,
+   "display": "70.4%"
+  },
+  "ebshare2": {
+   "value": 70.4,
+   "display": "70.4%"
+  },
+  "f5": {
+   "value": 1.4,
+   "display": "$1.4B"
+  },
+  "f5b": {
+   "value": 1.4,
+   "display": "$1.4B"
+  },
+  "ebg": {
+   "value": 14,
+   "display": "14%"
+  },
+  "lev": {
+   "value": 3.9,
+   "display": "3.9x"
+  },
+  "w0": {
+   "value": 820,
+   "display": "820"
+  },
+  "w1": {
+   "value": 1140,
+   "display": "1,140"
+  },
+  "w2": {
+   "value": 310,
+   "display": "310"
+  },
+  "w3": {
+   "value": 260,
+   "display": "260"
+  },
+  "w4": {
+   "value": -90,
+   "display": "-90"
+  },
+  "w5": {
+   "value": 2440,
+   "display": "2,440"
+  },
+  "mo_real": {
+   "value": 2.98,
+   "display": "2.98x"
+  },
+  "pf_0_0": {
+   "value": 142.0,
+   "display": "142"
+  },
+  "pf_0_1": {
+   "value": 16.0,
+   "display": "16"
+  },
+  "pf_0_2": {
+   "value": 2.4,
+   "display": "2.4"
+  },
+  "pf_1_0": {
+   "value": 118.0,
+   "display": "118"
+  },
+  "pf_1_1": {
+   "value": 22.0,
+   "display": "22"
+  },
+  "pf_1_2": {
+   "value": 3.1,
+   "display": "3.1"
+  },
+  "pf_2_0": {
+   "value": 96.0,
+   "display": "96"
+  },
+  "pf_2_1": {
+   "value": 11.0,
+   "display": "11"
+  },
+  "pf_2_2": {
+   "value": 1.9,
+   "display": "1.9"
+  },
+  "pf_3_0": {
+   "value": 88.0,
+   "display": "88"
+  },
+  "pf_3_1": {
+   "value": 9.0,
+   "display": "9"
+  },
+  "pf_3_2": {
+   "value": 1.4,
+   "display": "1.4"
+  },
+  "pf_4_0": {
+   "value": 104.0,
+   "display": "104"
+  },
+  "pf_4_1": {
+   "value": 27.0,
+   "display": "27"
+  },
+  "pf_4_2": {
+   "value": 2.2,
+   "display": "2.2"
+  },
+  "pf_5_0": {
+   "value": 76.0,
+   "display": "76"
+  },
+  "pf_5_1": {
+   "value": 13.0,
+   "display": "13"
+  },
+  "pf_5_2": {
+   "value": 1.3,
+   "display": "1.3"
+  },
+  "pf_tot": {
+   "value": 624,
+   "display": "624"
+  }
+ }
+}

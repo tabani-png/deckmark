@@ -1,0 +1,1 @@
+{ "width": 540, "height": 300, "categories": ["FY21", "FY22", "FY23", "FY24", "FY25"], "bars": { "name": "Revenue, $M", "values": [286.4, 312.9, 341.7, 368.2, 402.5], "fmt": { "dp": 0 } }, "line": { "name": "EBITDA margin", "values": [10.1, 10.8, 11.2, 11.3, 12.0], "fmt": { "dp": 1, "suffix": "%" } }, "src": "fixture" }

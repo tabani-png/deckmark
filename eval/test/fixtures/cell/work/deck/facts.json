@@ -1,0 +1,10 @@
+{ "_schema": "id: { value, display, unit, source, formula? }",
+  "loan_face": { "value": 85.0, "display": "85.0", "unit": "$m", "source": "term sheet" },
+  "oid_price": { "value": 98.0, "display": "98.0", "unit": "", "source": "term sheet" },
+  "loan_net": { "value": 83.3, "display": "83.3", "unit": "$m", "source": "derived", "formula": "loan_face * oid_price / 100" },
+  "gap": { "value": 1.7, "display": "1.7", "unit": "$m", "source": "derived", "formula": "loan_face - loan_net" },
+  "refi": { "value": 57.5, "display": "57.5", "unit": "$m", "source": "material" },
+  "acq": { "value": 24.5, "display": "24.5", "unit": "$m", "source": "material" },
+  "fees": { "value": 3.0, "display": "3.0", "unit": "$m", "source": "material" },
+  "ebitda_fy24": { "value": 18.3, "display": "18.3", "unit": "$m", "source": "audited accounts FY2024" }
+}

@@ -1,0 +1,382 @@
+{
+ "_schema": "facts.json sits next to deck.html. Source for every figure: material.md (fictional Halden Packaging Ltd test material). Derived figures carry a formula over other fact ids.",
+ "facts": {
+  "rev_fy22": {
+   "value": 142,
+   "display": "142.0",
+   "unit": "$m",
+   "source": "material.md: FY2022 revenue"
+  },
+  "rev_fy23": {
+   "value": 151.5,
+   "display": "151.5",
+   "unit": "$m",
+   "source": "material.md: FY2023 revenue"
+  },
+  "rev_fy24": {
+   "value": 158.2,
+   "display": "158.2",
+   "unit": "$m",
+   "source": "material.md: FY2024 revenue"
+  },
+  "rev_fy25b": {
+   "value": 171,
+   "display": "171.0",
+   "unit": "$m",
+   "source": "material.md: FY2025 budget revenue"
+  },
+  "ebitda_fy22": {
+   "value": 21.3,
+   "display": "21.3",
+   "unit": "$m",
+   "source": "material.md: FY2022 EBITDA"
+  },
+  "ebitda_fy23": {
+   "value": 23.9,
+   "display": "23.9",
+   "unit": "$m",
+   "source": "material.md: FY2023 EBITDA"
+  },
+  "ebitda_fy24": {
+   "value": 25.6,
+   "display": "25.6",
+   "unit": "$m",
+   "source": "material.md: FY2024 EBITDA"
+  },
+  "ebitda_fy25b": {
+   "value": 28.4,
+   "display": "28.4",
+   "unit": "$m",
+   "source": "material.md: FY2025 budget EBITDA, includes Ridgeway pro forma 3.1"
+  },
+  "ridgeway_ebitda": {
+   "value": 3.1,
+   "display": "3.1",
+   "unit": "$m",
+   "source": "material.md: Ridgeway pro forma EBITDA"
+  },
+  "pf_ebitda_fy24": {
+   "value": 28.7,
+   "display": "28.7",
+   "unit": "$m",
+   "source": "material.md: FY24 PF EBITDA = 25.6 + 3.1",
+   "formula": "ebitda_fy24 + ridgeway_ebitda"
+  },
+  "ebitda_fy25_organic": {
+   "value": 25.3,
+   "display": "25.3",
+   "unit": "$m",
+   "source": "derived: FY25 budget EBITDA less Ridgeway pro forma",
+   "formula": "ebitda_fy25b - ridgeway_ebitda"
+  },
+  "capex_fy24": {
+   "value": 6.2,
+   "display": "6.2",
+   "unit": "$m",
+   "source": "material.md: FY2024 capex"
+  },
+  "taxes_fy24": {
+   "value": 2.9,
+   "display": "2.9",
+   "unit": "$m",
+   "source": "material.md: FY2024 cash taxes"
+  },
+  "nwc_fy24": {
+   "value": -1.8,
+   "display": "1.8",
+   "unit": "$m",
+   "source": "material.md: FY2024 change in NWC (use of cash)"
+  },
+  "cash_pre_int_fy24": {
+   "value": 14.7,
+   "display": "14.7",
+   "unit": "$m",
+   "source": "derived: EBITDA less capex, cash taxes and NWC use",
+   "formula": "ebitda_fy24 - capex_fy24 - taxes_fy24 + nwc_fy24"
+  },
+  "cash_conv_fy24": {
+   "value": 57.4,
+   "display": "57.4",
+   "unit": "%",
+   "source": "derived",
+   "formula": "cash_pre_int_fy24 / ebitda_fy24 * 100"
+  },
+  "capex_pct_fy24": {
+   "value": 24.2,
+   "display": "24.2",
+   "unit": "%",
+   "source": "derived",
+   "formula": "capex_fy24 / ebitda_fy24 * 100"
+  },
+  "margin_fy22": {
+   "value": 15,
+   "display": "15.0",
+   "unit": "%",
+   "source": "derived",
+   "formula": "ebitda_fy22 / rev_fy22 * 100"
+  },
+  "margin_fy23": {
+   "value": 15.8,
+   "display": "15.8",
+   "unit": "%",
+   "source": "derived",
+   "formula": "ebitda_fy23 / rev_fy23 * 100"
+  },
+  "margin_fy24": {
+   "value": 16.2,
+   "display": "16.2",
+   "unit": "%",
+   "source": "derived",
+   "formula": "ebitda_fy24 / rev_fy24 * 100"
+  },
+  "margin_fy25b": {
+   "value": 16.6,
+   "display": "16.6",
+   "unit": "%",
+   "source": "derived",
+   "formula": "ebitda_fy25b / rev_fy25b * 100"
+  },
+  "growth_fy23": {
+   "value": 6.7,
+   "display": "6.7",
+   "unit": "%",
+   "source": "derived",
+   "formula": "(rev_fy23 / rev_fy22 - 1) * 100"
+  },
+  "growth_fy24": {
+   "value": 4.4,
+   "display": "4.4",
+   "unit": "%",
+   "source": "derived",
+   "formula": "(rev_fy24 / rev_fy23 - 1) * 100"
+  },
+  "growth_fy25b": {
+   "value": 8.1,
+   "display": "8.1",
+   "unit": "%",
+   "source": "derived",
+   "formula": "(rev_fy25b / rev_fy24 - 1) * 100"
+  },
+  "rev_cagr": {
+   "value": 5.6,
+   "display": "5.6",
+   "unit": "%",
+   "source": "derived, FY22 to FY24",
+   "formula": "((rev_fy24 / rev_fy22) ^ (1 / 2) - 1) * 100"
+  },
+  "gm_fy24": {
+   "value": 24.1,
+   "display": "24.1",
+   "unit": "%",
+   "source": "material.md: gross margin FY2024"
+  },
+  "containerboard_px": {
+   "value": -9,
+   "display": "9",
+   "unit": "%",
+   "source": "material.md: containerboard price change FY2024"
+  },
+  "cust_top1": {
+   "value": 18,
+   "display": "18",
+   "unit": "%",
+   "source": "material.md: top customer share of revenue"
+  },
+  "cust_top5": {
+   "value": 41,
+   "display": "41",
+   "unit": "%",
+   "source": "material.md: top five customers share of revenue"
+  },
+  "cust_other": {
+   "value": 59,
+   "display": "59",
+   "unit": "%",
+   "source": "derived",
+   "formula": "100 - cust_top5"
+  },
+  "facility_amt": {
+   "value": 85,
+   "display": "85.0",
+   "unit": "$m",
+   "source": "material.md: requested facility"
+  },
+  "refi_amt": {
+   "value": 60,
+   "display": "60.0",
+   "unit": "$m",
+   "source": "material.md: refinance of existing term loan"
+  },
+  "addon_amt": {
+   "value": 22,
+   "display": "22.0",
+   "unit": "$m",
+   "source": "material.md: Ridgeway Box add-on acquisition"
+  },
+  "fees_amt": {
+   "value": 3,
+   "display": "3.0",
+   "unit": "$m",
+   "source": "material.md: fees"
+  },
+  "uses_total": {
+   "value": 85,
+   "display": "85.0",
+   "unit": "$m",
+   "source": "derived: uses",
+   "formula": "refi_amt + addon_amt + fees_amt"
+  },
+  "debt_pf": {
+   "value": 85,
+   "display": "85.0",
+   "unit": "$m",
+   "source": "material.md: pro forma total debt"
+  },
+  "spread_bps": {
+   "value": 575,
+   "display": "575",
+   "unit": "bps",
+   "source": "material.md: margin over SOFR"
+  },
+  "floor_pct": {
+   "value": 1,
+   "display": "1.00",
+   "unit": "%",
+   "source": "material.md: SOFR floor"
+  },
+  "oid": {
+   "value": 98,
+   "display": "98.0",
+   "unit": "price",
+   "source": "material.md: original issue discount"
+  },
+  "tenor_yrs": {
+   "value": 5,
+   "display": "5",
+   "unit": "yrs",
+   "source": "material.md: tenor"
+  },
+  "pf_lev": {
+   "value": 2.96,
+   "display": "2.96",
+   "unit": "x",
+   "source": "derived, gross debt over FY24 PF EBITDA",
+   "formula": "debt_pf / pf_ebitda_fy24"
+  },
+  "lev_reported": {
+   "value": 3.32,
+   "display": "3.32",
+   "unit": "x",
+   "source": "derived, gross debt over reported FY24 EBITDA",
+   "formula": "debt_pf / ebitda_fy24"
+  },
+  "lev_fy25b": {
+   "value": 2.99,
+   "display": "2.99",
+   "unit": "x",
+   "source": "derived, gross debt over FY25 budget EBITDA",
+   "formula": "debt_pf / ebitda_fy25b"
+  },
+  "addon_multiple": {
+   "value": 7.1,
+   "display": "7.1",
+   "unit": "x",
+   "source": "derived, add-on price over Ridgeway pro forma EBITDA",
+   "formula": "addon_amt / ridgeway_ebitda"
+  },
+  "ridgeway_share": {
+   "value": 10.8,
+   "display": "10.8",
+   "unit": "%",
+   "source": "derived",
+   "formula": "ridgeway_ebitda / pf_ebitda_fy24 * 100"
+  },
+  "equity_pct": {
+   "value": 45,
+   "display": "45",
+   "unit": "%",
+   "source": "material.md: sponsor equity as % of pro forma capitalisation"
+  },
+  "equity_implied": {
+   "value": 69.5,
+   "display": "69.5",
+   "unit": "$m",
+   "source": "derived: equity implied by 45% if debt is 55% of capitalisation; not in sources and uses",
+   "formula": "debt_pf / (1 - equity_pct / 100) * equity_pct / 100"
+  },
+  "cov_lev_open": {
+   "value": 4.75,
+   "display": "4.75",
+   "unit": "x",
+   "source": "material.md: max total net leverage covenant, opening"
+  },
+  "cov_lev_step": {
+   "value": 4.25,
+   "display": "4.25",
+   "unit": "x",
+   "source": "material.md: max total net leverage covenant, step-down"
+  },
+  "cov_fccr": {
+   "value": 1.2,
+   "display": "1.20",
+   "unit": "x",
+   "source": "material.md: min fixed charge coverage covenant"
+  },
+  "cushion_open": {
+   "value": 37.6,
+   "display": "37.6",
+   "unit": "%",
+   "source": "derived, EBITDA fall to 4.75x on gross debt",
+   "formula": "(1 - debt_pf / cov_lev_open / pf_ebitda_fy24) * 100"
+  },
+  "cushion_step": {
+   "value": 30.3,
+   "display": "30.3",
+   "unit": "%",
+   "source": "derived, EBITDA fall to 4.25x on gross debt",
+   "formula": "(1 - debt_pf / cov_lev_step / pf_ebitda_fy24) * 100"
+  },
+  "ebitda_at_step": {
+   "value": 20,
+   "display": "20.0",
+   "unit": "$m",
+   "source": "derived, EBITDA at which gross debt is 4.25x",
+   "formula": "debt_pf / cov_lev_step"
+  },
+  "ebitda_at_open": {
+   "value": 17.9,
+   "display": "17.9",
+   "unit": "$m",
+   "source": "derived, EBITDA at which gross debt is 4.75x",
+   "formula": "debt_pf / cov_lev_open"
+  },
+  "debt_share_pct": {
+   "value": 55,
+   "display": "55",
+   "unit": "%",
+   "source": "derived, debt share of capital if equity is 45%",
+   "formula": "100 - equity_pct"
+  },
+  "cap_total": {
+   "value": 154.5,
+   "display": "154.5",
+   "unit": "$m",
+   "source": "derived: implied total capitalisation",
+   "formula": "debt_pf / (1 - equity_pct / 100)"
+  },
+  "total_pct": {
+   "value": 100,
+   "display": "100",
+   "unit": "%",
+   "source": "derived: equity plus debt share",
+   "formula": "equity_pct + debt_share_pct"
+  },
+  "cust_2to5": {
+   "value": 23,
+   "display": "23",
+   "unit": "%",
+   "source": "derived: top five less top customer",
+   "formula": "cust_top5 - cust_top1"
+  }
+ }
+}

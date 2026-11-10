@@ -1,0 +1,231 @@
+{
+ "title": "Larchmere Trust: annual review",
+ "format": "slides-16x9",
+ "storyline": "wealth-review",
+ "decision": "approve",
+ "confid": "Private and confidential",
+ "tracker": [
+  "Summary",
+  "Performance",
+  "Allocation",
+  "Decisions"
+ ],
+ "cover": {
+  "light": true,
+  "kicker": "Larchmere Trust · Annual review for the family council",
+  "title": "The year in review, and two decisions for the council",
+  "sub": "Twelve months to the end of September, net of all fees, against the policy the council set.",
+  "meta": "October 2026 · Fictional family trust and figures, theme specimen",
+  "confid": "Private and confidential"
+ },
+ "exec": {
+  "tracker": "Summary",
+  "title": "The trust earned {ret}% after fees, ahead of its policy benchmark, and needs one rebalance",
+  "kpis": [
+   {
+    "value": "${tw}M",
+    "label": "Total wealth, 30 September",
+    "delta": "${tw_d}M since last review",
+    "hl": true
+   },
+   {
+    "value": "{ret}%",
+    "label": "Net return, twelve months",
+    "delta": "{ex} pp above the {bm}% benchmark"
+   },
+   {
+    "value": "${liq}M",
+    "label": "Available within 30 days",
+    "delta": "{liq_p}% of total wealth",
+    "dir": "flat"
+   },
+   {
+    "value": "${unc}M",
+    "label": "Uncalled private commitments",
+    "delta": "Covered by liquid assets",
+    "dir": "flat"
+   }
+  ],
+  "rows": [
+   {
+    "k": "What changed",
+    "h": "Equities ran ahead of policy",
+    "p": "A strong year for listed equities left them {mv} pp above target and fixed income {fiu} pp below its target. Both remain inside their ranges."
+   },
+   {
+    "k": "Decisions requested",
+    "h": "Rebalance and renew one commitment",
+    "p": "Move ${reb}M from global equities to fixed income, and approve a new private equity commitment to replace the fund now returning capital."
+   }
+  ],
+  "source": "Source: Larchmere Trust custodian statements and manager reports (fictional)"
+ },
+ "chart": {
+  "tracker": "Performance",
+  "title": "Global equities earned {rt0}% and drove most of the year's gain",
+  "exhibit": {
+   "no": "Exhibit 1",
+   "title": "Net return by asset class, twelve months to 30 September 2026",
+   "unit": "%, net of fees"
+  },
+  "type": "bar",
+  "data": {
+   "orient": "h",
+   "rowHeight": 62,
+   "categories": [
+    "Global equities",
+    "Private equity",
+    "Real assets",
+    "Hedge funds",
+    "Fixed income",
+    "Cash"
+   ],
+   "values": [
+    "@rt0",
+    "@rt1",
+    "@rt2",
+    "@rt3",
+    "@rt4",
+    "@rt5"
+   ],
+   "highlight": 0,
+   "fmt": {
+    "dp": 1,
+    "suffix": "%"
+   }
+  },
+  "takeaway": {
+   "h": "What the year says",
+   "bullets": [
+    "Every asset class beat cash except cash itself.",
+    "Private equity returned {rt1}% and paid out ${dist}M in distributions.",
+    "Fixed income lagged as rates stayed high, but held its value."
+   ],
+   "sowhat": "The year rewarded staying invested; it also pushed equities past their target."
+  },
+  "source": "Source: manager reports and custodian valuations (fictional)",
+  "note": "Private equity and real assets valued at the latest manager marks, lagged one quarter."
+ },
+ "table": {
+  "tracker": "Allocation",
+  "title": "Equities sit {mv} pp over target and fixed income {fiu} pp under, so we propose a ${reb}M rebalance",
+  "exhibit": {
+   "no": "Exhibit 2",
+   "title": "Allocation against the council's policy, 30 September 2026",
+   "unit": "$ in millions; allocation in %"
+  },
+  "columns": [
+   {
+    "h": "Asset class"
+   },
+   {
+    "h": "Value",
+    "num": true
+   },
+   {
+    "h": "Actual",
+    "num": true
+   },
+   {
+    "h": "Target",
+    "num": true
+   },
+   {
+    "h": "Range low",
+    "num": true
+   },
+   {
+    "h": "Range high",
+    "num": true
+   },
+   {
+    "h": "Status"
+   }
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Global equities",
+     "av0",
+     "ap0",
+     "at0",
+     "al0",
+     "ah0",
+     "st:watch:Rebalance"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Fixed income",
+     "av1",
+     "ap1",
+     "at1",
+     "al1",
+     "ah1",
+     "st:watch:Rebalance"
+    ],
+    "cls": "hl"
+   },
+   {
+    "cells": [
+     "Private equity",
+     "av2",
+     "ap2",
+     "at2",
+     "al2",
+     "ah2",
+     "st:ok:Within range"
+    ]
+   },
+   {
+    "cells": [
+     "Real assets",
+     "av3",
+     "ap3",
+     "at3",
+     "al3",
+     "ah3",
+     "st:ok:Within range"
+    ]
+   },
+   {
+    "cells": [
+     "Hedge funds",
+     "av4",
+     "ap4",
+     "at4",
+     "al4",
+     "ah4",
+     "st:ok:Within range"
+    ]
+   },
+   {
+    "cells": [
+     "Cash",
+     "av5",
+     "ap5",
+     "at5",
+     "al5",
+     "ah5",
+     "st:ok:Within range"
+    ]
+   },
+   {
+    "cells": [
+     "Total",
+     "tw",
+     "apt",
+     "att",
+     "",
+     "",
+     ""
+    ],
+    "cls": "total"
+   }
+  ],
+  "source": "Source: custodian statements (fictional); investment policy statement as approved by the council",
+  "callout": "Moving ${reb}M from global equities to fixed income brings both back to target. Doing nothing leaves the trust {mv} pp heavier in equities than the policy the council approved.",
+  "note": "Status: within range when actual is less than 2.5 pp from target; rebalance when further away, even inside the range."
+ }
+}

@@ -1,0 +1,20 @@
+node_modules/
+test/out/
+.deckmark/
+.DS_Store
+
+# Research renders of third-party documents and private reference images stay local
+research/pages/
+research/dl/
+research/*.jpeg
+research/*.jpg
+research/*.png
+
+# Eval render outputs: keep the deck HTML, facts and the final PDF, not per-page PNGs
+eval/herdr/*/deck/out/*.png
+
+# Eval harness outputs (eval/README.md): per-cell runs, screenshots, the generated gallery
+eval/runs/
+eval/_shots/
+eval/index.html
+!eval/test/fixtures/cell/work/.deckmark/
